@@ -1,0 +1,29 @@
+{
+  "scenario_id": "two-operator-conjunction",
+  "description": "A toy cross-operator conjunction where one satellite claims mitigation responsibility and the other defers.",
+  "sail_version": "0.1",
+  "objects": [
+    {
+      "object_id": "NORAD-90001",
+      "operator_id": "ExampleSatCo",
+      "maneuverability": "available",
+      "initial_risk_score": 0.82
+    },
+    {
+      "object_id": "NORAD-91007",
+      "operator_id": "NeighborOrbital",
+      "maneuverability": "available",
+      "initial_risk_score": 0.78
+    }
+  ],
+  "coordination_policy": {
+    "prefer_first_valid_maneuver_intent": true,
+    "require_post_maneuver_confirmation": true,
+    "message_timeout_minutes": 30
+  },
+  "expected_outcome": {
+    "responsible_operator": "ExampleSatCo",
+    "conflict_expected": false,
+    "residual_risk_class": "low"
+  }
+}

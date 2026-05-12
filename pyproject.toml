@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbital-coordination-standard"
+version = "0.1.0"
+description = "SAIL: Satellite Autonomy Interoperability Layer research draft and validator."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Diane Insua" }
+]
+dependencies = [
+  "jsonschema>=4.22"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.5"
+]
+
+[project.scripts]
+sail-validate = "orbital_coordination_standard.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

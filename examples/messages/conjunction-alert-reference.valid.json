@@ -1,0 +1,24 @@
+{
+  "sail_version": "0.1",
+  "message_id": "sail-msg-0002",
+  "message_type": "CONJUNCTION_ALERT_REFERENCE",
+  "created_at": "2026-05-12T15:02:00Z",
+  "valid_until": "2026-05-12T16:15:00Z",
+  "operator_id": "CoordinationHub",
+  "object_id": "NORAD-90001",
+  "counterparty_object_id": "NORAD-91007",
+  "coordination_context": {
+    "context_type": "conjunction",
+    "urgency": "elevated",
+    "related_event_id": "CDM-EXAMPLE-20260512-01",
+    "coordination_channel": "civil_coordination_hub"
+  },
+  "payload": {
+    "event_id": "CDM-EXAMPLE-20260512-01",
+    "source": "simulated_conjunction_screening",
+    "time_of_closest_approach": "2026-05-12T15:48:00Z",
+    "miss_distance_class": "mitigation_recommended",
+    "risk_class": "high",
+    "external_message_reference": "examples/cdm/CDM-EXAMPLE-20260512-01.xml"
+  }
+}

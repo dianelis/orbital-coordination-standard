@@ -1,0 +1,23 @@
+{
+  "sail_version": "0.1",
+  "message_id": "sail-msg-0004",
+  "message_type": "RESPONSIBILITY_CLAIM",
+  "created_at": "2026-05-12T15:07:00Z",
+  "valid_until": "2026-05-12T15:30:00Z",
+  "operator_id": "NeighborOrbital",
+  "constellation_id": "NeighborNet-B",
+  "object_id": "NORAD-91007",
+  "counterparty_object_id": "NORAD-90001",
+  "coordination_context": {
+    "context_type": "conjunction",
+    "urgency": "urgent",
+    "related_event_id": "CDM-EXAMPLE-20260512-01",
+    "coordination_channel": "operator_to_operator"
+  },
+  "payload": {
+    "claim": "deferring_responsibility",
+    "basis": "Counterparty has already declared planned mitigation with sufficient lead time and usable post-maneuver state.",
+    "decision_mode": "pre_authorized_rule",
+    "requested_response_by": "2026-05-12T15:20:00Z"
+  }
+}

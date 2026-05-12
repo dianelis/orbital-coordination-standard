@@ -1,0 +1,596 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/sail-message.schema.json",
+  "title": "SAIL v0.1 Message",
+  "description": "Satellite Autonomy Interoperability Layer message schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sail_version",
+    "message_id",
+    "message_type",
+    "created_at",
+    "valid_until",
+    "operator_id",
+    "object_id",
+    "coordination_context",
+    "payload"
+  ],
+  "properties": {
+    "sail_version": {
+      "const": "0.1"
+    },
+    "message_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "message_type": {
+      "type": "string",
+      "enum": [
+        "STATE_UPDATE",
+        "CONJUNCTION_ALERT_REFERENCE",
+        "MANEUVER_INTENT",
+        "RESPONSIBILITY_CLAIM",
+        "POST_MANEUVER_CONFIRMATION"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_until": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "operator_id": {
+      "type": "string",
+      "minLength": 2
+    },
+    "constellation_id": {
+      "type": "string"
+    },
+    "object_id": {
+      "type": "string",
+      "minLength": 2
+    },
+    "counterparty_object_id": {
+      "type": "string"
+    },
+    "coordination_context": {
+      "$ref": "#/$defs/coordination_context"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "audit": {
+      "$ref": "#/$defs/audit"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "message_type": {
+            "const": "STATE_UPDATE"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "payload": {
+            "$ref": "#/$defs/state_update"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "message_type": {
+            "const": "CONJUNCTION_ALERT_REFERENCE"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "payload": {
+            "$ref": "#/$defs/conjunction_alert_reference"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "message_type": {
+            "const": "MANEUVER_INTENT"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "payload": {
+            "$ref": "#/$defs/maneuver_intent"
+          }
+        },
+        "required": [
+          "audit"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "message_type": {
+            "const": "RESPONSIBILITY_CLAIM"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "payload": {
+            "$ref": "#/$defs/responsibility_claim"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "message_type": {
+            "const": "POST_MANEUVER_CONFIRMATION"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "payload": {
+            "$ref": "#/$defs/post_maneuver_confirmation"
+          }
+        },
+        "required": [
+          "audit"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "coordination_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context_type",
+        "urgency"
+      ],
+      "properties": {
+        "context_type": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "conjunction",
+            "degraded_state",
+            "disposal",
+            "exercise",
+            "emergency"
+          ]
+        },
+        "urgency": {
+          "type": "string",
+          "enum": [
+            "routine",
+            "elevated",
+            "urgent",
+            "emergency"
+          ]
+        },
+        "related_event_id": {
+          "type": "string"
+        },
+        "coordination_channel": {
+          "type": "string",
+          "enum": [
+            "operator_to_operator",
+            "civil_coordination_hub",
+            "test_simulation",
+            "regulator_confidential",
+            "emergency_channel"
+          ]
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "representation",
+        "confidence"
+      ],
+      "properties": {
+        "representation": {
+          "type": "string",
+          "enum": [
+            "covariance",
+            "radial_intrack_crosstrack",
+            "provider_defined",
+            "unknown"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "orbit_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "reference"
+      ],
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": [
+            "CCSDS_OMM",
+            "CCSDS_OEM",
+            "CCSDS_OCM",
+            "TLE",
+            "provider_defined"
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "epoch": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "uncertainty": {
+          "$ref": "#/$defs/uncertainty"
+        }
+      }
+    },
+    "maneuver_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "end": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "state_update": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "autonomy_mode",
+        "maneuverability",
+        "communications_status",
+        "orbit"
+      ],
+      "properties": {
+        "autonomy_mode": {
+          "type": "string",
+          "enum": [
+            "ground_commanded",
+            "human_supervised",
+            "autonomous",
+            "safe_mode",
+            "disposal"
+          ]
+        },
+        "maneuverability": {
+          "type": "string",
+          "enum": [
+            "available",
+            "limited",
+            "unavailable",
+            "unknown"
+          ]
+        },
+        "propulsion_margin": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "low",
+            "critical",
+            "unknown"
+          ]
+        },
+        "communications_status": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "degraded",
+            "intermittent",
+            "lost"
+          ]
+        },
+        "degraded_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "orbit": {
+          "$ref": "#/$defs/orbit_reference"
+        }
+      }
+    },
+    "conjunction_alert_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "source",
+        "time_of_closest_approach",
+        "miss_distance_class",
+        "risk_class"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "time_of_closest_approach": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "miss_distance_class": {
+          "type": "string",
+          "enum": [
+            "screening_only",
+            "monitor",
+            "coordination_recommended",
+            "mitigation_recommended",
+            "emergency"
+          ]
+        },
+        "risk_class": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical",
+            "unknown"
+          ]
+        },
+        "external_message_reference": {
+          "type": "string"
+        }
+      }
+    },
+    "maneuver_intent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "maneuver_id",
+        "purpose",
+        "intent_status",
+        "decision_mode",
+        "maneuver_window",
+        "expected_post_maneuver_state",
+        "uncertainty"
+      ],
+      "properties": {
+        "maneuver_id": {
+          "type": "string"
+        },
+        "purpose": {
+          "type": "string",
+          "enum": [
+            "stationkeeping",
+            "collision_avoidance",
+            "disposal",
+            "recovery",
+            "emergency",
+            "test"
+          ]
+        },
+        "intent_status": {
+          "type": "string",
+          "enum": [
+            "possible",
+            "planned",
+            "executing",
+            "cancelled",
+            "completed"
+          ]
+        },
+        "decision_mode": {
+          "$ref": "#/$defs/decision_mode"
+        },
+        "maneuver_window": {
+          "$ref": "#/$defs/maneuver_window"
+        },
+        "expected_post_maneuver_state": {
+          "$ref": "#/$defs/orbit_reference"
+        },
+        "uncertainty": {
+          "$ref": "#/$defs/uncertainty"
+        },
+        "coordination_status": {
+          "type": "string",
+          "enum": [
+            "not_yet_coordinated",
+            "claiming_responsibility",
+            "awaiting_counterparty",
+            "counterparty_deferred",
+            "conflict_detected",
+            "coordination_complete"
+          ]
+        }
+      }
+    },
+    "responsibility_claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim",
+        "basis",
+        "decision_mode"
+      ],
+      "properties": {
+        "claim": {
+          "type": "string",
+          "enum": [
+            "claiming_responsibility",
+            "deferring_responsibility",
+            "requesting_counterparty_action",
+            "unable_to_maneuver",
+            "disputing_event",
+            "emergency_override"
+          ]
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision_mode": {
+          "$ref": "#/$defs/decision_mode"
+        },
+        "requested_response_by": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "post_maneuver_confirmation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "maneuver_id",
+        "execution_status",
+        "executed_at",
+        "post_maneuver_state"
+      ],
+      "properties": {
+        "maneuver_id": {
+          "type": "string"
+        },
+        "execution_status": {
+          "type": "string",
+          "enum": [
+            "executed_nominal",
+            "executed_partial",
+            "failed",
+            "cancelled"
+          ]
+        },
+        "executed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "post_maneuver_state": {
+          "$ref": "#/$defs/orbit_reference"
+        },
+        "residual_risk_class": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "decision_mode": {
+      "type": "string",
+      "enum": [
+        "autonomous",
+        "human_approved",
+        "human_pending",
+        "pre_authorized_rule",
+        "emergency_fallback"
+      ]
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_data_sources",
+        "risk_threshold_class",
+        "decision_mode",
+        "software_version",
+        "communications_status",
+        "result_status"
+      ],
+      "properties": {
+        "input_data_sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "risk_threshold_class": {
+          "type": "string",
+          "enum": [
+            "informational",
+            "monitor",
+            "coordinate",
+            "mitigate",
+            "emergency"
+          ]
+        },
+        "decision_mode": {
+          "$ref": "#/$defs/decision_mode"
+        },
+        "software_version": {
+          "type": "string"
+        },
+        "communications_status": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "degraded",
+            "intermittent",
+            "lost"
+          ]
+        },
+        "override_status": {
+          "type": "string",
+          "enum": [
+            "none",
+            "human_override",
+            "automation_override",
+            "emergency_override"
+          ]
+        },
+        "result_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "accepted",
+            "executed",
+            "failed",
+            "cancelled"
+          ]
+        }
+      }
+    }
+  }
+}

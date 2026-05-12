@@ -1,0 +1,46 @@
+{
+  "sail_version": "0.1",
+  "message_id": "sail-msg-0005",
+  "message_type": "POST_MANEUVER_CONFIRMATION",
+  "created_at": "2026-05-12T15:44:00Z",
+  "valid_until": "2026-05-12T16:30:00Z",
+  "operator_id": "ExampleSatCo",
+  "constellation_id": "ExampleNet-A",
+  "object_id": "NORAD-90001",
+  "counterparty_object_id": "NORAD-91007",
+  "coordination_context": {
+    "context_type": "conjunction",
+    "urgency": "elevated",
+    "related_event_id": "CDM-EXAMPLE-20260512-01",
+    "coordination_channel": "operator_to_operator"
+  },
+  "payload": {
+    "maneuver_id": "MAN-90001-20260512-01",
+    "execution_status": "executed_nominal",
+    "executed_at": "2026-05-12T15:39:20Z",
+    "post_maneuver_state": {
+      "format": "CCSDS_OCM",
+      "reference": "examples/orbits/example-satco-90001-post-maneuver-confirmed.ocm.json",
+      "epoch": "2026-05-12T15:44:00Z",
+      "uncertainty": {
+        "representation": "covariance",
+        "confidence": 0.95,
+        "source": "post_maneuver_navigation_solution"
+      }
+    },
+    "residual_risk_class": "low"
+  },
+  "audit": {
+    "input_data_sources": [
+      "MAN-90001-20260512-01",
+      "post_maneuver_telemetry",
+      "post_maneuver_navigation_solution"
+    ],
+    "risk_threshold_class": "mitigate",
+    "decision_mode": "autonomous",
+    "software_version": "ExampleSatCo-COLA-3.4.1",
+    "communications_status": "nominal",
+    "override_status": "none",
+    "result_status": "executed"
+  }
+}
