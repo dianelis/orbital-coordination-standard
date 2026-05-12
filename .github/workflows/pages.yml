@@ -26,6 +26,7 @@ jobs:
           cp -R dashboard/* _site/dashboard/
           cp models/satellite_coordination_pressure_metrics.json _site/models/
           cp models/satellite_coordination_pressure_predictions.csv _site/models/
+          cp models/satellite_coordination_dashboard_data.json _site/models/
           cp index.html _site/index.html
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5

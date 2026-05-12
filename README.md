@@ -23,7 +23,7 @@ This repository now includes both the proposed standard and a working research p
 - **Machine learning notebook** that trains a coordination-pressure model from an active satellite catalog.
 - **Trained baseline model artifacts** for dashboard exploration.
 - **FastAPI model service** that exposes metrics, predictions, summaries, and live single-satellite prediction.
-- **React dashboard** with black/Bottega green styling for visualizing model outputs.
+- **React dashboard** with black/Bottega green styling for visualizing model outputs and paper-facing proof-of-work views.
 - **GitHub Pages deployment** for the static dashboard.
 
 The project is a research and education prototype. It is not an operational collision avoidance system or certified flight safety tool.
@@ -114,6 +114,7 @@ Generated artifacts:
 models/satellite_coordination_pressure_model.joblib
 models/satellite_coordination_pressure_metrics.json
 models/satellite_coordination_pressure_predictions.csv
+models/satellite_coordination_dashboard_data.json
 ```
 
 ## API
@@ -134,6 +135,14 @@ GET  /api/metrics
 GET  /api/summary
 GET  /api/options
 GET  /api/predictions
+GET  /api/dashboard-data
+GET  /api/layers
+GET  /api/operators
+GET  /api/governance
+GET  /api/scenarios
+GET  /api/sail-flow
+GET  /api/evidence-reports
+GET  /api/satellites/{norad}/explain
 POST /api/predict
 ```
 
@@ -153,9 +162,19 @@ python3 -m http.server 8765
 
 Then open `http://localhost:8765/dashboard/`.
 
-The dashboard uses CDN-loaded React, Tailwind, and Lucide icons with shadcn-inspired components. It reads model metrics and predictions from the FastAPI service, which loads the committed baseline model artifacts from `models/`.
+The dashboard uses CDN-loaded React, Tailwind, and Lucide icons with shadcn-inspired components. It reads a paper-aligned dashboard data object from the FastAPI service, which loads the committed baseline model artifacts from `models/`.
 
-On GitHub Pages, the same dashboard runs in static mode and reads the committed model metrics and prediction CSV directly.
+Dashboard views:
+
+- Overview: coordination-pressure KPIs and model outputs
+- Three layers: spacecraft, neighborhood, and infrastructure autonomy
+- Stress tests: mass conjunction alerts, outages, software faults, degraded tracking, maneuver conflicts, and partial deorbit failure
+- SAIL flow: machine-readable state, alert, intent, responsibility, and confirmation sequence
+- Governance: visibility and audit-priority scoring
+- Operators: fleet-level comparison
+- Evidence: regulator-style stress-test report cards
+
+On GitHub Pages, the same dashboard runs in static mode and reads the committed dashboard JSON artifact directly.
 
 ## GitHub Pages
 
@@ -163,13 +182,13 @@ The hosted dashboard is available at:
 
 [https://dianelis.github.io/orbital-coordination-standard/dashboard/](https://dianelis.github.io/orbital-coordination-standard/dashboard/)
 
-GitHub Pages cannot run the FastAPI service, so the hosted dashboard uses the committed static model metrics and prediction CSV as a fallback. Local development still uses FastAPI first.
+GitHub Pages cannot run the FastAPI service, so the hosted dashboard uses the committed static dashboard data artifact as a fallback. Local development still uses FastAPI first.
 
 ## Project Status
 
 SAIL v0.1 is a research draft. The purpose of this repository is to make the concept testable, reviewable, and extensible.
 
-The current milestone is an end-to-end research prototype: standard draft, validator, toy simulation, trained coordination-pressure model, FastAPI API, and hosted dashboard.
+The current milestone is an end-to-end research prototype: standard draft, validator, toy simulation, trained coordination-pressure model, FastAPI API, scenario stress tests, SAIL flow visualization, governance scoring, operator comparison, evidence reports, and hosted dashboard.
 
 ## License
 

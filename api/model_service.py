@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "satellite_coordination_pressure_model.joblib"
 METRICS_PATH = ROOT / "models" / "satellite_coordination_pressure_metrics.json"
 PREDICTIONS_PATH = ROOT / "models" / "satellite_coordination_pressure_predictions.csv"
+DASHBOARD_DATA_PATH = ROOT / "models" / "satellite_coordination_dashboard_data.json"
 CURRENT_YEAR = 2026
 
 FEATURE_COLUMNS = [
@@ -71,6 +72,12 @@ def load_predictions() -> pd.DataFrame:
     )
 
 
+@lru_cache(maxsize=1)
+def load_dashboard_data() -> dict[str, Any]:
+    with DASHBOARD_DATA_PATH.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
 def prediction_records(
     tier: str | None = None,
     orbit: str | None = None,
@@ -119,6 +126,7 @@ def filter_predictions(
 
 
 def dashboard_summary() -> dict[str, Any]:
+    enriched = load_dashboard_data()
     data = load_predictions()
     return {
         "total_satellites": int(len(data)),
@@ -128,7 +136,88 @@ def dashboard_summary() -> dict[str, Any]:
         "top_purposes": top_counts(data["purpose"]),
         "average_score": float(data["score"].mean()),
         "p90_score": float(data["score"].quantile(0.9)),
+        "layers": enriched["layers"],
+        "governance": enriched["governance"],
     }
+
+
+def dashboard_data() -> dict[str, Any]:
+    data = load_dashboard_data()
+    return {
+        **data,
+        "metadata": {
+            **data["metadata"],
+            "data_source": "FastAPI",
+            "api_version": "0.1",
+        },
+    }
+
+
+def layer_data() -> dict[str, Any]:
+    return load_dashboard_data()["layers"]
+
+
+def operator_data() -> list[dict[str, Any]]:
+    return load_dashboard_data()["operators"]
+
+
+def governance_data() -> dict[str, Any]:
+    return load_dashboard_data()["governance"]
+
+
+def scenario_data() -> list[dict[str, Any]]:
+    return load_dashboard_data()["scenarios"]
+
+
+def scenario_detail(scenario_id: str) -> dict[str, Any]:
+    for scenario in scenario_data():
+        if scenario["id"] == scenario_id:
+            return scenario
+    raise KeyError(scenario_id)
+
+
+def sail_flow_data() -> dict[str, Any]:
+    return load_dashboard_data()["sail_flow"]
+
+
+def evidence_report_data() -> list[dict[str, Any]]:
+    return load_dashboard_data()["evidence_reports"]
+
+
+def satellite_explanation(norad: str) -> dict[str, Any]:
+    target = str(norad).replace("NORAD-", "").strip()
+    for satellite in load_dashboard_data()["satellites"]:
+        if str(satellite.get("norad")).replace(".0", "") == target:
+            return {
+                "satellite": satellite,
+                "feature_contributions": explanation_from_satellite(satellite),
+            }
+    raise KeyError(norad)
+
+
+def explanation_from_satellite(satellite: dict[str, Any]) -> list[dict[str, Any]]:
+    return [
+        {
+            "label": "Orbit and altitude pressure",
+            "value": float(satellite.get("maneuver_coordination_pressure") or 0),
+        },
+        {
+            "label": "Routing dependency pressure",
+            "value": float(satellite.get("routing_dependency_pressure") or 0),
+        },
+        {
+            "label": "Operator interoperability pressure",
+            "value": float(satellite.get("operator_interoperability_pressure") or 0),
+        },
+        {
+            "label": "Disposal governance pressure",
+            "value": float(satellite.get("disposal_governance_pressure") or 0),
+        },
+        {
+            "label": "Audit priority",
+            "value": float(satellite.get("audit_priority") or 0),
+        },
+    ]
 
 
 def options() -> dict[str, list[str]]:

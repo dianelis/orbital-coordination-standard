@@ -22,9 +22,18 @@ http://localhost:8765/dashboard/
 
 The dashboard reads:
 
-- `GET http://localhost:8000/api/metrics`
-- `GET http://localhost:8000/api/predictions`
+- `GET http://localhost:8000/api/dashboard-data`
 
 It uses CDN-loaded React, Tailwind, and Lucide icons, so no frontend build step is required.
 
 On GitHub Pages, the dashboard falls back to static model artifacts because Pages cannot run the FastAPI service. Locally, it uses FastAPI first and falls back to static files only if the API is unavailable.
+
+## Views
+
+- Overview: coordination-pressure KPIs and model outputs
+- Three layers: spacecraft, neighborhood, and infrastructure autonomy views
+- Stress tests: paper-aligned constellation failure scenarios
+- SAIL flow: state, alert, maneuver intent, responsibility, and confirmation messages
+- Governance: visibility and audit-priority scoring
+- Operators: fleet-level comparison
+- Evidence: regulator-style stress-test report cards

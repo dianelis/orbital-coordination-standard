@@ -27,7 +27,26 @@ http://localhost:8765/dashboard/
 - `GET /api/summary`
 - `GET /api/options`
 - `GET /api/predictions`
+- `GET /api/dashboard-data`
+- `GET /api/layers`
+- `GET /api/operators`
+- `GET /api/governance`
+- `GET /api/scenarios`
+- `GET /api/scenarios/{scenario_id}`
+- `GET /api/sail-flow`
+- `GET /api/evidence-reports`
+- `GET /api/satellites/{norad}/explain`
 - `POST /api/predict`
+
+The paper-facing endpoints support:
+
+- three-layer autonomy analysis;
+- constellation-scale stress tests;
+- SAIL message flow visualization;
+- governance readiness scoring;
+- operator-level comparison;
+- regulator-style evidence reports;
+- satellite-level model explanation.
 
 Example live prediction:
 

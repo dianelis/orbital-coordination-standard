@@ -47,3 +47,22 @@ def test_live_prediction_endpoint() -> None:
     data = response.json()
     assert data["predicted_coordination_pressure_tier"] in {"low", "medium", "high"}
     assert data["class_probabilities"]
+
+
+def test_dashboard_data_endpoint_contains_paper_views() -> None:
+    response = client.get("/api/dashboard-data")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["metadata"]["record_count"] == 1420
+    assert {"spacecraft", "neighborhood", "infrastructure"} <= set(data["layers"])
+    assert len(data["scenarios"]) == 6
+    assert len(data["sail_flow"]["messages"]) == 5
+    assert len(data["evidence_reports"]) == 6
+
+
+def test_satellite_explanation_endpoint() -> None:
+    response = client.get("/api/satellites/41460/explain")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["satellite"]["name"] == "AAUSat-4"
+    assert data["feature_contributions"]

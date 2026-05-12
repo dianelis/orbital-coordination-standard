@@ -21,3 +21,4 @@ models/*.csv
 !models/satellite_coordination_pressure_model.joblib
 !models/satellite_coordination_pressure_metrics.json
 !models/satellite_coordination_pressure_predictions.csv
+!models/satellite_coordination_dashboard_data.json
