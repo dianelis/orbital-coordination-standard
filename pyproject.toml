@@ -17,6 +17,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+notebook = [
+  "joblib>=1.4",
+  "matplotlib>=3.8",
+  "pandas>=2.0",
+  "scikit-learn>=1.5"
+]
 dev = [
   "pytest>=8.0",
   "ruff>=0.5"

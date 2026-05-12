@@ -13,3 +13,7 @@ build/
 venv/
 node_modules/
 *.log
+models/*.joblib
+models/*.pkl
+models/*.json
+models/*.csv
