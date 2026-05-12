@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from fastapi import FastAPI, Query
-from fastapi import HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 
 from .model_service import (
     dashboard_data,
@@ -40,6 +40,22 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/", include_in_schema=False)
+def root() -> dict[str, str]:
+    return {
+        "app": "SAIL Coordination Model API",
+        "swagger": "/swagger",
+        "docs": "/docs",
+        "openapi": "/openapi.json",
+        "dashboard": "http://localhost:8765/dashboard/",
+    }
+
+
+@app.get("/swagger", include_in_schema=False)
+def swagger() -> RedirectResponse:
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health")

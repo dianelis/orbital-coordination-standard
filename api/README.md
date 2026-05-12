@@ -22,6 +22,10 @@ http://localhost:8765/dashboard/
 
 ## Endpoints
 
+- `GET /`
+- `GET /swagger`
+- `GET /docs`
+- `GET /openapi.json`
 - `GET /health`
 - `GET /api/metrics`
 - `GET /api/summary`

@@ -14,6 +14,20 @@ def test_health_endpoint() -> None:
     assert response.json() == {"status": "ok"}
 
 
+def test_swagger_endpoint_redirects_to_docs() -> None:
+    response = client.get("/swagger", follow_redirects=False)
+    assert response.status_code in {302, 307}
+    assert response.headers["location"] == "/docs"
+
+
+def test_root_endpoint_lists_api_docs() -> None:
+    response = client.get("/")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["swagger"] == "/swagger"
+    assert data["openapi"] == "/openapi.json"
+
+
 def test_predictions_endpoint_returns_model_rows() -> None:
     response = client.get("/api/predictions?limit=1")
     assert response.status_code == 200
