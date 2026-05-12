@@ -28,3 +28,15 @@ Show two side-by-side flows:
 | Spacecraft autonomy | State update, maneuverability, autonomy mode |
 | Neighborhood autonomy | Maneuver intent, responsibility claim, post-maneuver confirmation |
 | Infrastructure autonomy | Audit record, software version, stress-test evidence |
+
+## Appendix Section Draft
+
+### Appendix: Computational Prototype for Cross-Operator Satellite Coordination
+
+To support the paper's three-layer model of satellite autonomy, I developed an open-source computational prototype called the Orbital Coordination Standard. The prototype translates the paper's conceptual argument into a testable software artifact: a proposed Satellite Autonomy Interoperability Layer (SAIL), a toy coordination simulation, a trained coordination-pressure model, a FastAPI service, and a dashboard for visualizing constellation-scale behavior.
+
+The prototype uses the UCS active satellite catalog as a research dataset and trains a supervised model to estimate a surrogate coordination-pressure tier for each satellite. This tier is not a prediction of collision probability or operational risk. Instead, it is a research signal used to identify which satellites would likely require greater coordination visibility under dense, multi-operator conditions. The model output is then connected to six stress-test scenarios, including mass conjunction alerts, degraded tracking accuracy, ground-station outages, failed software updates, cross-operator maneuver conflicts, and partial deorbit failures.
+
+The dashboard visualizes the results through the same three layers used in the paper. At the spacecraft layer, it highlights local maneuverability, disposal, and audit-priority pressures. At the neighborhood layer, it shows cross-operator maneuver intent and responsibility claims. At the infrastructure layer, it shows fleet-level routing dependency, common-mode software risk, and operator concentration. A communication-graph view simulates SAIL-style messages across the satellite catalog, including state updates, conjunction alert references, maneuver intents, responsibility claims, and post-maneuver confirmations.
+
+This appendix artifact is not intended as an operational spaceflight system. Its purpose is to demonstrate that the paper's governance claim can be made computationally concrete: if megaconstellations behave like layered robotic infrastructure, then regulation and safety analysis should examine not only individual spacecraft, but also the machine-readable coordination signals exchanged among spacecraft, operators, and oversight systems.
