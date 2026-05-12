@@ -1,0 +1,1421 @@
+Official Name of Satellite,NORAD Number,Operator/Owner,Purpose,Class of Orbit,mean_altitude_km,coordination_pressure_score,coordination_pressure_tier,predicted_coordination_pressure_tier
+AAUSat-4,41460.0,University of Aalborg,Earth Observation,LEO,564.5,0.8200377906976744,high,high
+ABS-2,39508.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35785.5,0.4181395348837209,low,low
+ABS-2A,41588.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35700.0,0.2460145348837209,low,low
+ABS-3,24901.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35785.5,0.4181395348837209,low,low
+ABS-3A,40424.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35795.5,0.4181395348837209,low,low
+ABS-4,28184.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35786.5,0.4181395348837209,low,low
+ABS-6,25924.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35785.5,0.4181395348837209,low,low
+ABS-7,25894.0,Asia Broadcast Satellite Ltd.,Communications,GEO,35785.5,0.4181395348837209,low,low
+USA 139,25336.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35786.5,0.3944186046511628,low,low
+USA 171,27937.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35786.5,0.3944186046511628,low,low
+USA 202,33490.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35825.5,0.3944186046511628,low,low
+USA 223,37232.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35500.0,0.21591860465116283,low,low
+USA 237,38528.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35788.0,0.3944186046511628,low,low
+USA 268,41584.0,National Reconnaissance Office (NRO),Earth Observation,GEO,35758.0,0.3944186046511628,low,low
+USA 235,38254.0,US Air Force,Communications,GEO,35786.5,0.4297674418604651,low,low
+USA 246,39256.0,US Air Force,Communications,GEO,35751.5,0.4297674418604651,low,low
+Aeneas,38760.0,Department of Homeland Security,Technology Development,LEO,635.0,0.7200377906976745,medium,medium
+Aerocube 4.5A,38767.0,Aerospace Corporation,Technology Development,LEO,643.0,0.7305029069767442,high,high
+Aerocube 4.5B,38768.0,Aerospace Corporation,Technology Development,LEO,645.5,0.7305029069767442,high,high
+Aerocube 5A,39465.0,Aerospace Corporation,Technology Development,LEO,664.5,0.6905029069767442,medium,medium
+Aerocube 5B,39466.0,Aerospace Corporation,Technology Development,LEO,664.5,0.6905029069767442,medium,medium
+Aerocube 5C,40965.0,Aerospace Corporation,Technology Development,LEO,651.0,0.7305029069767442,high,high
+Aerocube 6A,40045.0,Aerospace Corporation,Technology Development,LEO,657.0,0.6905029069767442,medium,medium
+Aerocube 6B,40046.0,Aerospace Corporation,Technology Development,LEO,657.0,0.6905029069767442,medium,medium
+Aerocube 7A,40966.0,Aerospace Corporation,Technology Development,LEO,651.0,0.7305029069767442,high,high
+Aerocube 8A,40659.0,Aerospace Corporation,Technology Development,LEO,528.0,0.7305029069767442,high,high
+Aerocube 8B,40660.0,Aerospace Corporation,Technology Development,LEO,528.0,0.7305029069767442,high,high
+Eutelsat 28B,33460.0,European Telecommunications Satellite Consortium (EUTELSAT),Communications,GEO,35786.0,0.4123255813953488,low,low
+Afristar ,25515.0,1Worldspace,Communications,GEO,35786.0,0.4123255813953488,low,low
+AIM,31304.0,"Center for Atmospheric Sciences, Hampton University/NASA",Earth Observation,LEO,548.0,0.7800377906976743,high,high
+AISat-1,40054.0,German Aerospace Center (DLR),Communications,LEO,651.5,0.9012005813953489,high,high
+AISSat-1,36797.0,Norwegian Coastal Admnistration,Communications,LEO,623.5,0.8612005813953488,high,high
+AISSat-2,40075.0,Norwegian Coastal Admnistration,Communications,LEO,628.0,0.8612005813953488,high,high
+AIST-1,39492.0,"Samara State Aerospace University, SGAU",Technology Development,LEO,612.5,0.7212005813953489,medium,medium
+AIST-2,39133.0,"Samara State Aerospace University, SGAU",Technology Development,LEO,570.0,0.6812005813953489,medium,medium
+AIST-2D,41465.0,Samara State Aerospace University,Technology Development,LEO,478.5,0.6064505813953489,medium,medium
+ALiCE,39467.0,US Air Force Institute of Technology,Technology Development,LEO,664.5,0.7200377906976745,medium,high
+Alphasat I-XL,39215.0,"INMARSAT, Ltd./European Space Agency",Communications/Technology Development,GEO,35786.5,0.49116279069767443,medium,medium
+Alsat-2A,36798.0,Centre National des Techniques Spatiales (CNTS),Earth Observation,LEO,673.0,0.7800377906976743,high,high
+Amazonas-1,28393.0,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35786.5,0.41465116279069764,low,low
+Amazonas-2,35942.0,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35786.0,0.41465116279069764,low,low
+Amazonas-3,39078.0,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35786.0,0.41465116279069764,low,low
+Amazonas-4A,39616.0,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35789.5,0.41465116279069764,low,low
+AMC-1,24315.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.0,0.43906976744186044,low,low
+AMC-10,28154.0,SES World Skies,Communications,GEO,35786.0,0.4251162790697674,low,low
+AMC-11,28252.0,SES World Skies,Communications,GEO,35785.5,0.4251162790697674,low,low
+AMC-15,28446.0,SES World Skies,Communications,GEO,35786.0,0.4251162790697674,low,low
+AMC-16,28472.0,SES World Skies,Communications,GEO,35786.5,0.4251162790697674,low,low
+AMC-18,29644.0,SES World Skies,Communications,GEO,35786.5,0.4251162790697674,low,low
+AMC-2,24713.0,SES World Skies,Communications,GEO,35786.0,0.4251162790697674,low,low
+AMC-21,33275.0,SES World Skies,Communications,GEO,35785.5,0.4251162790697674,low,low
+AMC-3,24936.0,SES World Skies,Communications,GEO,35786.0,0.4251162790697674,low,low
+AMC-4,25954.0,SES World Skies,Communications,GEO,35786.0,0.4251162790697674,low,low
+AMC-6,26580.0,SES World Skies,Communications,GEO,35786.5,0.4251162790697674,low,low
+AMC-7,26495.0,SES World Skies,Communications,GEO,35785.5,0.4251162790697674,low,low
+AMC-8,26639.0,SES World Skies,Communications,GEO,35785.5,0.4251162790697674,low,low
+AMC-9,27820.0,SES World Skies,Communications,GEO,35785.5,0.4251162790697674,low,low
+Amos 2,28132.0,Israel Aircraft Industries,Communications,GEO,35786.0,0.4111627906976744,low,low
+Amos 3,32794.0,Space-Communication Ltd,Communications,GEO,35786.0,0.49348837209302326,medium,medium
+Amos 4,39237.0,Space-Communication Ltd,Communications,GEO,35714.5,0.24136337209302322,low,low
+Amos 5,37950.0,Space-Communication Ltd,Communications,GEO,35801.0,0.41348837209302325,low,low
+Amsat-Oscar 7,7530.0,Amsat-NA,Communications,LEO,1449.5,0.6037877906976745,medium,medium
+Anik F1,26624.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35785.5,0.4216279069767442,low,low
+Anik F1R,28868.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.0,0.4216279069767442,low,low
+Anik F2,28378.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35785.5,0.4216279069767442,low,low
+Anik F3,31102.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.0,0.4216279069767442,low,low
+Anik G1,39127.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.0,0.4216279069767442,low,low
+AntelSat,40034.0,"Facultad de Ingeniería de la Universidad de la República (FING), ANTEL",Technology Development,LEO,654.0,0.7200377906976745,medium,medium
+AprizeSat 1,28372.0,Aprize Satellites Argentina,Communications/Technology Development,LEO,730.0,0.9035261627906976,high,high
+AprizeSat 10,40019.0,Aprize Satellite,Communications/Maritime Tracking,LEO,673.0,0.9035261627906976,high,high
+AprizeSat 2,28366.0,Aprize Satellites Argentina,Communications/Technology Development,LEO,772.0,0.8142761627906977,high,high
+AprizeSat 3,35686.0,Aprize Satellite,Communications/Maritime Tracking,LEO,610.5,0.9035261627906976,high,high
+AprizeSat 4,35684.0,Aprize Satellite,Communications/Maritime Tracking,LEO,639.0,0.9035261627906976,high,high
+AprizeSat 5,37792.0,AprizeSat,Communications,LEO,652.0,0.9012005813953489,high,high
+AprizeSat 7,39416.0,AprizeSat,Communications,LEO,623.5,0.9012005813953489,high,high
+AprizeSat 8,39425.0,Aprize Satellite,Communications/Maritime Tracking,LEO,631.5,0.9035261627906976,high,high
+AprizeSat 9,40018.0,exactEarth,Communications/Maritime Tracking,LEO,664.0,0.9035261627906976,high,high
+Apstar 1A,23943.0,APT Satellite Holdings Ltd.,Communications,GEO,35784.5,0.45581395348837206,medium,medium
+Apstar 6,28638.0,APT Satellite Holdings Ltd.,Communications,GEO,35786.0,0.45581395348837206,medium,medium
+Apstar 7,38107.0,APT Satellite Holdings Ltd.,Communications,GEO,35869.0,0.4158139534883721,low,low
+Apstar 9,40982.0,APT Satellite Holdings Ltd.,Communications,GEO,35785.0,0.4958139534883721,medium,medium
+Apstar 9A,25354.0,APT Satellite Holdings Ltd.,Communications,GEO,35786.5,0.4158139534883721,low,low
+Arabsat 5C,37810.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35785.5,0.4181395348837209,low,low
+Arabsat 7F,25740.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35786.0,0.4181395348837209,low,low
+ARC-1,40969.0,University of Alaska-Fairbanks,Technology Development,LEO,649.0,0.7200377906976745,medium,medium
+ArSat 1,40272.0,ArSat,Communications,GEO,35786.5,0.4123255813953488,low,low
+ArSat 2,40941.0,ArSat,Communications,GEO,35793.5,0.4123255813953488,low,low
+Advanced Data Relay and Technology Mission Satellite (Artemis) ,26863.0,European Space Agency,Communications/Technology Development,GEO,35787.0,0.42744186046511623,low,low
+AsiaSat-3S,25657.0,Asia Satellite Telecommunications Co. Ltd. ,Communications,GEO,35786.0,0.41348837209302325,low,low
+AsiaSat-4,27718.0,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35786.5,0.49348837209302326,medium,medium
+AsiaSat-5,35696.0,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35786.5,0.41348837209302325,low,low
+AsiaSat-6,40141.0,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35788.0,0.41348837209302325,low,low
+AsiaSat-7,37933.0,Asia Satellite Telecommunications Co. Ltd. ,Communications,GEO,35787.5,0.41348837209302325,low,low
+AsiaSat-8,40107.0,Asia Satellite Telecommunications Co. Ltd. ,Communications,GEO,35787.0,0.41348837209302325,low,low
+AsiaStar,26107.0,1Worldspace,Communications,GEO,35787.0,0.4123255813953488,low,low
+ASNARO-1,40298.0,"Ministry of Economy, Trade and Industry",Earth Observation,LEO,506.5,0.8600377906976743,high,high
+Astra 1D,23331.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35785.5,0.43906976744186044,low,low
+Astra 1F,23842.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.5,0.43906976744186044,low,low
+Astra 1G,25071.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35785.5,0.43906976744186044,low,low
+Astra 1H,25785.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35785.0,0.43906976744186044,low,low
+Astra 1KR,29055.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.43906976744186044,low,low
+Astra 1L,31306.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35785.0,0.43906976744186044,low,low
+Astra 1M,33436.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35828.0,0.43906976744186044,low,low
+Astra 1N,37775.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35747.5,0.26694476744186046,low,low
+Astra 2A,25462.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.43906976744186044,low,low
+Astra 2B,26494.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.43906976744186044,low,low
+Astra 2C,26853.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.0,0.43906976744186044,low,low
+Astra 2D,26638.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.0,0.43906976744186044,low,low
+Astra 2E,39285.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.0,0.43906976744186044,low,low
+Astra 2F,38778.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.0,0.43906976744186044,low,low
+Astra 2G,40364.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.0,0.5190697674418605,medium,medium
+Astra 3A,27400.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.0,0.43906976744186044,low,low
+Astra 3B,36581.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.0,0.43906976744186044,low,low
+Astra 5B,39617.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35790.0,0.5190697674418605,medium,medium
+Astrosat,40930.0,Telemetry Tracking and Command Network (ISTRAC) Centre,Space Science,LEO,640.5,0.6800377906976744,medium,medium
+Athena-Fidus,39509.0,Centre National d'Etudes Spatiales (CNES)/Agenzia Spaziale Italiana (ASI),Communications,GEO,35786.0,0.49116279069767443,medium,medium
+Athenoxat-1,41168.0,Microspace Rapid Pvt Ltd.,Technology Development,LEO,541.0,0.7200377906976745,medium,medium
+Aurora,40017.0,Sputnix Ltd.,Technology Development,LEO,600.5,0.6800377906976744,medium,medium
+Azerspace/Africasat-1a,39079.0,Ministry of Communications and Information Technologies,Communications,GEO,35786.0,0.4111627906976744,low,low
+Badr 4,29526.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35785.5,0.4181395348837209,low,low
+Badr 5,36592.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35858.5,0.4181395348837209,low,low
+Badr 5A,36745.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35614.0,0.2460145348837209,low,low
+Badr 6,33154.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35786.5,0.4181395348837209,low,low
+Badr 7,41029.0,Arab Satellite Communications Org. (ASCO),Communications,GEO,35792.5,0.4181395348837209,low,low
+Cosmos 2503,40420.0,Ministry of Defense,Earth Observation,LEO,578.0,0.8788749999999999,high,high
+Cosmos 2515,41394.0,Ministry of Defense,Earth Observation,LEO,571.5,0.8788749999999999,high,high
+BeeSat-1,35933.0,Institut für Luft- und Raumfahrt,Technology Development,LEO,713.5,0.6823633720930232,medium,medium
+BeeSat-2,39136.0,Institut für Luft- und Raumfahrt,Technology Development,LEO,567.0,0.6823633720930232,medium,medium
+BeeSat-3,39134.0,Institut für Luft- und Raumfahrt,Technology Development,LEO,567.5,0.6823633720930232,medium,medium
+Beidou 2-12,38250.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21527.5,0.3489563953488372,low,low
+Beidou 2-13,38251.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21527.5,0.3489563953488372,low,low
+Beidou 2-14,38774.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21526.5,0.3489563953488372,low,low
+Beidou 2-15,38775.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21525.5,0.3489563953488372,low,low
+Beidou 2-16,38953.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35787.0,0.37558139534883717,low,low
+Beidou 2-23,41586.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35785.0,0.37558139534883717,low,low
+Beidou 3I-1S,40549.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,36288.5,0.1959563953488372,low,low
+Beidou 3I-2S,40938.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35779.5,0.37558139534883717,low,low
+Beidou 3M-1S,40748.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21534.5,0.3489563953488372,low,low
+Beidou 3M-2S,40749.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21535.5,0.3489563953488372,low,low
+Beidou 3M-3S,41315.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21528.0,0.3489563953488372,low,low
+Beidou G-1,36287.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35785.5,0.41558139534883715,low,low
+Beidou G3,36590.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35785.5,0.41558139534883715,low,low
+Beidou G4,37210.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35786.5,0.41558139534883715,low,low
+Beidou G5,38091.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35787.5,0.37558139534883717,low,low
+Beidou IGSO-1,36828.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35781.5,0.37558139534883717,low,low
+Beidou IGSO-2,37256.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35767.0,0.37558139534883717,low,low
+Beidou IGSO-3,37384.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,36782.5,0.2359563953488372,low,low
+Beidou IGSO-4,37763.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35793.5,0.37558139534883717,low,low
+Beidou IGSO-5,37948.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35786.0,0.37558139534883717,low,low
+Beidou IGSO-6,41434.0,Chinese Defense Ministry,Navigation/Global Positioning,GEO,35783.0,0.37558139534883717,low,low
+Beidou M1,31115.0,Chinese Defense Ministry,Navigation/Global Positioning,MEO,21532.0,0.3489563953488372,low,low
+BeijinGalaxy-1,28890.0,Beijing Landview Mapping Information Technology Co. Ltd (BLMIT),Earth Observation,LEO,692.0,0.7800377906976743,high,high
+Belintersat-1,41238.0,Belintersat,Communications,GEO,35785.5,0.4111627906976744,low,low
+BermudaSat-1,26402.0,"Echostar Technologies, LLC - leased to Bermuda, operated by SES Satellites",Communications,GEO,35786.5,0.4111627906976744,low,low
+Bispectral InfraRed Detector 2 (Bird 2),26959.0,Institute of Space Sensor Technology and Planetary Exploration,Earth Observation/Technology Development,LEO,510.5,0.7800377906976743,high,high
+BIROS,41604.0,German Aerospace Center (DLR),Earth Observation,LEO,508.5,0.8212005813953488,high,high
+BisonSat,40968.0,Salish Kootenai College,Earth Observation/Technology Development,LEO,649.0,0.8200377906976744,high,high
+BKA 2,38708.0,National Academy of Sciences,Earth Observation,LEO,505.0,0.7812005813953488,high,high
+Brazilsat B-2,23536.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.5,0.4181395348837209,low,low
+Brazilsat B-3,25152.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.0,0.4181395348837209,low,low
+Brazilsat B-4,26469.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.0,0.4181395348837209,low,low
+BRISat,41591.0,Bank Rakyat Indonesia (BRI),Communications,GEO,35789.0,0.4111627906976744,low,low
+BRITE-CA-1,40020.0,"University of Toronto, Institute for Aerospace Studies",Space Science,LEO,676.0,0.7200377906976745,medium,medium
+BRITE-PL-1,39431.0,BRITE Consortium,Space Science,LEO,740.0,0.6812005813953489,medium,medium
+BRITE-PL-2,40119.0,BRITE Consortium,Space Science,LEO,621.5,0.6812005813953489,medium,medium
+BSAT-3A,32019.0,Broadcasting Satellite System Corp.,Communications,GEO,35786.0,0.4123255813953488,low,low
+BSAT-3B,37207.0,Broadcasting Satellite System Corp.,Communications,GEO,34395.5,0.2327005813953488,low,low
+BSAT-3C/JCSat 110-R,37776.0,Broadcasting Satellite System Corp./Sky Perfect JSAT Corporation,Communications,GEO,35785.5,0.49116279069767443,medium,medium
+Bugsat-1,40014.0,Satellogic S.A.,Technology Development,LEO,593.5,0.7200377906976745,medium,medium
+Calipso,29108.0,Centre National d'Etudes Spatiales (CNES)/NASA,Earth Science,LEO,702.5,0.7600377906976744,high,high
+Canopus-B,38707.0,Scientific Production Corporation (joint stock creation of Russian Space Agency),Earth Observation,LEO,503.0,0.7800377906976743,high,high
+CartoSat 1,28649.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,618.5,0.8902703488372091,high,high
+CartoSat 2,29710.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,633.5,0.8102703488372092,high,high
+CartoSat 2A,32783.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,633.5,0.8102703488372092,high,high
+CartoSat 2B,36795.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,633.5,0.8102703488372092,high,high
+CartoSat 2C,41599.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,510.0,0.8102703488372092,high,high
+Cassiope,39265.0,Canadian Space Agency,Earth Science,LEO,905.5,0.6742761627906977,medium,medium
+CBERS 4,40336.0,China National Space Administration (China)/National Institute for Space Research (Brazil),Earth Observation,LEO,743.0,0.7800377906976743,high,high
+CBNT-1,40718.0,Surrey Satellite Technology Ltd.,Technology Development,LEO,647.0,0.7235261627906977,high,high
+CFESat,30777.0,Los Alamos National Labs (LANL),Technology Development,LEO,541.0,0.7200377906976745,medium,medium
+Chandra X-Ray Observatory (CXO),25867.0,NASA Goddard Space Flight Center,Space Science,Elliptical,74412.0,0.3360377906976745,low,low
+ChinaSat 11,39157.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35787.0,0.41930232558139535,low,low
+ChinaSat 1C,41103.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35787.0,0.41930232558139535,low,low
+ChinaSat 2C,41021.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35794.0,0.41930232558139535,low,low
+ChinaSat 6B,31800.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35787.0,0.41930232558139535,low,low
+Chuangxin 1-1,28058.0,Chinese Academy of Sciences,Communications,LEO,738.5,0.9046889534883721,high,high
+Chuangxin 1-2,33434.0,Chinese Academy of Sciences,Earth Observation,LEO,794.5,0.7354389534883721,high,high
+Chuangxin 1-3,37930.0,Chinese Academy of Sciences,Earth Observation,LEO,794.0,0.7354389534883721,high,high
+Chuangxin 1-4,40137.0,Chinese Academy of Sciences,Earth Observation,LEO,793.5,0.7354389534883721,high,high
+Chuangzin-3,39209.0,Chinese Academy of Sciences,Technology Development,LEO,668.5,0.7246889534883721,high,high
+ChubuSat 1,40300.0,Nagoya University and Daido University,Technology Development,LEO,522.0,0.7223633720930233,high,medium
+ChubuSat 2,41338.0,Nagoya University and Daido University,Technology Development,LEO,569.5,0.7223633720930233,high,high
+ChubuSat 3,41339.0,Nagoya University and Daido University,Technology Development,LEO,568.5,0.7223633720930233,high,high
+Ciel-2,33453.0,Ciel Satellite Group,Communications,GEO,35785.0,0.49116279069767443,medium,medium
+CINEMA-1,38764.0,University of California-Berkeley/Imperial College-London,Space Science,LEO,637.5,0.7200377906976745,medium,medium
+USA 257,40208.0,Unknown US agency,Communications,GEO,35795.0,0.4523255813953488,medium,medium
+Cloudsat,29107.0,NASA/Colorado State University,Earth Observation,LEO,702.5,0.8600377906976743,high,high
+COMS-1,36744.0,Korea Aerospace Research Institute (KARI),Earth Observation/Communications,GEO,35787.0,0.6381395348837209,medium,low
+COMSATBw-1,35943.0,Armed Forces,Communications,GEO,35786.0,0.41930232558139535,low,low
+COMSATBw-2,36582.0,Armed Forces,Communications,GEO,35787.0,0.41930232558139535,low,low
+Condor E2,40353.0,Armed Forces,Earth Observation,LEO,500.0,0.7134273255813952,medium,medium
+Coriolis,27640.0,US Air Force/ US Navy/NASA,Earth/Space Science,LEO,830.5,0.5907877906976745,medium,medium
+COSMIC-A,29047.0,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,800.0,0.695438953488372,medium,medium
+COSMIC-B,29048.0,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,800.0,0.695438953488372,medium,medium
+COSMIC-D,29050.0,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,707.5,0.784688953488372,high,high
+COSMIC-E,29051.0,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,800.0,0.695438953488372,medium,medium
+COSMIC-F,29052.0,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,800.0,0.695438953488372,medium,medium
+Cosmos 2504,40555.0,Ministry of Defense,Technology Development,LEO,1337.5,0.702625,medium,medium
+COSMO-Skymed 1,31598.0,Italian Space Agency/Ministry of Defense,Earth Observation,LEO,622.5,0.8635261627906975,high,high
+COSMO-Skymed 2,32376.0,Italian Space Agency/Ministry of Defense,Earth Observation,LEO,622.5,0.8635261627906975,high,high
+COSMO-Skymed 3,33412.0,Italian Space Agency/Ministry of Defense,Earth Observation,LEO,622.5,0.8635261627906975,high,high
+COSMO-Skymed 4,37216.0,Italian Space Agency/Ministry of Defense,Earth Observation,LEO,622.5,0.8635261627906975,high,high
+CP-10,40380.0,California Polytechnic State University/NASA JPL,Earth Observation,LEO,549.0,0.8200377906976744,high,high
+Cryosat-2,36508.0,European Space Agency (ESA),Earth Observation,LEO,718.5,0.7870145348837208,high,high
+CSSWE,38761.0,University of Colorado,Earth Science,LEO,635.0,0.6800377906976744,medium,medium
+Cubebug 1,39153.0,"Argentinian Ministry of Science, Technology and Productive Innovation/Radio Club Bariloche",Technology Development,LEO,641.5,0.7212005813953489,medium,medium
+Cubebug 2,39440.0,"Argentinian Ministry of Science, Technology and Productive Innovation/Radio Club Bariloche",Technology Development,LEO,654.5,0.7212005813953489,medium,medium
+Cubesat XI-IV ,27848.0,"Department of Astronautics, University of Tokyo",Technology Development,LEO,822.5,0.6307877906976745,medium,medium
+CUSat-1,39266.0,"Space Systems Design Studio, Cornell University",Technology Development,LEO,895.5,0.6707877906976745,medium,medium
+Daichi-2,39766.0,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,632.5,0.7870145348837208,high,high
+DAMPE,41173.0,Chinese Academy of Science,Space Science,LEO,496.5,0.5652877906976744,medium,medium
+DCBB,40912.0,China Amateur Satellite - CAMSAT,Technology Development,LEO,525.0,0.7200377906976745,medium,medium
+Deimos 1,35681.0,Deimos Imaging/DMC International Imaging (DMCII),Earth Observation,LEO,661.5,0.8612005813953487,high,high
+Deimos 2,40013.0,Deimos Imaging/DMC International Imaging (DMCII),Earth Observation,LEO,608.0,0.7812005813953488,high,high
+Delfi-C3,32789.0,"Technical University, Delft",Technology Development,LEO,607.0,0.7200377906976745,medium,medium
+DirecTV-10,31862.0,"DirecTV, Inc.",Communications,GEO,35786.5,0.5027906976744186,medium,medium
+DirecTV-11,32729.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.46279069767441855,medium,medium
+DirecTV-12,36131.0,"DirecTV, Inc.",Communications,GEO,35785.5,0.5027906976744186,medium,medium
+DirecTV-14,40333.0,"DirecTV, Inc.",Communications,GEO,35931.5,0.5027906976744186,medium,medium
+DirecTV-15,40663.0,"DirecTV, Inc.",Communications,GEO,35747.0,0.2506656976744186,low,low
+DirecTV-1R,25937.0,Russian Satellite Communications Co.,Communications,GEO,35786.5,0.4111627906976744,low,low
+DirecTV-4S,26985.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.42279069767441857,low,low
+DirecTV-5,27426.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.42279069767441857,low,low
+DirecTV-7S,28238.0,"DirecTV, Inc. ",Communications,GEO,35785.5,0.4111627906976744,low,low
+DirecTV-8,28659.0,"DirecTV, Inc.",Communications,GEO,35786.5,0.42279069767441857,low,low
+DirecTV-9S,29494.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.42279069767441857,low,low
+DLR Tubsat,25757.0,Deutsches Zentrum für Luft- und Raumfahrt,Earth Science,LEO,722.0,0.6800377906976744,medium,medium
+DMC 3-1,40715.0,Surrey Satellite Technology Ltd.,Earth Observation,LEO,649.5,0.7835261627906975,high,high
+DMC 3-2,40716.0,Surrey Satellite Technology Ltd.,Earth Observation,LEO,649.5,0.7835261627906975,high,high
+DMC 3-3,40717.0,Surrey Satellite Technology Ltd.,Earth Observation,LEO,648.5,0.7835261627906975,high,high
+USA 131,24753.0,DoD/NOAA,Earth Observation,LEO,848.5,0.695438953488372,medium,medium
+USA 147,25991.0,DoD/NOAA,Earth Observation,LEO,844.0,0.695438953488372,medium,medium
+USA 172,28054.0,DoD/NOAA,Earth Observation,LEO,847.5,0.695438953488372,medium,medium
+USA 173,29522.0,DoD/NOAA,Earth Observation,LEO,848.5,0.695438953488372,medium,medium
+USA 210,35951.0,DoD/NOAA,Earth Observation,LEO,850.5,0.695438953488372,medium,medium
+Dove 1c-1,40027.0,"Planet Labs, Inc.",Earth Observation,LEO,613.0,0.8770145348837208,high,high
+Dove 1c-10,40023.0,"Planet Labs, Inc.",Earth Observation,LEO,612.5,0.8770145348837208,high,high
+Dove 1c-11,40033.0,"Planet Labs, Inc.",Earth Observation,LEO,614.0,0.8770145348837208,high,high
+Dove 1c-2,40029.0,"Planet Labs, Inc.",Earth Observation,LEO,614.0,0.8770145348837208,high,high
+Dove 1c-3,40041.0,"Planet Labs, Inc.",Earth Observation,LEO,616.0,0.8770145348837208,high,high
+Dove 1c-4,40031.0,"Planet Labs, Inc.",Earth Observation,LEO,614.5,0.8770145348837208,high,high
+Dove 1c-5,40038.0,"Planet Labs, Inc.",Earth Observation,LEO,615.5,0.8770145348837208,high,high
+Dove 1c-6,40036.0,"Planet Labs, Inc.",Earth Observation,LEO,614.5,0.8770145348837208,high,high
+Dove 1c-7,40026.0,"Planet Labs, Inc.",Earth Observation,LEO,613.0,0.8770145348837208,high,high
+Dove 1c-8,40040.0,"Planet Labs, Inc.",Earth Observation,LEO,616.0,0.8770145348837208,high,high
+Dove 1c-9,40035.0,"Planet Labs, Inc.",Earth Observation,LEO,615.0,0.8770145348837208,high,high
+Dove 1e-10,40737.0,"Planet Labs, Inc.",Earth Observation,LEO,399.5,0.7622645348837208,high,high
+Dove 1e-11,40738.0,"Planet Labs, Inc.",Earth Observation,LEO,399.0,0.7622645348837208,high,high
+Dove 1e-12,40739.0,"Planet Labs, Inc.",Earth Observation,LEO,399.0,0.7622645348837208,high,high
+Dove 1e-13,40740.0,"Planet Labs, Inc.",Earth Observation,LEO,398.0,0.7622645348837208,high,high
+Dove 1e-14,40741.0,"Planet Labs, Inc.",Earth Observation,LEO,399.0,0.7622645348837208,high,high
+Dove 1e-6,40729.0,"Planet Labs, Inc.",Earth Observation,LEO,399.5,0.7622645348837208,high,high
+Dove 1e-7,40726.0,"Planet Labs, Inc.",Earth Observation,LEO,399.0,0.7622645348837208,high,high
+Dove 2b-1,40950.0,"Planet Labs, Inc.",Earth Observation,LEO,401.5,0.7622645348837208,high,high
+Dove 2b-10,40963.0,"Planet Labs, Inc.",Earth Observation,LEO,401.5,0.7622645348837208,high,high
+Dove 2b-13,40979.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-14,40980.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-2,40951.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-3,40952.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-4,40953.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-5,40954.0,"Planet Labs, Inc.",Earth Observation,LEO,402.5,0.7622645348837208,high,high
+Dove 2b-6,40955.0,"Planet Labs, Inc.",Earth Observation,LEO,402.5,0.7622645348837208,high,high
+Dove 2b-7,40956.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2b-9,40962.0,"Planet Labs, Inc.",Earth Observation,LEO,402.0,0.7622645348837208,high,high
+Dove 2e-1,41483.0,"Planet Labs, Inc.",Earth Observation,LEO,405.5,0.7622645348837208,high,high
+Dove 2e-2,41484.0,"Planet Labs, Inc.",Earth Observation,LEO,404.5,0.7622645348837208,high,high
+Dove 2e-3,41486.0,"Planet Labs, Inc.",Earth Observation,LEO,406.0,0.7622645348837208,high,high
+Dove 2e-4,41487.0,"Planet Labs, Inc.",Earth Observation,LEO,404.5,0.7622645348837208,high,high
+Dove 2ep-1,41479.0,"Planet Labs, Inc.",Earth Observation,LEO,400.5,0.7622645348837208,high,high
+Dove 2ep-2,41481.0,"Planet Labs, Inc.",Earth Observation,LEO,400.5,0.8422645348837208,high,high
+Dove 2ep-3,41480.0,"Planet Labs, Inc.",Earth Observation,LEO,400.0,0.7622645348837208,high,high
+Dove 2ep-4,41482.0,"Planet Labs, Inc.",Earth Observation,LEO,400.5,0.7622645348837208,high,high
+Dove 2p-1,41617.0,"Planet Labs, Inc.",Earth Observation,LEO,506.5,0.8770145348837208,high,high
+Dove 2p-2,41609.0,"Planet Labs, Inc.",Earth Observation,LEO,507.5,0.8770145348837208,high,high
+Dove 2p-3,41618.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-4,41611.0,"Planet Labs, Inc.",Earth Observation,LEO,506.5,0.8770145348837208,high,high
+Dove 2p-5,41616.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-6,41606.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-7,41615.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-8,41613.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-9,41610.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-10,41612.0,"Planet Labs, Inc.",Earth Observation,LEO,506.5,0.8770145348837208,high,high
+Dove 2p-11,41608.0,"Planet Labs, Inc.",Earth Observation,LEO,507.0,0.8770145348837208,high,high
+Dove 2p-12,41614.0,"Planet Labs, Inc.",Earth Observation,LEO,506.5,0.8770145348837208,high,high
+Dove-3,39429.0,"Planet Labs, Inc.",Technology Development,LEO,704.5,0.777014534883721,high,high
+Data Relay Test Satellite (DRTS),27516.0,National Space Development Agency,Technology Development,GEO,35787.0,0.2311627906976744,low,low
+USA 167,27691.0,US Air Force,Communications,GEO,35786.5,0.4297674418604651,low,low
+USA 170,27875.0,US Air Force,Communications,GEO,35787.0,0.4297674418604651,low,low
+USA 135,25019.0,US Air Force,Communications,GEO,35787.0,0.4297674418604651,low,low
+USA 148,26052.0,US Air Force,Communications,GEO,35787.0,0.4297674418604651,low,low
+USA 153,26575.0,US Air Force,Communications,GEO,35786.5,0.4297674418604651,low,low
+USA 113,23628.0,US Air Force,Communications,GEO,35784.0,0.4297674418604651,low,low
+USA 130,24737.0,Air Force,Earth Observation,GEO,35790.0,0.3346511627906977,low,low
+USA 149,26356.0,Air Force,Earth Observation,GEO,35903.0,0.3346511627906977,low,low
+USA 159,26880.0,Air Force,Earth Observation,GEO,35787.5,0.3346511627906977,low,low
+USA 176,28158.0,Air Force,Earth Observation,GEO,35786.5,0.3346511627906977,low,low
+DubaiSat-1,35682.0,Emirates Institution for Advanced Science & Technology (EIAST),Earth Observation,LEO,671.0,0.7812005813953488,high,high
+DubaiSat-2,39419.0,Emirates Institution for Advanced Science & Technology (EIAST),Earth Observation,LEO,594.0,0.7812005813953488,high,high
+Duchifat-1,40021.0,Herzliya Science Centre (HSC),Communications,LEO,612.0,0.9000377906976744,high,high
+DX-1,40071.0,Dauria Aerospace,Communications,LEO,631.0,0.9023633720930232,high,high
+Echostar 1 ,23754.0,"QuetzSat, S. de R.L. de C.V. (leased from Echostar Technologies, LLC)",Communications,GEO,35785.5,0.4111627906976744,low,low
+Echostar 10,28935.0,"Echostar Technologies, LLC",Communications,GEO,35786.0,0.42279069767441857,low,low
+Echostar 11,33207.0,"Echostar Technologies, LLC",Communications,GEO,35785.5,0.42279069767441857,low,low
+Echostar 12,27852.0,"Echostar Technologies, LLC",Communications,GEO,35786.5,0.42279069767441857,low,low
+Echostar 14,36499.0,"Echostar Technologies, LLC",Communications,GEO,35787.0,0.5027906976744186,medium,medium
+Echostar 15,36792.0,"Echostar Technologies, LLC",Communications,GEO,35796.0,0.42279069767441857,low,low
+Echostar 16,39008.0,"Echostar Technologies, LLC",Communications,GEO,35786.0,0.42279069767441857,low,low
+Echostar 17,38551.0,"Echostar Technologies, LLC",Communications,GEO,35787.5,0.42279069767441857,low,low
+Echostar 18,41592.0,"Echostar Technologies, LLC",Communications,GEO,35740.0,0.2506656976744186,low,low
+Echostar 3 ,25004.0,"Echostar Technologies, LLC",Communications,GEO,35786.5,0.5027906976744186,medium,medium
+Echostar 7 ,27378.0,"Echostar Technologies, LLC",Communications,GEO,35785.5,0.5027906976744186,medium,medium
+Echostar 8 ,27501.0,"Echostar Technologies, LLC",Communications,GEO,35786.0,0.5027906976744186,medium,medium
+Echostar 9/Galaxy 23,27854.0,"Echostar Technologies, LLC/Intelsat ",Communications,GEO,35786.0,0.4111627906976744,low,low
+Echostar G1,32763.0,Dish Network,Communications,GEO,35786.0,0.4111627906976744,low,low
+Cosmos 2510,41032.0,Ministry of Defense,Earth Observation,Elliptical,20134.0,0.580875,medium,medium
+Electro-L1,37344.0,    Roshydromet - Planeta,Earth Observation,GEO,35536.5,0.15903779069767443,low,low
+Electro-L2,41105.0, Roshydromet - Planeta,Earth Observation,GEO,35754.5,0.33116279069767446,low,low
+ELISA-E12,38010.0,DGA (Arms Procurement Agency)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,683.5,0.8235261627906976,high,high
+ELISA-E24,38008.0,DGA (Arms Procurement Agency)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,683.5,0.8235261627906976,high,high
+ELISA-W11,38007.0,DGA (Arms Procurement Agency)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,684.5,0.8235261627906976,high,high
+ELISA-W23,38009.0,DGA (Arms Procurement Agency)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,684.5,0.8235261627906976,high,high
+EO-1,26619.0,NASA Earth Science Office,Earth Observation/Research,LEO,684.0,0.7800377906976743,high,high
+Terra,25994.0,Earth Sciences Enterprise (NASA),Earth Observation,LEO,702.5,0.8600377906976743,high,high
+Aura,28376.0,Goddard Space Flight Center/EOS Data and Operations System,Earth Observation,LEO,702.5,0.8600377906976743,high,high
+Aqua,27424.0,NASA - Earth Science Enterprise/Japan Meteorological Agency/Brazilian Space Agency,Earth Observation,LEO,702.5,0.7800377906976743,high,high
+EROS A-1,26631.0,"ImageSat International, NV/Ministry of Defense",Earth Observation,LEO,471.5,0.6664505813953487,medium,high
+EROS B-1,29079.0,"ImageSat International, NV/Ministry of Defense",Earth Observation,LEO,511.0,0.7812005813953488,high,high
+e-st@r-2,41459.0,Polytechnic of Turin,Technology Development,LEO,564.5,0.7200377906976745,medium,medium
+Eurasiasat 1,26666.0,Eurasiasat SAM/Alcatel Space,Communications,GEO,35785.5,0.4111627906976744,low,low
+Eutelsat 10A,34710.0,European Telecommunications Satellite Consortium (EUTELSAT),Communications,GEO,35801.5,0.4123255813953488,low,low
+Eutelsat 113 West-A,29162.0,Eutelsat Americas,Communications,GEO,35786.0,0.41348837209302325,low,low
+Eutensat 115 West-B,40425.0,Eutelsat S.A.,Communications,GEO,35789.0,0.4402325581395349,low,low
+Eutelsat 117 West A,39122.0,Eutelsat Americas,Communications,GEO,35787.0,0.41348837209302325,low,low
+Eutelsat 117 West B,41589.0,Eutelsat Americas,Communications,GEO,35787.0,0.41348837209302325,low,low
+Eutelsat 12 West A,27508.0,Eutelsat S.A.,Communications,GEO,35786.5,0.4402325581395349,low,low
+Eutelsat 16A,37836.0,Eutelsat S.A.,Communications,GEO,35787.0,0.48023255813953486,medium,medium
+Eutelsat 16C,26243.0,Eutelsat S.A.,Communications,GEO,35785.5,0.48023255813953486,medium,medium
+Eutelsat 172A,28924.0,Eutelsat S.A.,Communications,GEO,35785.5,0.4402325581395349,low,low
+Eutelsat 25B,39233.0,Eutelsat S.A./Es'hailSat,Communications,GEO,35746.0,0.2390377906976744,low,low
+Eutelsat 33A,27948.0,Eutelsat S.A.,Communications,GEO,35785.5,0.4402325581395349,low,low
+Eutelsat 33B,27554.0,Eutelsat S.A.,Communications,GEO,35785.0,0.4402325581395349,low,low
+Eutelsat 33C,26719.0,Eutelsat S.A.,Communications,GEO,35791.0,0.5202325581395348,medium,medium
+Eutelsat 36A,26369.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat 36B,36101.0,Eutelsat S.A.,Communications,GEO,35786.5,0.5202325581395348,medium,medium
+Eutelsat 3B,39773.0,Eutelsat S.A.,Communications,GEO,35786.5,0.4402325581395349,low,low
+Eutelsat 48A,24665.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat 48B,38992.0,Eutelsat S.A.,Communications,GEO,35787.0,0.4402325581395349,low,low
+Eutelsat 5 West A,27460.0,Eutelsat S.A.,Communications,GEO,35787.0,0.4402325581395349,low,low
+Eutelsat 65 West-A,41382.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat 7 West A,37816.0,Eutelsat S.A./Nilesat,Communications,GEO,35786.5,0.4123255813953488,low,low
+Eutelsat 70B,39020.0,Eutelsat S.A.,Communications,GEO,35790.0,0.4402325581395349,low,low
+Eutelsat 7A,28187.0,Eutelsat S.A.,Communications,GEO,35785.5,0.4402325581395349,low,low
+Eutelsat 7B,39163.0,Eutelsat S.A.,Communications,GEO,35789.0,0.4402325581395349,low,low
+Eutelsat 8 West A,26927.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat 8 West B,40875.0,Eutelsat S.A./Nilesat,Communications,GEO,35793.5,0.4123255813953488,low,low
+Eutelsat Hot Bird 13A,27499.0,Eutelsat S.A.,Communications,GEO,35785.5,0.4402325581395349,low,low
+Eutelsat 9A,28945.0,Eutelsat S.A.,Communications,GEO,35787.0,0.4402325581395349,low,low
+Eutelsat Hot Bird 13E,41310.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat Hot Bird 13D,33750.0,Eutelsat S.A.,Communications,GEO,35786.0,0.4402325581395349,low,low
+Eutelsat Hot Bird 13B,29270.0,Eutelsat S.A.,Communications,GEO,35785.5,0.4402325581395349,low,low
+Eutelsat Hot Bird 13C,33459.0,Eutelsat S.A.,Communications,GEO,35786.5,0.5202325581395348,medium,medium
+Eutelsat KA-SAT 9A,37258.0,Eutelsat S.A.,Communications,GEO,35785.0,0.4402325581395349,low,low
+exactView 1,38709.0,exactEarth,Communications,LEO,813.5,0.8142761627906977,high,high
+exactView 6,37793.0,exactEarth,Communications,LEO,660.5,0.9035261627906976,high,high
+exactView 9,40932.0,exactEarth,Communications,LEO,639.5,0.9035261627906976,high,high
+Express AM-22,28134.0,Russian Satellite Communications Company (Intersputnik)/EUTELSAT,Communications,GEO,35785.5,0.4111627906976744,low,low
+Express AMU1,41191.0,Russian Satelite Communications Company (Intersputnik),Communications,GEO,35793.5,0.49116279069767443,medium,medium
+Express-A1R,27441.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.0,0.42279069767441857,low,low
+Express-AM2,28629.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.5,0.5027906976744186,medium,medium
+Express-AM3,28707.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.0,0.42279069767441857,low,low
+Express-AM33,32478.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.5,0.42279069767441857,low,low
+Express-AM44,33595.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35991.0,0.5027906976744186,medium,medium
+Express-AM5,39487.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35680.0,0.2506656976744186,low,low
+Express-AM6,40277.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35865.0,0.42279069767441857,low,low
+Express-AM7,40505.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.5,0.42279069767441857,low,low
+Express-AM8,40895.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35786.0,0.5027906976744186,medium,medium
+Express-AT1,39612.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35792.5,0.42279069767441857,low,low
+Express-AT2,39613.0,Russian Satellite Communications Company (Intersputnik),Communications,GEO,35662.0,0.2506656976744186,low,low
+Falconsat-3,30776.0,US Air Force Academy,Technology Development,LEO,539.0,0.7200377906976745,medium,medium
+USA 222,37227.0,University of Texas - Austin,Technology Development,LEO,640.5,0.7200377906976745,medium,medium
+Fengniao 1A,38998.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,494.0,0.6378459302325582,medium,medium
+Fengyun 2D,29640.0,China Meteorological Administration,Earth Observation,GEO,35784.0,0.33813953488372095,low,low
+Fengyun 2E,33463.0,China Meteorological Administration,Earth Observation,GEO,35785.0,0.33813953488372095,low,low
+Fengyun 2F,38049.0,China Meteorological Administration,Earth Observation,GEO,35788.0,0.33813953488372095,low,low
+Fengyun 2G,40367.0,China Meteorological Administration,Earth Observation,GEO,35785.0,0.37813953488372093,low,low
+Fengyun 3A,32958.0,China Meteorological Administration,Earth Observation,LEO,827.5,0.7377645348837208,high,high
+Fengyun 3B,37214.0,China Meteorological Administration,Earth Observation,LEO,827.5,0.8177645348837208,high,high
+Fengyun 3C,39260.0,China Meteorological Administration,Earth Observation,LEO,827.5,0.8177645348837208,high,high
+Fermi Gamma-Ray Space Telescope,33053.0,NASA/GSFC,Space Science,LEO,546.5,0.7200377906976745,medium,medium
+USA 215,37162.0,National Reconnaissance Office (NRO),Earth Observation,LEO,1104.0,0.7086686046511627,medium,medium
+USA 234,38109.0,National Reconnaissance Office (NRO),Earth Observation,LEO,1087.5,0.7086686046511627,medium,medium
+USA 247,39462.0,National Reconnaissance Office (NRO),Earth Observation,LEO,1073.5,0.7086686046511627,medium,medium
+USA 267,41334.0,National Reconnaissance Office (NRO),Earth Observation,LEO,1086.5,0.7886686046511626,high,high
+Firebird-A,39463.0,"Firebird Consortium (Montana State Univ., Univ. of New Hampshire, Aerospace Corp., Los Alamos National Laboratory)",Space Science,LEO,664.5,0.6835261627906977,medium,medium
+Firebird-B,39464.0,"Firebird Consortium (Montana State Univ., Univ. of New Hampshire, Aerospace Corp., Los Alamos National Laboratory)",Space Science,LEO,664.5,0.6835261627906977,medium,medium
+Firebird-C,40377.0,"Firebird Consortium (Montana State Univ., Univ. of New Hampshire, Aerospace Corp., Los Alamos National Laboratory)",Space Science,LEO,552.0,0.6835261627906977,medium,medium
+Firebird-D,40378.0,"Firebird Consortium (Montana State Univ., Univ. of New Hampshire, Aerospace Corp., Los Alamos National Laboratory)",Space Science,LEO,559.5,0.6835261627906977,medium,medium
+Firefly,39395.0,NASA/Sienna College/Univ. of Maryland,Earth Science,LEO,443.0,0.5652877906976744,medium,medium
+USA 46,20253.0,US Navy,Communications,GEO,35787.0,0.41930232558139535,low,low
+Formosat-2,28254.0,National Space Program Office (NSPO),Earth Observation,LEO,891.5,0.6907877906976744,medium,medium
+Fast On-orbit Recording of Transient Events) FORTÉ ,24920.0,Los Alamos National Labs/DOE,Earth Observation,LEO,806.5,0.6907877906976744,medium,medium
+Fox-1A,40967.0,AMSAT-NA,Communications/Technology Development,LEO,649.0,0.8600377906976744,high,high
+FUNCube-1 (AO-73),39444.0,AMSAT-UK,Communications,LEO,638.5,0.9000377906976744,high,high
+Galassia,41170.0,National University of Singapore,Earth Science,LEO,539.0,0.7212005813953489,medium,medium
+Galaxy-11,26038.0,"PanAmSat (Intelsat, Ltd.)",Communications,GEO,35790.0,0.4158139534883721,low,low
+Galaxy-12,27715.0,"PanAmSat (Intelsat, Ltd.)",Communications,GEO,35785.5,0.4158139534883721,low,low
+Galaxy-13,27954.0,"PanAmSat (Intelsat, Ltd.)/Sky Perfect JSAT Corp.",Communications,GEO,35785.5,0.4111627906976744,low,low
+Galaxy-14,28790.0,"PanAmSat (Intelsat, Ltd.)",Communications,GEO,35785.5,0.4158139534883721,low,low
+Galaxy-15,28884.0,"PanAmSat (Intelsat, Ltd.)",Communications,GEO,35785.5,0.4158139534883721,low,low
+Galaxy-16,29236.0,"PanAmSat (Intelsat, Ltd.)",Communications,GEO,35786.5,0.4158139534883721,low,low
+Galaxy-17,31307.0,"Intelsat, Ltd.",Communications,GEO,35786.5,0.41465116279069764,low,low
+Galaxy-18,32951.0,"Intelsat, Ltd.",Communications,GEO,35786.0,0.41465116279069764,low,low
+Galaxy-19,33376.0,"Intelsat, Ltd.",Communications,GEO,35786.0,0.41465116279069764,low,low
+Galaxy-25,24812.0,"Intelsat, Ltd. ",Communications,GEO,35786.0,0.4111627906976744,low,low
+Galaxy-28,28702.0,"Intelsat, Ltd.",Communications,GEO,35786.5,0.41465116279069764,low,low
+Galaxy-3C,27445.0,"PanAmSat (Intelsat, Ltd.)/DirecTV L.A.",Communications,GEO,35786.0,0.49116279069767443,medium,medium
+Galileo FOC FM1,40128.0,European Space Agency,Navigation/Global Positioning,MEO,21601.0,0.4208168604651163,low,low
+Galileo FOC FM10,41549.0,European Space Agency,Navigation/Global Positioning,MEO,23276.0,0.33894186046511626,low,low
+Galileo FOC FM11,41550.0,European Space Agency,Navigation/Global Positioning,MEO,23506.5,0.33894186046511626,low,low
+Galileo FOC FM2,40129.0,European Space Agency,Navigation/Global Positioning,MEO,19864.0,0.41856686046511626,low,low
+Galileo FOC FM3,40544.0,European Space Agency,Navigation/Global Positioning,MEO,23545.0,0.33894186046511626,low,low
+Galileo FOC FM4,40545.0,European Space Agency,Navigation/Global Positioning,MEO,23367.5,0.33894186046511626,low,low
+Galileo FOC FM5,40889.0,European Space Agency,Navigation/Global Positioning,MEO,23229.0,0.33894186046511626,low,low
+Galileo FOC FM6,40890.0,European Space Agency,Navigation/Global Positioning,MEO,23229.5,0.33894186046511626,low,low
+Galileo FOC FM8,41175.0,European Space Agency,Navigation/Global Positioning,MEO,23584.0,0.33894186046511626,low,low
+Galileo FOC FM9,41174.0,European Space Agency,Navigation/Global Positioning,MEO,23559.5,0.33894186046511626,low,low
+Galileo IOV-1 FM2,37847.0,European Space Agency,Navigation/Global Positioning,MEO,23274.5,0.33894186046511626,low,low
+Galileo IOV-1 PFM,37846.0,European Space Agency,Navigation/Global Positioning,MEO,23273.0,0.33894186046511626,low,low
+Galileo IOV-2 FM3,38857.0,European Space Agency,Navigation/Global Positioning,MEO,23223.5,0.33894186046511626,low,low
+Galileo IOV-2 FM4,38858.0,European Space Agency,Navigation/Global Positioning,MEO,23222.0,0.33894186046511626,low,low
+Gaofen 1,39150.0,Shanghai Academy of Spaceflight Technology (SAST),Earth Observation,LEO,642.0,0.7823633720930231,high,high
+Gaofen 2,40118.0,Shanghai Academy of Spaceflight Technology (SAST),Earth Observation,LEO,628.0,0.7823633720930231,high,high
+Gaofen 4,41194.0,China Aerospace Science and Technology Corporation (CASTC),Earth Observation,GEO,35794.0,0.41581395348837213,low,low
+Gaofen 8,40701.0,Shanghai Academy of Spaceflight Technology (SAST),Earth Observation,LEO,488.0,0.6676133720930231,medium,medium
+Gaofen 9,40894.0,China Aerospace Science and Technology Corporation (CASTC),Earth Observation,LEO,641.0,0.784688953488372,high,high
+Cosmos 2473,37806.0,Ministry of Defense,Communications,GEO,35786.0,0.63,medium,medium
+Cosmos 2513,41121.0,Ministry of Defense,Communications,GEO,35794.0,0.55,medium,medium
+Garuda-1,26089.0,Asia Cellular Satellite,Communications,GEO,35787.5,0.4111627906976744,low,low
+GATOSS,39430.0,GomSpace ApS,Technology Development,LEO,706.0,0.7212005813953489,medium,medium
+GEARRSAT-2,40657.0,NearSpace Launch/Air Force Research Laboratory,Technology Development,LEO,528.0,0.7200377906976745,medium,medium
+Genesis-1,29252.0,Bigelow Aerospace,Technology Development,LEO,545.5,0.6812005813953489,medium,medium
+Genesis-2,31789.0,Bigelow Aerospace,Technology Development,LEO,547.0,0.6812005813953489,medium,medium
+Cosmos 2517,41579.0,Ministry of Defense,Earth Science,LEO,949.0,0.689625,medium,medium
+GeoEye-1,33331.0,DigitalGlobal Corporation,Earth Observation,LEO,678.5,0.7800377906976743,high,high
+Geomagnetic Tail Laboratory (Geotail),22049.0,Institute of Space and Astronautical Science (ISAS)/NASA/ESA,Space Science,Elliptical,120501.0,0.37603779069767446,low,low
+GHGSat-D,41602.0,"GHGSat, Inc.",Earth Science,LEO,506.0,0.7200377906976745,medium,medium
+GCOM-1,38337.0,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,702.5,0.7870145348837208,high,high
+Globalstar FM4,25163.0,Globalstar ,Communications,LEO,1409.5,0.576578488372093,medium,medium
+Globalstar FM8,25307.0,Globalstar ,Communications,LEO,1414.0,0.576578488372093,medium,medium
+Globalstar M023,25621.0,Globalstar ,Communications,LEO,1414.0,0.576578488372093,medium,medium
+Globalstar M026,25872.0,Globalstar ,Communications,LEO,1414.0,0.576578488372093,medium,medium
+Globalstar M027,25884.0,Globalstar ,Communications,LEO,1413.5,0.576578488372093,medium,medium
+Globalstar M028,25873.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M029,25963.0,Globalstar ,Communications,LEO,1156.5,0.7382034883720929,high,high
+Globalstar M031,25946.0,Globalstar ,Communications,LEO,1477.5,0.656578488372093,medium,medium
+Globalstar FM37,25652.0,Globalstar ,Communications,LEO,1414.0,0.576578488372093,medium,medium
+Globalstar M039,25961.0,Globalstar ,Communications,LEO,1413.5,0.576578488372093,medium,medium
+Globalstar M040,25622.0,Globalstar ,Communications,LEO,1415.5,0.656578488372093,medium,medium
+Globalstar M056,25945.0,Globalstar ,Communications,LEO,1413.5,0.656578488372093,medium,medium
+Globalstar M059,25944.0,Globalstar ,Communications,LEO,1414.0,0.576578488372093,medium,medium
+Globalstar M063,26081.0,Globalstar  ,Communications,LEO,1413.5,0.6437877906976744,medium,medium
+Globalstar M065,31571.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M066,32265.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M067,32263.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M068,32266.0,Globalstar,Communications,LEO,1412.5,0.6009970930232559,medium,medium
+Globalstar M069,31573.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M070,32264.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M071,31576.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M072,31574.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M073,37193.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M074,37189.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M075,37192.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M076,37190.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M077,37191.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M078,39076.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M079,37188.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M080,38041.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M081,37743.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M082,38042.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M083,37739.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M084,38040.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M085,37742.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M086,38045.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M088,37740.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M089,37744.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M090,38044.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M091,37741.0,Globalstar,Communications,LEO,1414.0,0.6009970930232559,medium,medium
+Globalstar M092,38043.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M093,39073.0,Globalstar,Communications,LEO,1413.5,0.6009970930232559,medium,medium
+Globalstar M094,39074.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M095,39077.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M096,39075.0,Globalstar,Communications,LEO,1413.5,0.6809970930232558,medium,medium
+Globalstar M097,39072.0,Globalstar,Communications,LEO,1380.5,0.7809970930232558,high,high
+Cosmos 2471,37372.0,Ministry of Defense,Navigation/Global Positioning,MEO,19131.0,0.42974999999999997,low,low
+Cosmos 2501,40315.0,Ministry of Defense,Navigation/Global Positioning,MEO,19140.5,0.42974999999999997,low,low
+Cosmos 2419,28915.0,Ministry of Defense,Navigation/Global Positioning,MEO,19121.5,0.42974999999999997,low,low
+Cosmos 2424,29672.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+Cosmos 2425,29670.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+Cosmos 2426,29671.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+Cosmos 2432,32276.0,Ministry of Defense,Navigation/Global Positioning,MEO,19132.5,0.42974999999999997,low,low
+Cosmos 2433,32275.0,Ministry of Defense,Navigation/Global Positioning,MEO,19128.5,0.42974999999999997,low,low
+Cosmos 2434,32393.0,Ministry of Defense,Navigation/Global Positioning,MEO,19260.0,0.421875,low,low
+Cosmos 2436,32395.0,Ministry of Defense,Navigation/Global Positioning,MEO,19256.0,0.421875,low,low
+Cosmos 2443,33379.0,Ministry of Defense,Navigation/Global Positioning,MEO,19139.5,0.42974999999999997,low,low
+Cosmos 2456,36111.0,Ministry of Defense,Navigation/Global Positioning,MEO,19275.5,0.421875,low,low
+Cosmos 2459,36400.0,Ministry of Defense,Navigation/Global Positioning,MEO,19132.5,0.42974999999999997,low,low
+Cosmos 2460,36402.0,Ministry of Defense,Navigation/Global Positioning,MEO,19132.0,0.50975,medium,medium
+Cosmos 2457,36112.0,Ministry of Defense,Navigation/Global Positioning,MEO,18997.0,0.42037500000000005,low,low
+Cosmos 2458,36113.0,Ministry of Defense,Navigation/Global Positioning,MEO,19113.5,0.42974999999999997,low,low
+Cosmos 2461,36401.0,Ministry of Defense,Navigation/Global Positioning,MEO,19131.5,0.42974999999999997,low,low
+Cosmos 2464,37139.0,Ministry of Defense,Navigation/Global Positioning,MEO,19016.0,0.42974999999999997,low,low
+Cosmos 2465,37138.0,Ministry of Defense,Navigation/Global Positioning,MEO,19248.0,0.42974999999999997,low,low
+Cosmos 2466,37137.0,Ministry of Defense,Navigation/Global Positioning,MEO,19127.0,0.42974999999999997,low,low
+Cosmos 2474,37829.0,Ministry of Defense,Navigation/Global Positioning,MEO,19142.0,0.42974999999999997,low,low
+Cosmos 2476,37867.0,Ministry of Defense,Navigation/Global Positioning,MEO,19173.0,0.42974999999999997,low,low
+Cosmos 2477,37868.0,Ministry of Defense,Navigation/Global Positioning,MEO,19174.5,0.42974999999999997,low,low
+Cosmos 2475,37869.0,Ministry of Defense,Navigation/Global Positioning,MEO,19175.5,0.42974999999999997,low,low
+Cosmos 2478,37938.0,Ministry of Defense,Navigation/Global Positioning,MEO,19146.0,0.42974999999999997,low,low
+Cosmos 2485,39155.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+Cosmos 2514,41330.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+Cosmos 2516,41554.0,Ministry of Defense,Navigation/Global Positioning,MEO,19123.5,0.42974999999999997,low,low
+Cosmos 2491,39620.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.5,0.42974999999999997,low,low
+Cosmos 2500,40001.0,Ministry of Defense,Navigation/Global Positioning,MEO,19130.0,0.42974999999999997,low,low
+GOES-13,29155.0,NOAA (National Oceanographic and Atmospheric Administration),Earth Observation,GEO,35784.5,0.3334883720930233,low,low
+GOES-14,35491.0,NOAA (National Oceanographic and Atmospheric Administration),Earth Observation,GEO,35170.0,0.15386337209302325,low,low
+GOES-15,36411.0,NOAA (National Oceanographic and Atmospheric Administration),Earth Observation,GEO,35787.0,0.4134883720930233,low,low
+GOES-3,10953.0,"University of Miami, Rosenstiel School of Marine and Atmospheric Science (RSMAS) (loaned by NOAA)",Communications,GEO,35786.0,0.4111627906976744,low,low
+Göktürk 2,39030.0,Turkish Ministry of National Defense,Earth Observation,LEO,679.5,0.7800377906976743,high,high
+GOMX-3,40949.0,GomSpace ApS,Technology Development,LEO,401.5,0.6064505813953489,medium,medium
+Gonets D1-14,23788.0,Gonets Satcom,Communications,LEO,1410.0,0.5777412790697675,medium,medium
+Gonets M-03,38734.0,Gonets Satcom,Communications,LEO,1494.0,0.5777412790697675,medium,medium
+Gonets M-04,38736.0,Gonets Satcom,Communications,LEO,1495.5,0.5777412790697675,medium,medium
+Gonets M-05,37153.0,Gonets Satcom,Communications,LEO,1503.5,0.5481162790697675,medium,medium
+Gonets M-11,40552.0,Gonets Satcom,Communications,LEO,1502.5,0.5481162790697675,medium,medium
+Gonets M-12,40553.0,Gonets Satcom,Communications,LEO,1500.0,0.5777412790697675,medium,medium
+Gonets M-13,40554.0,Gonets Satcom,Communications,LEO,1337.5,0.7577412790697674,high,high
+Gonets M-14,39249.0,Gonets Satcom,Communications,LEO,1494.5,0.5777412790697675,medium,medium
+Gonets M-16,39250.0,Gonets Satcom,Communications,LEO,1500.5,0.5481162790697675,medium,medium
+Gonets M-17,39251.0,Gonets Satcom,Communications,LEO,1501.5,0.5481162790697675,medium,medium
+Gonets M-18,40061.0,Gonets Satcom,Communications,LEO,1494.5,0.5777412790697675,medium,medium
+Gonets M-19,40062.0,Gonets Satcom,Communications,LEO,1496.0,0.5777412790697675,medium,medium
+Gonets M-20,40063.0,Gonets Satcom,Communications,LEO,1493.5,0.5777412790697675,medium,medium
+GPM Core Observatory,39574.0,NASA/JAXA,Earth Observation,LEO,400.5,0.7052877906976743,medium,medium
+"Gravity Recovery and Climate Experiment (Grace 1, ""Tom and Jerry"")",27391.0,"GeoForschungsZentrum (GFZ)/Center for Space Research, University of Texas",Earth Observation,LEO,400.0,0.6664505813953487,medium,medium
+"Gravity Recovery and Climate Experiment (Grace 2, ""Tom and Jerry"")",27392.0,"GeoForschungsZentrum (GFZ)/Center for Space Research, University of Texas",Earth Observation,LEO,400.0,0.6664505813953487,medium,medium
+Ibuki,33492.0,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,669.0,0.7870145348837208,high,high
+GRIFEX,40379.0,University of Michigan/NASA Earth Science Technology Office,Technology Development,LEO,550.0,0.7200377906976745,medium,medium
+GSAT-10,38779.0,Indian Space Research Organization (ISRO),Communications,GEO,35786.0,0.44139534883720927,medium,medium
+GSAT-12,37746.0,Indian Space Research Organization (ISRO),Communications,GEO,35786.0,0.44139534883720927,medium,medium
+GSAT-14,39498.0,Indian Space Research Organization (ISRO),Communications,GEO,35786.5,0.44139534883720927,medium,medium
+GSAT-15,41028.0,Indian Space Research Organization (ISRO),Communications,GEO,35793.5,0.44139534883720927,medium,medium
+GSAT-16,40332.0,Indian Space Research Organization (ISRO),Communications,GEO,35787.0,0.44139534883720927,medium,medium
+GSAT-2,27807.0,Indian Space Research Organization (ISRO),Communications/Technology Development,GEO,35786.0,0.44139534883720927,medium,low
+GSAT-6,40880.0,Indian National Satellite (INSAT),Communications,GEO,35775.0,0.4111627906976744,low,low
+GSAT-7,39234.0,Indian National Satellite System ,Communications,GEO,35785.5,0.4111627906976744,low,low
+GSAT-8,37605.0,Indian Space Research Organization (ISRO),Communications/Navigation,GEO,35789.0,0.5613953488372093,medium,low
+USA 253,40099.0,Air Force Satellite Control Network,Space Observation,GEO,35753.0,0.3523255813953488,low,low
+USA 254,40100.0,Air Force Satellite Control Network,Space Observation,GEO,35850.0,0.2723255813953488,low,low
+Haiyang 2A,37781.0,State Oceanic Administration (SOA),Earth Observation,LEO,966.0,0.6907877906976744,medium,medium
+Helios 2A,28492.0,Centre National d'Etudes Spatiales (CNES)/Délégation Générale de l'Armement (DGA),Earth Observation,LEO,682.0,0.7812005813953488,high,high
+Helios 2B,36124.0,Centre National d'Etudes Spatiales (CNES)/Délégation Générale de l'Armement (DGA),Earth Observation,LEO,680.5,0.7812005813953488,high,high
+HellasSat 2,27811.0,Hellas-Sat Consortium Ltd.,Communications,GEO,35786.0,0.4111627906976744,low,low
+RHESSI (Reuven Ramaty High Energy Solar Spectroscopic Imager),27370.0,"Space Sciences Laboratory, UC Berkeley/NASA",Space Science,LEO,543.0,0.6800377906976744,medium,medium
+Himawari 8,40267.0,Japan Meteorological Agency/Meteorological Satellite Center (MSC),Earth Observation,GEO,35785.5,0.33232558139534885,low,low
+Hinode,29479.0,Institute of Space and Aeronautical Science/NASA,Space Science,LEO,683.0,0.6800377906976744,medium,medium
+Hisaki,39253.0,Japan Aerospace Exploration Agency (JAXA),Space Science,Elliptical,1053.5,0.4523895348837209,medium,medium
+Hispasat 1C,26071.0,Hispasat,Communications,GEO,35786.0,0.41348837209302325,low,low
+Hispasat 1D,27528.0,Hispasat,Communications,GEO,35786.5,0.41348837209302325,low,low
+Hispasat 1E,37264.0,Hispasat,Communications,GEO,35784.0,0.49348837209302326,medium,medium
+HJ-1A,33320.0,National Remote Sensing Center (NRSCC),Earth Observation,LEO,646.5,0.7812005813953488,high,high
+HJ-1B,33321.0,National Remote Sensing Center (NRSCC),Earth Observation,LEO,647.0,0.7812005813953488,high,high
+HJ-1C,38997.0,National Committee for Disaster Reduction and State Environmental Protection,Earth Observation,LEO,429.0,0.6652877906976743,medium,medium
+Hodoyoshi-1,40299.0,University of Tokyo and NESTRA,Earth Observation,LEO,515.5,0.8223633720930231,high,high
+Hodoyoshi-3,40015.0,University of Tokyo and NESTRA,Technology Development,LEO,639.5,0.7223633720930233,high,high
+Hodoyoshi-4,40011.0,University of Tokyo and NESTRA,Technology Development,LEO,631.5,0.7223633720930233,high,high
+Horizons 2,32388.0,"Horizons 2 Satellite, LLC (Intelsat, Sky Perfect JSAT Corporation)",Communications,GEO,35786.5,0.4111627906976744,low,low
+Horyu-2,38340.0,Kyushu Institute of Technology (KIT),Technology Development,LEO,659.5,0.6812005813953489,medium,medium
+Horyu-4,41340.0,Kyushu Institute of Technology (KIT),Technology Development,LEO,568.0,0.6812005813953489,medium,medium
+Hubble Space Telescope,20580.0,European Space Agency/NASA,Space Science,LEO,557.0,0.6800377906976744,medium,medium
+HumSat-D,39433.0,University of Vigo,Technology Development,LEO,615.0,0.7200377906976745,medium,medium
+HYLAS 1,37237.0,"Avanti Communications, PLC",Communications,GEO,35786.5,0.4123255813953488,low,low
+HYLAS 2,38741.0,"Avanti Communications, PLC",Communications,GEO,35787.0,0.4123255813953488,low,low
+IGS-3A,29393.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,488.0,0.6734273255813952,medium,medium
+IGS-5A,36104.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,488.0,0.6734273255813952,medium,medium
+IGS-6A,37813.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,589.5,0.7881773255813952,high,high
+IGS-7A,37954.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,513.0,0.7881773255813952,high,high
+IGS-8A,39061.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,511.5,0.7881773255813952,high,high
+IGS-8B,39062.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,517.5,0.7881773255813952,high,high
+IGS-9A,40381.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,510.0,0.7881773255813952,high,high
+IGS-9B,40538.0,Cabinet Satellite Intelligence Center (CSIC),Earth Observation,LEO,513.0,0.7881773255813952,high,high
+USA 184,29249.0,National Reconnaissance Office (NRO),Earth Observation,Elliptical,19337.5,0.4962936046511628,medium,medium
+USA 200,32706.0,National Reconnaissance Office (NRO),Earth Observation,Elliptical,19346.0,0.4962936046511628,medium,medium
+USA 259,40344.0,National Reconnaissance Office (NRO),Earth Observation,Elliptical,19924.5,0.49554360465116276,medium,medium
+INMARSAT 3 F1,23839.0,"INMARSAT, Ltd.",Communications,GEO,35786.0,0.42279069767441857,low,low
+INMARSAT 3 F2,24307.0,"INMARSAT, Ltd.",Communications,GEO,35786.0,0.42279069767441857,low,low
+INMARSAT 3 F3,24674.0,"INMARSAT, Ltd.",Communications,GEO,35785.5,0.42279069767441857,low,low
+INMARSAT 3 F4,24819.0,"INMARSAT, Ltd.",Communications,GEO,35625.5,0.2506656976744186,low,low
+INMARSAT 3 F5,25153.0,"INMARSAT, Ltd.",Communications,GEO,35786.0,0.42279069767441857,low,low
+INMARSAT 4 F1,28628.0,"INMARSAT, Ltd.",Communications,GEO,35785.5,0.42279069767441857,low,low
+INMARSAT 4 F2,28899.0,"INMARSAT, Ltd.",Communications,GEO,35786.5,0.42279069767441857,low,low
+INMARSAT 4 F3,33278.0,"INMARSAT, Ltd.",Communications,GEO,35786.5,0.42279069767441857,low,low
+INMARSAT 5 F1,39476.0,"INMARSAT, Ltd.",Communications,GEO,35787.0,0.5027906976744186,medium,medium
+INMARSAT 5 F2,40384.0,"INMARSAT, Ltd.",Communications,GEO,35786.5,0.5027906976744186,medium,medium
+INMARSAT 5 F3,40882.0,"INMARSAT, Ltd.",Communications,GEO,35780.0,0.42279069767441857,low,low
+INSAT 3A,27714.0,Indian Space Research Organization (ISRO),Earth Observation,GEO,35786.5,0.3613953488372093,low,low
+INSAT 3C,27298.0,Indian Space Research Organization (ISRO),Communications,GEO,35786.5,0.44139534883720927,medium,medium
+INSAT 3D,39216.0,Indian Space Research Organization (ISRO),Earth Observation,GEO,35786.5,0.4013953488372093,low,low
+INSAT 4A,28911.0,Indian Space Research Organization (ISRO),Communications,GEO,35786.5,0.44139534883720927,medium,medium
+INSAT 4B,30793.0,Indian Space Research Organization (ISRO),Communications,GEO,35785.5,0.48139534883720925,medium,medium
+INSAT 4CR,32050.0,Indian Space Research Organization (ISRO),Communications,GEO,37786.5,0.2621453488372093,low,low
+INTErnational Gamma-Ray Astrophysics Laboratory (INTEGRAL),27540.0,European Space Operations Centre (ESOC)/NASA/Russia,Space Science,Elliptical,81562.5,0.3360377906976745,low,low
+Intelsat 10,26766.0,"PanAmSat (Intelsat, S.A.)",Communications,GEO,35786.0,0.4158139534883721,low,low
+Intelsat 10-02,28358.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.5248837209302325,medium,medium
+Intelsat 11,32253.0,"PanAmSat (Intelsat, S.A.)",Communications,GEO,35786.5,0.4158139534883721,low,low
+Intelsat 12,26590.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 14,36097.0,"Intelsat, S.A.",Communications,GEO,35785.5,0.44488372093023254,medium,medium
+Intelsat 15,36106.0,"Intelsat, S.A./Sky Perfect JSAT Corp.",Communications,GEO,35787.0,0.4111627906976744,low,low
+Intelsat 16,36397.0,"Intelsat, S.A.",Communications,GEO,35787.0,0.5248837209302325,medium,medium
+Intelsat 17,37238.0,"Intelsat, S.A.",Communications,GEO,35787.0,0.44488372093023254,medium,medium
+Intelsat 18,37834.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 19,38356.0,"Intelsat, S.A.",Communications,GEO,35784.5,0.44488372093023254,medium,medium
+Intelsat 1R,26608.0,"PanAmSat (Intelsat, S.A.)",Communications,GEO,35786.5,0.4958139534883721,medium,medium
+Intelsat 20,38740.0,"Intelsat, S.A.",Communications,GEO,35785.0,0.44488372093023254,medium,medium
+Intelsat 21,38749.0,"Intelsat, S.A.",Communications,GEO,35792.5,0.44488372093023254,medium,low
+Intelsat 22,38098.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat 23,38867.0,"Intelsat, S.A.",Communications,GEO,35789.0,0.44488372093023254,medium,medium
+Intelsat 25,33153.0,"Intelsat, S.A.",Communications,GEO,35785.5,0.44488372093023254,medium,medium
+JCSat R,24732.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat 29E,41308.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.5248837209302325,medium,medium
+Intelsat 30/DLA 1,40271.0,"Intelsat, S.A.",Communications,GEO,35784.5,0.44488372093023254,medium,medium
+Intelsat 31/DLA 2,41581.0,"Intelsat, S.A.",Communications,GEO,35720.0,0.2727587209302325,low,low
+Intelsat 34,40874.0,"Intelsat, S.A.",Communications,GEO,35794.0,0.44488372093023254,medium,medium
+Intelsat 5,24916.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 701,22871.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 702,23124.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 8,25522.0,"PanAmSat (Intelsat, S.A.)",Communications,GEO,35786.0,0.4158139534883721,low,low
+Intelsat 805,25371.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 9,26451.0,"PanAmSat (Intelsat, S.A.)",Communications,GEO,35787.0,0.4158139534883721,low,low
+Intelsat 901,26824.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat 902,26900.0,"Intelsat, S.A.",Communications,GEO,35786.0,0.44488372093023254,medium,medium
+Intelsat 903,27403.0,"Intelsat, S.A.",Communications,GEO,35787.5,0.44488372093023254,medium,medium
+Intelsat 904,27380.0,"Intelsat, S.A.",Communications,GEO,35785.5,0.5248837209302325,medium,medium
+Intelsat 905,27438.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat 906,27513.0,"Intelsat, S.A.",Communications,GEO,35785.5,0.44488372093023254,medium,medium
+Intelsat 907,27683.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat APR-2,25666.0,"Intelsat, S.A.",Communications,GEO,35786.5,0.44488372093023254,medium,medium
+Intelsat New Dawn,37392.0,"Intelsat, S.A.",Communications,GEO,35846.0,0.44488372093023254,medium,low
+International Space Station,25544.0,NASA/Multinational,Space Science,LEO,411.5,0.5652877906976744,medium,medium
+Interstellar Boundary Explorer,33401.0,NASA/Goddard Space Flight Center,Space Science,Elliptical,165439.5,0.37603779069767446,low,low
+Iridium 10,24839.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 11A,25578.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 12,24837.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 13,24840.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 14A,25777.0,Iridium Satellite LLC,Communications,LEO,709.5,0.9402703488372093,high,high
+Iridium 15,24869.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 18,24872.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 19,24965.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 20A,25577.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 21A,25778.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 22,24907.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 23,24906.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 25,24904.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 3,25431.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 30,24949.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 31,24950.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 32,24945.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 34,24969.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 35,24966.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 37,24968.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 39,25042.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 40,25041.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 41,25040.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 42,25077.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 43,25039.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 45,25104.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 46,24905.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 47,25106.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 49,25108.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 5,24795.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 50,25172.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 51,25262.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 52,25169.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 53,25173.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 54,25171.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 55,25272.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 56,25170.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 57,25273.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 58,25274.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 59,25275.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 6,24794.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 60,25276.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 61,25263.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 62,25285.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 64,25287.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 65,25288.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 66,25289.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 67,25290.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 68,25291.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 7,24793.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 70,25342.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 72,25343.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 74,25345.0,Iridium Satellite LLC,Communications,LEO,749.0,0.9402703488372093,high,high
+Iridium 75,25346.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 76,25432.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 77,25471.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 8,24792.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 80,25469.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 81,25468.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 82,25467.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 83,25531.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 84,25530.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 86,25528.0,Iridium Satellite LLC,Communications,LEO,778.0,0.8510203488372093,high,high
+Iridium 90,27373.0,Iridium Satellite LLC,Communications,LEO,777.5,0.9310203488372093,high,high
+Iridium 91,27372.0,Iridium Satellite LLC,Communications,LEO,748.5,0.9402703488372093,high,high
+Iridium 94,27374.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 95,27375.0,Iridium Satellite LLC,Communications,LEO,777.5,0.8510203488372093,high,high
+Iridium 96,27376.0,Iridium Satellite LLC,Communications,LEO,749.5,0.9402703488372093,high,high
+Iridium 97,27450.0,Iridium Satellite LLC,Communications,LEO,777.5,0.9310203488372093,high,high
+Iridium 98,27451.0,Iridium Satellite LLC,Communications,LEO,749.0,0.9402703488372093,high,high
+IRIS,39197.0,National Aeronautics and Space Administration (NASA),Space Science,LEO,642.0,0.6974796511627908,medium,medium
+IRNSS-1A,39199.0,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35792.0,0.38139534883720927,low,low
+IRNSS-1B,39635.0,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35787.5,0.38139534883720927,low,low
+IRNSS-1C,40269.0,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35780.5,0.38139534883720927,low,low
+IRNSS-1D,40547.0,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35766.5,0.38139534883720927,low,low
+IRNSS-1E,41241.0,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35784.5,0.38139534883720927,low,low
+IRNSS-1F,41384.0,Indian Space Research Organization (IRSO),Navigation/Regional Positioning,GEO,35787.0,0.3523255813953488,low,low
+IRNSS-1G,41469.0,Indian Space Research Organization (IRSO),Navigation/Regional Positioning,GEO,35785.5,0.3523255813953488,low,low
+IRS-P6,28051.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,820.0,0.7210203488372092,medium,medium
+ITU-pSAT1,35935.0,ITU Space Systems Design & Test Laboratory,Technology Development,LEO,715.5,0.6800377906976744,medium,medium
+Jason 2,33105.0,NASA/Centre National d'Etudes Spatiales (CNES)/NOAA/EUMETSAT,Earth Observation,LEO,1338.0,0.6649505813953488,medium,medium
+Jason 3,41240.0,NASA/Centre National d'Etudes Spatiales (CNES)/NOAA/EUMETSAT,Earth Observation,LEO,1312.5,0.6649505813953488,medium,medium
+JCSat 10,29272.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.5,0.423953488372093,low,low
+JCSat 110,26559.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.5,0.503953488372093,medium,medium
+JCSat 13,38331.0,Sky Perfect JSAT Corporation,Communications,GEO,35785.5,0.423953488372093,low,low
+JCSat 14,41471.0,Sky Perfect JSAT Corporation,Communications,GEO,35892.5,0.423953488372093,low,low
+JCSat 1B,25067.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.0,0.423953488372093,low,low
+JCSat 2A,27399.0,Sky Perfect JSAT Corporation,Communications,GEO,35791.0,0.503953488372093,medium,medium
+JCSat 4A,25630.0,Sky Perfect JSAT Corporation,Communications,GEO,35775.0,0.423953488372093,low,low
+JCSat 9,29045.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.5,0.423953488372093,low,low
+JCSat RA,35755.0,Sky Perfect JSAT Corporation,Communications,GEO,35787.0,0.423953488372093,low,low
+Jilin-1,40961.0,Changchun Institute of Optics,Earth Observation,LEO,650.0,0.8235261627906976,high,high
+Jugnu,37839.0,Indian Institute of Technology Kanpur,Earth Observation,LEO,852.5,0.6907877906976744,medium,medium
+Kaituo-1A,40904.0,China Aerospace Science and Technology Corporation,Technology Development,LEO,527.0,0.7200377906976745,medium,medium
+Kalpana-1,27525.0,Indian Space Research Organization (ISRO),Earth Observation,GEO,35786.0,0.4413953488372093,medium,medium
+KazEOSat-1,39731.0,Kazcosmos,Earth Observation,LEO,752.5,0.6919505813953488,medium,medium
+KazEOSat-2,40010.0,Kazcosmos,Earth Observation,LEO,624.0,0.7812005813953488,high,high
+KazSat-2,37749.0,JSC KazSat,Communications,GEO,35787.0,0.4923255813953488,medium,medium
+KazSat-3,39728.0,JSC KazSat,Communications,GEO,35786.5,0.4923255813953488,medium,medium
+Kent Ridge 1,41167.0,National University of Singapore,Earth Observation,LEO,542.5,0.8212005813953488,high,high
+USA 186,28888.0,National Reconnaissance Office (NRO),Earth Observation,LEO,657.0,0.8832936046511626,high,high
+USA 224,37348.0,National Reconnaissance Office (NRO),Earth Observation,LEO,600.0,0.8832936046511626,high,high
+USA 245,39232.0,National Reconnaissance Office (NRO),Earth Observation,LEO,627.0,0.8832936046511626,high,high
+ETS-8,29656.0,National Institute of Information and Communications Technology (NICT),Technology Development,GEO,35785.0,0.2711627906976744,low,low
+Kizuna,32500.0,Japan Aerospace Exploration Agency (JAXA),Technology Development,GEO,35786.0,0.2781395348837209,low,low
+KJSY-1,40914.0,Tsinghua University,Technology Development,LEO,530.0,0.7223633720930233,high,high
+KKS-1,33499.0,Tokyo Metropolitan College of Industrial Technology,Technology Development,LEO,659.0,0.6800377906976744,medium,medium
+Kompsat-2,29268.0,Korea Aerospace Research Institute (KARI),Earth Observation/Technology Development,LEO,687.0,0.7870145348837208,high,high
+Kompsat-3,38338.0,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,687.5,0.7870145348837208,high,high
+Kompsat-3A,40536.0,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,531.0,0.7870145348837208,high,high
+Kompsat-5,39227.0,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,543.5,0.7870145348837208,high,high
+Cosmos 2487,39194.0,Ministry of Defense,Earth Observation,LEO,499.0,0.8041249999999999,high,medium
+Koreasat 5,29349.0,KT Corporation/Korean Agency for Defense Development (ADD),Communications,GEO,35786.0,0.4511627906976744,medium,medium
+Koreasat 6,37265.0,KT Corporation,Communications,GEO,35787.0,0.4111627906976744,low,low
+Kuaizhou-2,40311.0,National Academy of Sciences,Earth Observation,LEO,311.5,0.7064505813953488,medium,medium
+Kukai,33498.0,Kanagawa University,Technology Development,LEO,657.0,0.7200377906976745,medium,medium
+USA 133,25017.0,National Reconnaissance Office (NRO),Earth Observation,LEO,673.0,0.8032936046511626,high,high
+USA 152,26473.0,National Reconnaissance Office (NRO),Earth Observation,LEO,625.0,0.8032936046511626,high,high
+USA 182,28646.0,National Reconnaissance Office (NRO),Earth Observation,LEO,714.5,0.8032936046511626,high,high
+Landsat 7,25682.0,NASA/US Geological Survey,Earth Observation,LEO,702.5,0.8612005813953487,high,high
+Landsat 8,39084.0,NASA/US Geological Survey,Earth Observation,LEO,702.5,0.7812005813953488,high,high
+LaoSat-1,41034.0,Laos National Authority for Science and Technology,Communications,GEO,35794.0,0.4111627906976744,low,low
+LAPAN A2,40931.0,Indonesian National Aeronautics and  Space Agency (Lembaga Penerbangan dan Antariksa Nasional - LAPAN),Earth Observation,LEO,640.5,0.8223633720930231,high,high
+LAPAN A3,41603.0,Indonesian National Aeronautics and  Space Agency (Lembaga Penerbangan dan Antariksa Nasional - LAPAN),Earth Observation,LEO,509.0,0.8223633720930231,high,high
+LAPAN-Tubsat,29709.0,Indonesian National Aeronautics and  Space Agency (Lembaga Penerbangan dan Antariksa Nasional - LAPAN),Earth Observation/Technology Development,LEO,627.0,0.8223633720930231,high,high
+LatinSat A,27612.0,Aprize Satellites Argentina,Communications,LEO,639.0,0.9035261627906976,high,high
+LatinSat B,27606.0,Aprize Satellites Argentina,Communications,LEO,660.0,0.9035261627906976,high,high
+Lemur-1,40044.0,Spire Global Inc.,Technology Development,LEO,654.5,0.7246889534883721,high,high
+Lemur-2 Chris,40936.0,Spire Global Inc.,Earth Observation,LEO,642.0,0.824688953488372,high,high
+Lemur-2Jeroen,40935.0,Spire Global Inc.,Earth Observation,LEO,642.0,0.824688953488372,high,high
+Lemur-2 Joel,40933.0,Spire Global Inc.,Earth Observation,LEO,639.0,0.824688953488372,high,high
+Lemur-2 Peter,40934.0,Spire Global Inc.,Earth Observation,LEO,642.0,0.824688953488372,high,high
+LilacSat-2,40908.0,Harbin Institute/China Amateur Satellite - CAMSAT,Technology Development,LEO,530.5,0.7200377906976745,medium,medium
+Ling Qiao,40136.0,Xinwei Telecom Technology Company,Technology Development,LEO,793.5,0.6307877906976745,medium,high
+Lingqiao-A,40959.0,Changchun Institute of Optics,Earth Observation,LEO,651.5,0.8235261627906976,high,high
+Lingqiao-B,40960.0,Changchun Institute of Optics,Earth Observation,LEO,651.0,0.8235261627906976,high,high
+LMRSTSat,40971.0,NASA Jet Propulsion Laboratory,Technology Demonstration,LEO,646.5,0.7200377906976745,medium,medium
+Long Excursion 1,,,,,,0.09,low,low
+Cosmos 2455,36095.0,Ministry of Defense,Earth Observation,LEO,905.5,0.829625,high,high
+Cosmos 2502,40358.0,Ministry of Defense,Earth Observation,LEO,905.5,0.829625,high,high
+LQSat,40958.0,Changchun Institute of Optics,Earth Observation,LEO,651.5,0.8235261627906976,high,high
+Luch 5A,37951.0,Russian Federal Space Agency,Communications,GEO,35785.5,0.45348837209302323,medium,medium
+Luch 5B,38977.0,Russian Federal Space Agency,Communications,GEO,35786.5,0.45348837209302323,medium,medium
+Luch 5V,39727.0,Russian Federal Space Agency,Communications,GEO,35784.5,0.41348837209302325,low,low
+Luch/Olympus,40258.0,Ministry of Defense,Communications,GEO,35787.0,0.51,medium,low
+M3MSat,41605.0,Defence Research and Development Canada (DRDC)/Canadian Space Agency,Earth Observation,LEO,508.0,0.8200377906976744,high,high
+Maroc Tubsat,27004.0,CTRS Morocco/Institut für Luft-und Raumfahrttechnik (Berlin),Technology Development,LEO,999.0,0.5907877906976745,medium,medium
+M-Cubed/E1P-U2,37855.0,University of Michigan/Montana University,Technology Development,LEO,583.0,0.7200377906976745,medium,medium
+Measat 2,24653.0,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35786.5,0.41465116279069764,low,low
+Measat 3,29648.0,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35786.0,0.41465116279069764,low,low
+Measat 3A,35362.0,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35758.0,0.41465116279069764,low,low
+Measat 3B,40147.0,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35787.0,0.41465116279069764,low,low
+Megha-Tropiques,37838.0,Indian Space Research Organization (ISRO)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,860.5,0.6919505813953488,medium,medium
+USA 105,23223.0,National Reconnaissance Office (NRO)/USAF,Earth Observation,GEO,35787.0,0.37465116279069766,low,low
+USA 118,23855.0,National Reconnaissance Office (NRO)/USAF,Earth Observation,GEO,35787.0,0.45465116279069767,medium,medium
+USA 250,39652.0,National Reconnaissance Office (NRO)/USAF,Earth Observation,GEO,35500.0,0.1961511627906977,low,low
+Meridian-3,37212.0,Military Space Forces (VKS),Communications,Elliptical,20179.0,0.5655261627906977,medium,medium
+Meridian-4,37398.0,Military Space Forces (VKS),Communications,Elliptical,20179.5,0.5655261627906977,medium,medium
+Meridian-6,38995.0,Military Space Forces (VKS),Communications,Elliptical,20177.0,0.5255261627906976,medium,medium
+Meridian-7,40296.0,Military Space Forces (VKS),Communications,Elliptical,20180.0,0.5255261627906976,medium,medium
+Meteor-M N-2,40069.0,Russian Federal Service For Hydrometeorology and Environmental Monitoring (ROSHYDROMET),Earth Observation,LEO,823.5,0.6907877906976744,medium,medium
+Meteosat 10,38552.0,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35787.5,0.41581395348837213,low,low
+Meteosat 11,40732.0,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35793.0,0.41581395348837213,low,low
+Meteosat 7,24932.0,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35783.5,0.3358139534883721,low,low
+Meteosat 8,27509.0,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35787.0,0.3358139534883721,low,low
+Meteosat 9,28912.0,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35785.0,0.3358139534883721,low,low
+MetOp-A,29499.0,ESA/EUMETSAT (European Organization for the Exploitation of Meterological Satellites),Earth Observation,LEO,820.5,0.7719505813953488,high,high
+MetOp-B,38771.0,ESA/EUMETSAT (European Organization for the Exploitation of Meterological Satellites),Earth Observation,LEO,820.5,0.6919505813953488,medium,medium
+Mexsat-3,39035.0,Mexico Telecomm,Communications,GEO,35787.5,0.4923255813953488,medium,medium
+Mexsat-2,40946.0,Mexico Telecomm,Communications,GEO,35786.0,0.4123255813953488,low,low
+MICROSCOPE,41457.0,Centre National d'Etudes Spatiales (CNES),Space Science,LEO,713.0,0.6800377906976744,medium,medium
+MVL-300,41464.0,Moscow State University,Space Science,LEO,478.0,0.5652877906976744,medium,medium
+USA 99,22988.0,US Air Force,Communications,GEO,35786.5,0.4297674418604651,low,low
+USA 115,23712.0,US Air Force,Communications,GEO,35787.0,0.4297674418604651,low,low
+USA 157,26715.0,US Air Force,Communications,GEO,35766.0,0.5097674418604651,medium,medium
+USA 164,27168.0,US Air Force,Communications,GEO,35786.5,0.4297674418604651,low,low
+USA 169,27711.0,US Air Force,Communications,GEO,35787.0,0.4297674418604651,low,low
+MKA-FKI-1,38711.0,Lavochkin Research and Production Association (Lavochkin NPO),Earth Observation,LEO,813.0,0.6907877906976744,medium,medium
+MMS-1,40482.0,National Aeronautics and Space Administration (NASA),Space Science,Elliptical,35692.0,0.35647965116279073,low,low
+MMS-2,40483.0,National Aeronautics and Space Administration (NASA),Space Science,Elliptical,35737.0,0.35647965116279073,low,low
+MMS-3,40484.0,National Aeronautics and Space Administration (NASA),Space Science,Elliptical,35737.0,0.35647965116279073,low,low
+MMS-4,40485.0,National Aeronautics and Space Administration (NASA),Space Science,Elliptical,35737.0,0.35647965116279073,low,low
+Microvariability & Oscillations of Stars (MOST),27843.0,Canadian Space Agency,Space Science,LEO,824.5,0.5942761627906977,medium,medium
+Mozhayets 4,27939.0,Mozhaisky Space Engineering Academy,Technology Development,LEO,679.5,0.7200377906976745,medium,medium
+MSAT 1,23846.0,Mobile Satellite Ventures,Communications,GEO,35786.0,0.4123255813953488,low,low
+MSAT 2,23553.0,Mobile Satellite Ventures,Communications,GEO,35786.0,0.4123255813953488,low,low
+Multispectral Thermal Imager (MTI),26102.0,US Department of Energy/Office of Nonproliferation and National Security,Technology Development,LEO,469.5,0.5652877906976744,medium,medium
+MTSAT-2,28937.0,Japan Meteorological Agency/Meteorological Satellite Center (MSC),Earth Observation,GEO,35786.5,0.33232558139534885,low,low
+MUOS-1,38093.0,DoD/US Navy,Communications,GEO,35787.5,0.4158139534883721,low,low
+MUOS-2,39206.0,DoD/US Navy,Communications,GEO,35786.5,0.4158139534883721,low,medium
+MUOS-3,40374.0,DoD/US Navy,Communications,GEO,35787.0,0.45581395348837206,medium,medium
+MUOS-4,40887.0,DoD/US Navy,Communications,GEO,35786.5,0.45581395348837206,medium,medium
+MUOS-5,41622.0,DoD/US Navy,Communications,GEO,35787.0,0.45581395348837206,medium,medium
+Nanosat-1,28493.0,Instituto Nacional de Técnia Aeroespacial (INTA),Communications,LEO,656.5,0.9012005813953489,high,high
+Nanosat-1B,35685.0,Instituto Nacional de Técnia Aeroespacial (INTA),Communications/Technology Development,LEO,627.5,0.9012005813953489,high,high
+NATO-4B,22921.0,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35785.0,0.41465116279069764,low,low
+USA 213,36585.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20206.0,0.366921511627907,low,low
+USA 262,40730.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20452.5,0.359421511627907,low,low
+USA 265,41019.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20456.0,0.359421511627907,low,low
+USA 266,41328.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20181.5,0.366921511627907,low,low
+USA 232,37753.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20457.5,0.359421511627907,low,low
+USA 239,38833.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20182.5,0.366921511627907,low,low
+USA 242,39166.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20215.5,0.366921511627907,low,low
+USA 248,39533.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20463.0,0.359421511627907,low,low
+USA 251,39741.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20181.0,0.366921511627907,low,low
+USA 256,40105.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20473.5,0.439421511627907,low,low
+USA 258,40294.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20183.0,0.366921511627907,low,low
+USA 260,40534.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20457.0,0.359421511627907,low,low
+USA 175,28129.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20145.0,0.366921511627907,low,low
+USA 177,28190.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20182.5,0.366921511627907,low,low
+USA 178,28361.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20182.0,0.366921511627907,low,low
+USA 180,28474.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20182.0,0.366921511627907,low,low
+USA 132,24876.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20185.0,0.366921511627907,low,low
+USA 145,25933.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20182.0,0.366921511627907,low,low
+USA 150,26360.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20183.5,0.366921511627907,low,low
+USA 151,26407.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20305.5,0.359421511627907,low,low
+USA 154,26605.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20337.5,0.359421511627907,low,low
+USA 156,26690.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20185.0,0.366921511627907,low,low
+USA 166,27663.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20249.5,0.366921511627907,low,low
+USA 168,27704.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20248.0,0.366921511627907,low,low
+USA 183,28874.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20181.5,0.366921511627907,low,low
+USA 190,29486.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20181.0,0.366921511627907,low,low
+USA 192,29601.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20286.0,0.359421511627907,low,low
+USA 196,32260.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20181.0,0.366921511627907,low,low
+USA 199,32384.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20230.5,0.366921511627907,low,low
+USA 201,32711.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20143.5,0.366921511627907,low,low
+USA 206,35752.0,DoD/US Air Force,Navigation/Global Positioning,MEO,20184.5,0.366921511627907,low,low
+Naxing 2,40905.0,Tsinghua University,Technology Development,LEO,529.5,0.7223633720930233,high,high
+NBN-1A,40940.0,NBN Co (operated by Optus),Communications,GEO,35760.5,0.4511627906976744,medium,medium
+NEOSSat,39089.0,Canadian Space Agency,Space Observation,LEO,779.0,0.6342761627906978,medium,medium
+NigComSat-1R,38014.0,NigComSat,Communications,GEO,35794.0,0.49116279069767443,medium,medium
+NigeriaSat-2,37789.0,National Space Research and Development Agency (NASRDA),Earth Observation,LEO,698.0,0.7812005813953488,high,high
+Nigeriasat-X,37790.0,National Space Research and Development Agency (NASRDA),Earth Observation/Technology Development,LEO,678.5,0.8212005813953488,high,high
+Nilesat 102,26470.0,Egyptian Radio and TV Union ,Communications,GEO,35786.0,0.4123255813953488,low,low
+Nilesat 201,36830.0,Egyptian Radio and TV Union ,Communications,GEO,35804.0,0.4123255813953488,low,low
+Nimiq 2,27632.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.0,0.4216279069767442,low,low
+Nimiq 4,33373.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.5,0.4216279069767442,low,low
+Nimiq 5,35873.0,Echostar Corporation (entire payload leased from Telesat Canada Ltd.),Communications,GEO,35700.0,0.2390377906976744,low,low
+Nimiq 6,38342.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35786.5,0.4216279069767442,low,low
+NOAA-15,25338.0,National Oceanographic and Atmospheric Administration (NOAA) (part of international program),Earth Observation,LEO,808.0,0.6931133720930232,medium,medium
+NOAA-18,28654.0,National Oceanographic and Atmospheric Administration (NOAA) (part of international program),Earth Observation,LEO,853.5,0.6931133720930232,medium,medium
+NOAA-19,33591.0,National Oceanographic and Atmospheric Administration (NOAA) (part of international program),Earth Observation,LEO,854.5,0.6931133720930232,medium,medium
+NPP,37849.0,National Oceanographic and Atmospheric Administration (NOAA)/NASA,Earth Observation,LEO,827.0,0.7307877906976744,high,medium
+NPS-SCAT,39389.0,Naval Post-Graduate School,Technology Development,LEO,433.5,0.6076133720930232,medium,medium
+NSS-10,28526.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.43906976744186044,low,low
+NSS-11,26554.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35787.0,0.43906976744186044,low,low
+NSS-12,36032.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.0,0.43906976744186044,low,low
+NSS-5,24957.0,SES World Skies/Intelsat [SES] (shared capacity),Communications,GEO,35786.0,0.4111627906976744,low,low
+NSS-6,27603.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.4790697674418604,medium,medium
+NSS-7,27414.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35786.5,0.43906976744186044,low,low
+NSS-806,25239.0,SES/Intelsat (SES [Société Européenne des Satellites (SES)]) (shared capacity),Communications,GEO,35786.5,0.4111627906976744,low,low
+NSS-9,33749.0,SES (Société Européenne des Satellites (SES)),Communications,GEO,35788.0,0.5190697674418605,medium,medium
+N-Star C,27461.0,Sky Perfect JSAT Corporation,Communications,GEO,35785.5,0.423953488372093,low,low
+NUDT Phonesat,40900.0,National University of Defense Technology/CAMSAT,Technology Demonstration,LEO,526.0,0.7200377906976745,medium,medium
+ÑuSat-1,41557.0,Satellogic,Earth Observation,LEO,490.0,0.7064505813953488,medium,medium
+ÑuSat-2 ,41558.0,Satellogic,Earth Observation,LEO,491.0,0.7064505813953488,medium,medium
+NuSTAR,38358.0,National Aeronautics and Space Administration (NASA),Space Science,LEO,622.5,0.6974796511627908,medium,medium
+USA 219,37224.0,NASA-Ames Research Center/Stanford University,Space Science,LEO,639.0,0.6800377906976744,medium,medium
+O3b FM02,39190.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+O3b FM03,40079.0,O3b Networks Ltd.,Communications,MEO,8065.5,0.43732848837209304,low,low
+O3b FM04,39189.0,O3b Networks Ltd.,Communications,MEO,8065.5,0.43732848837209304,low,low
+O3b FM05,39188.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+O3b FM06,40080.0,O3b Networks Ltd.,Communications,MEO,7838.0,0.435078488372093,low,low
+O3b FM07,40081.0,O3b Networks Ltd.,Communications,MEO,7835.5,0.435078488372093,low,low
+O3b FM08,40082.0,O3b Networks Ltd.,Communications,MEO,7828.5,0.435078488372093,low,low
+O3B FM09,40351.0,O3b Networks Ltd.,Communications,MEO,8065.5,0.43732848837209304,low,low
+O3B FM10,40348.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+O3B FM11,40349.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+O3B FM12,40350.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+O3b PFM,39191.0,O3b Networks Ltd.,Communications,MEO,8066.0,0.43732848837209304,low,low
+Oceansat-2,35931.0,Indian Space Research Organization (ISRO),Earth Observation,LEO,723.0,0.8102703488372092,high,high
+OCO 2,40059.0,National Aeronautics and Space Administration (NASA),Earth Observation,LEO,702.5,0.7974796511627906,high,high
+Odin,26702.0,Swedish National Space Board,Earth Observation,LEO,571.0,0.7800377906976743,high,high
+Ofeq 10,39650.0,Ministry of Defense,Earth Observation,LEO,493.0,0.7641249999999998,high,high
+Ofeq 5,27434.0,Ministry of Defense,Earth Observation,LEO,565.5,0.8788749999999999,high,high
+Ofeq 7,31601.0,Ministry of Defense,Earth Observation,LEO,458.0,0.7641249999999998,high,high
+Ofeq 9,36608.0,Ministry of Defense,Earth Observation,LEO,466.0,0.7641249999999998,high,high
+OPTOS,39420.0,Spanish Space Agency,Technology Development,LEO,695.5,0.7200377906976745,medium,medium
+Optus 10,40146.0,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35787.0,0.41465116279069764,low,low
+Optus and Defence C1,27831.0,Optus Communications (Parent: Singapore Telecom)/Australian Ministry of Defence,Communications,GEO,35786.0,0.4111627906976744,low,low
+Optus B3 ,23227.0,Optus Communications (Parent: Signapore Telecom),Communications,GEO,35787.0,0.4111627906976744,low,low
+Optus D1,29495.0,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35785.5,0.41465116279069764,low,low
+Optus D2,32252.0,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35786.5,0.41465116279069764,low,low
+Optus D3,35756.0,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35785.0,0.41465116279069764,low,low
+ORBCOMM FM-10,25113.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-11,25114.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-12,25115.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-13,25420.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-14,25419.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-15,25418.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-16,25417.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-18,25414.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-19,25415.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-20,25416.0,ORBCOMM Inc.,Communications,LEO,791.5,0.9007877906976743,high,high
+ORBCOMM FM-21,25475.0,ORBCOMM Inc.,Communications,LEO,816.0,0.8207877906976744,high,high
+ORBCOMM FM-23,25477.0,ORBCOMM Inc.,Communications,LEO,791.0,0.8207877906976744,high,high
+ORBCOMM FM-27,25481.0,ORBCOMM Inc.,Communications,LEO,791.0,0.8207877906976744,high,high
+ORBCOMM FM-30,25980.0,ORBCOMM Inc.,Communications,LEO,792.0,0.8207877906976744,high,high
+ORBCOMM FM-31,25981.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-32,25982.0,ORBCOMM Inc.,Communications,LEO,791.0,0.8207877906976744,high,high
+ORBCOMM FM-34,25986.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-35,25985.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-36,25984.0,ORBCOMM Inc.,Communications,LEO,791.5,0.8207877906976744,high,high
+ORBCOMM FM-4,25159.0,ORBCOMM Inc.,Communications,LEO,803.0,0.8207877906976744,high,high
+ORBCOMM FM-5,25117.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-6,25118.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-7,25119.0,ORBCOMM Inc.,Communications,LEO,772.5,0.8207877906976744,high,high
+ORBCOMM FM-8,25112.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-9,25116.0,ORBCOMM Inc.,Communications,LEO,773.0,0.8207877906976744,high,high
+ORBCOMM FM-103,40091.0,ORBCOMM Inc.,Communications,LEO,680.5,0.9100377906976743,high,high
+ORBCOMM FM-104,40090.0,ORBCOMM Inc.,Communications,LEO,680.0,0.9100377906976743,high,high
+ORBCOMM FM-105,41181.0,ORBCOMM Inc.,Communications,LEO,636.0,0.9100377906976743,high,high
+ORBCOMM FM-106,40088.0,ORBCOMM Inc.,Communications,LEO,680.0,0.9100377906976743,high,high
+ORBCOMM FM-107,40087.0,ORBCOMM Inc.,Communications,LEO,679.5,0.9100377906976743,high,high
+ORBCOMM FM-108,41187.0,ORBCOMM Inc.,Communications,LEO,635.5,0.9100377906976743,high,high
+ORBCOMM FM-109,40086.0,ORBCOMM Inc.,Communications,LEO,679.5,0.9100377906976743,high,high
+ORBCOMM FM-110,41182.0,ORBCOMM Inc.,Communications,LEO,636.5,0.9100377906976743,high,high
+ORBCOMM FM-111,40089.0,ORBCOMM Inc.,Communications,LEO,679.5,0.9100377906976743,high,high
+ORBCOMM FM-112,41184.0,ORBCOMM Inc.,Communications,LEO,635.5,0.9100377906976743,high,high
+ORBCOMM FM-113,41185.0,ORBCOMM Inc.,Communications,LEO,635.0,0.9100377906976743,high,high
+ORBCOMM FM-114,41179.0,ORBCOMM Inc.,Communications,LEO,636.0,0.9100377906976743,high,high
+ORBCOMM FM-115,41186.0,ORBCOMM Inc.,Communications,LEO,634.0,0.9100377906976743,high,high
+ORBCOMM FM-116,41189.0,ORBCOMM Inc.,Communications,LEO,634.0,0.9100377906976743,high,high
+ORBCOMM FM-117,41188.0,ORBCOMM Inc.,Communications,LEO,635.0,0.9100377906976743,high,high
+ORBCOMM FM-118,41183.0,ORBCOMM Inc.,Communications,LEO,636.5,0.9100377906976743,high,high
+ORBCOMM FM-119,41180.0,ORBCOMM Inc.,Communications,LEO,636.0,0.9100377906976743,high,high
+OUFTI-1,41458.0,University of Liège,Technology Development,LEO,564.5,0.6800377906976744,medium,medium
+Paksat-1R,37779.0,Pakistan Space and Upper Atmosphere Research Commission (SUPARCO)/PakSat International,Communications,GEO,35793.0,0.4111627906976744,low,low
+Palapa C2,23864.0,PT Indosat,Communications,GEO,35786.5,0.4923255813953488,medium,medium
+Palapa D1,35812.0,PT Indosat,Communications,GEO,35786.0,0.4123255813953488,low,low
+USA 207,35815.0,Unknown US agency,Communications,GEO,35786.5,0.5323255813953488,medium,medium
+ParkinsonSat-1,40654.0,US Naval Academy,Technology Development,LEO,528.0,0.7212005813953489,medium,medium
+Cosmos 2407,28380.0,Ministry of Defense,Communications,LEO,978.5,0.869625,high,high
+Cosmos 2414,28521.0,Ministry of Defense,Communications,LEO,937.5,0.869625,high,high
+Cosmos 2463,36519.0,Ministry of Defense,Communications,LEO,995.0,0.869625,high,high
+Prototype Communications SATellite (PCSat),26931.0,US Naval Academy,Communications/Technology Development,LEO,792.5,0.7719505813953489,high,high
+Perseus M1,40039.0,Dauria Aerospace,Communications,LEO,616.0,0.9023633720930232,high,high
+Perseus M2,40037.0,Dauria Aerospace,Communications,LEO,615.0,0.9023633720930232,high,high
+Cosmos 2486,39177.0,Ministry of Defense,Earth Observation,LEO,723.5,0.8788749999999999,high,high
+Cosmos 2506,40699.0,Ministry of Defense,Earth Observation,LEO,715.5,0.8788749999999999,high,high
+Phonesat 2.4,39381.0,National Aeronautics and Space Administration (NASA),Technology Development,LEO,503.0,0.7374796511627908,high,high
+Pléiades HR1A ,38012.0,"Ministry of Defense/Centre National d'Etudes Spatiales (CNES) - cooperation with Austria, Belgium, Spain, Sweden",Earth Observation,LEO,698.0,0.7812005813953488,high,high
+Pléiades HR1B ,39019.0,"Ministry of Defense/Centre National d'Etudes Spatiales (CNES) - cooperation with Austria, Belgium, Spain, Sweden",Earth Observation,LEO,684.5,0.7812005813953488,high,high
+PolyITAN-1,40042.0,National Technical University,Technology Development,LEO,616.0,0.7200377906976745,medium,medium
+Popsat-HIP,40028.0,Microspace Rapid Pte Ltd.,Technology Development,LEO,613.5,0.7200377906976745,medium,medium
+Prism,33493.0,University of Tokyo,Earth Observation,LEO,613.5,0.8200377906976744,high,high
+Project for On-Board Autonomy (Proba 1),26958.0,European Space Agency (ESA),Technology Demonstration,LEO,614.5,0.6870145348837209,medium,medium
+Project for On-Board Autonomy (Proba 2),36037.0,European Space Agency (ESA),Technology Demonstration,LEO,718.0,0.6870145348837209,medium,medium
+Proba V,39159.0,European Space Agency (ESA),Earth Observation,LEO,816.5,0.6977645348837208,medium,medium
+Prometheus 1A,39406.0,Los Alamos National Laboratory,Technology Development,LEO,438.0,0.6076133720930232,medium,medium
+Prometheus 4A,39399.0,Los Alamos National Laboratory,Technology Development,LEO,437.0,0.6076133720930232,medium,medium
+Prometheus 4B,39401.0,Los Alamos National Laboratory,Technology Development,LEO,437.0,0.6076133720930232,medium,medium
+PropCube-1,40976.0,Naval Post-Graduate School,Space Science,LEO,647.0,0.7223633720930233,high,high
+PropCube-3,40973.0,Naval Post-Graduate School,Space Science,LEO,646.5,0.7223633720930233,high,high
+PUCPSat-1,39442.0,Institute for Radio Astronomy at Pontificia Universidad Católica del Perú (PUCP),Technology Development,LEO,614.5,0.7200377906976745,medium,medium
+Pujiang-1,40925.0,Shanghai Academy of Space Technology (SAST),Technology Development,LEO,477.0,0.6052877906976745,medium,medium
+QB50Pl,40025.0,von Karman Institute,Space Science,LEO,613.0,0.7212005813953489,medium,medium
+QB50P2,40032.0,von Karman Institute,Space Science,LEO,614.5,0.7212005813953489,medium,medium
+Qsat-EOS,40301.0,Kyushu University,Earth Observation,LEO,529.5,0.8200377906976744,high,high
+QueztSat-1,37826.0,SES World Skies (SES [Société Européenne des Satellites (SES)]) -- total capacity leased to subsidiary of EchoStar Corp. ,Communications,GEO,35786.0,0.4111627906976744,low,low
+QZS-1,37158.0,Japan Aerospace Exploration Agency (JAXA),Navigation/Regional Positioning,GEO,35784.0,0.4781395348837209,medium,low
+Radarsat-2,32382.0,Radarsat International,Earth Observation,LEO,792.0,0.6907877906976744,medium,medium
+Radio-ROSTO,23439.0,RS3A Control Station,Communications,MEO,2025.0,0.42153779069767444,low,low
+Cosmos 2450,34264.0,Ministry of Defense,Communications,GEO,35780.5,0.51,medium,medium
+Raduga 1-M2,36358.0,Ministry of Defense,Communications,GEO,35786.0,0.59,medium,medium
+Raduga 1-M3,39375.0,Ministry of Defense,Communications,GEO,35787.0,0.51,medium,medium
+USA 225,37364.0,National Reconnaissance Office (NRO),Technology Development,LEO,1200.5,0.6086686046511628,medium,medium
+RapidEye-1,33314.0,RapidEye AG,Earth Observation,LEO,629.5,0.784688953488372,high,high
+RapidEye-2,33312.0,RapidEye AG,Earth Observation,LEO,629.5,0.784688953488372,high,high
+RapidEye-3,33315.0,RapidEye AG,Earth Observation,LEO,629.0,0.784688953488372,high,high
+RapidEye-4,33316.0,RapidEye AG,Earth Observation,LEO,629.5,0.784688953488372,high,high
+RapidEye-5,33313.0,RapidEye AG,Earth Observation,LEO,629.5,0.784688953488372,high,high
+RASAT,37791.0,Space Technologies Research Institute,Earth Observation,LEO,682.0,0.7800377906976743,high,high
+Rascom-QAF 1R,36831.0,Regional African Satellite Communications Organization (RASCOM),Communications,GEO,35786.5,0.49116279069767443,medium,medium
+INnovative technology Demonstration EXperiment satellite (INDEX),28810.0,Institute of Space and Astronautical Science (ISAS)/Japan Aerospace Exploration Agency (JAXA),Technology Development,LEO,616.5,0.7200377906976745,medium,medium
+Relek,40070.0,Skobeltsyn Institute of Nuclear Physics,Earth Observation,LEO,721.0,0.8200377906976744,high,high
+Resourcesat 2,37387.0,Indian Space Research Organization (ISRO)/exactEarth,Earth Observation,LEO,820.0,0.6907877906976744,medium,medium
+Resurs-DK1,29228.0,TsSKB Progress (State Research & Production Space Rocket Center),Earth Observation,LEO,567.5,0.7800377906976743,high,high
+Resurs-P1,39186.0,Russian Federal Space Agency (Roskosmos),Earth Observation,LEO,465.5,0.6676133720930231,medium,medium
+Resurs-P2,40360.0,Russian Federal Space Agency (Roskosmos),Earth Observation/Communications/Space Science,LEO,466.5,0.8476133720930232,high,medium
+Resurs-P3,41386.0,Russian Federal Space Agency (Roskosmos),Earth Observation,LEO,470.5,0.6676133720930231,medium,medium
+RISat-1,38248.0,Ministry of Defense,Earth Observation,LEO,539.5,0.9188749999999999,high,high
+RISat-2,34807.0,Ministry of Defense,Earth Observation,LEO,421.0,0.8041249999999999,high,medium
+Rising-2,39769.0,Tohoku University/Hokkaido University,Earth Observation,LEO,627.5,0.8200377906976744,high,high
+Cosmos 2416,28908.0,Ministry of Defense,Communications,LEO,1442.0,0.702625,medium,medium
+Cosmos 2437,32954.0,Ministry of Defense,Communications,LEO,1495.5,0.662625,medium,medium
+Cosmos 2438,32955.0,Ministry of Defense,Communications,LEO,1493.0,0.662625,medium,medium
+Cosmos 2439,32956.0,Ministry of Defense,Communications,LEO,1494.0,0.662625,medium,medium
+Cosmos 2451,35498.0,Ministry of Defense,Communications,LEO,1503.5,0.633,medium,medium
+Cosmos 2453,35500.0,Ministry of Defense,Communications,LEO,1500.5,0.633,medium,medium
+Cosmos 2467,37152.0,Ministry of Defense,Communications,LEO,1494.5,0.662625,medium,medium
+Cosmos 2468,37154.0,Ministry of Defense,Communications,LEO,1494.5,0.662625,medium,medium
+Cosmos 2481,38733.0,Ministry of Defense,Communications,LEO,1496.5,0.662625,medium,medium
+Cosmos 2482,39057.0,Ministry of Defense,Communications,LEO,1494.5,0.662625,medium,medium
+Cosmos 2483,39058.0,Ministry of Defense,Communications,LEO,1494.5,0.662625,medium,medium
+Cosmos 2484,39059.0,Ministry of Defense,Communications,LEO,1494.5,0.662625,medium,medium
+Cosmos 2488,39483.0,Ministry of Defense,Communications,LEO,1493.5,0.662625,medium,medium
+Cosmos 2489,39484.0,Ministry of Defense,Communications,LEO,1492.0,0.662625,medium,medium
+Cosmos 2490,39485.0,Ministry of Defense,Communications,LEO,1496.5,0.662625,medium,medium
+Cosmos 2496,39761.0,Ministry of Defense,Communications,LEO,1495.5,0.662625,medium,medium
+Cosmos 2497,39762.0,Ministry of Defense,Communications,LEO,1494.0,0.662625,medium,medium
+Cosmos 2498,39763.0,Ministry of Defense,Communications,LEO,1493.0,0.662625,medium,medium
+Cosmos 2507,40920.0,Ministry of Defense,Communications,LEO,1501.5,0.633,medium,medium
+Cosmos 2508,40921.0,Ministry of Defense,Communications,LEO,1500.0,0.662625,medium,medium
+Cosmos 2509,40922.0,Ministry of Defense,Communications,LEO,1503.0,0.633,medium,medium
+Cosmos 2499,39765.0,Ministry of Defense,Technology Development,LEO,1327.5,0.702625,medium,medium
+Rumba,26463.0,European Space Agency (and 250 international scientific investigators),Space Science,Elliptical,68977.5,0.3395261627906977,low,low
+Salsa,26410.0,European Space Agency (and 250 international scientific investigators),Space Science,Elliptical,66127.0,0.3395261627906977,low,low
+Samba,26411.0,European Space Agency (and 250 international scientific investigators),Space Science,Elliptical,66404.0,0.3395261627906977,low,low
+SAMSAT 218D,41466.0,Samara State Aerospace University,Technology Development,LEO,476.5,0.6064505813953489,medium,medium
+Sapphire,39088.0,Department of National Defense,Space Observation,LEO,779.5,0.5907877906976745,medium,medium
+SARAL,39086.0,Indian Space Research Organization (ISRO)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,783.5,0.6919505813953488,medium,medium
+SAR-Lupe 1,29658.0,Armed Forces,Earth Observation,LEO,486.5,0.6734273255813952,medium,medium
+SAR-Lupe 2,31797.0,Armed Forces,Earth Observation,LEO,486.5,0.6734273255813952,medium,medium
+SAR-Lupe 3,32283.0,Armed Forces,Earth Observation,LEO,484.5,0.6734273255813952,medium,medium
+SAR-Lupe 4,32750.0,Armed Forces,Earth Observation,LEO,467.0,0.6734273255813952,medium,medium
+SAR-Lupe 5,33244.0,Armed Forces,Earth Observation,LEO,488.0,0.6734273255813952,medium,medium
+Sathyabamasat,41600.0,Sathyabama University/IRSO,Earth Science,LEO,509.0,0.7200377906976745,medium,medium
+Saudicomsat-1,28369.0,Riyadh Space Research Institute,Technology Development,LEO,722.0,0.7293401162790698,high,high
+Saudicomsat-2 ,28370.0,Riyadh Space Research Institute,Technology Development,LEO,738.0,0.7293401162790698,high,high
+Saudicomsat-3,31125.0,Riyadh Space Research Institute,Communications,LEO,683.0,0.9093401162790697,high,high
+Saudicomsat-4,31127.0,Riyadh Space Research Institute,Communications,LEO,697.5,0.9093401162790697,high,high
+Saudicomsat-5,31124.0,Riyadh Space Research Institute,Communications,LEO,688.0,0.9093401162790697,high,high
+Saudicomsat-6,31121.0,Riyadh Space Research Institute,Communications,LEO,703.0,0.9093401162790697,high,high
+Saudicomsat-7,31119.0,Riyadh Space Research Institute,Communications,LEO,693.0,0.9093401162790697,high,high
+Saudisat 1C,27607.0,"Space Research Institute, King Abdulaziz City for Science and Technology",Communications,LEO,652.5,0.9012005813953489,high,high
+Saudisat-2 ,28371.0,Riyadh Space Research Institute,Earth Observation,LEO,715.0,0.8293401162790697,high,high
+Saudisat-3,31118.0,Riyadh Space Research Institute,Earth Observation,LEO,666.5,0.8293401162790697,high,high
+Saudisat-4,40016.0,"Space Research Institute, King Abdulaziz City for Science and Technology",Space Science,LEO,647.5,0.7212005813953489,medium,medium
+USA 230,37481.0,US Air Force,Earth Observation,GEO,35786.5,0.34976744186046516,low,low
+USA 241,39120.0,US Air Force,Earth Observation,GEO,35780.0,0.34976744186046516,low,low
+USA 216,37168.0,Strategic Space Command/Space Surveillance Network,Space Observation,LEO,632.5,0.7200377906976745,medium,medium
+USA 181,28537.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1110.0,0.6958779069767441,medium,medium
+USA 181,28541.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1109.5,0.6958779069767441,medium,medium
+USA 194,31701.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1107.5,0.6958779069767441,medium,medium
+USA 194,31708.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1108.5,0.6958779069767441,medium,medium
+USA 229,37386.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1112.0,0.6958779069767441,medium,medium
+USA 229,37391.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1107.5,0.6958779069767441,medium,medium
+USA 238,38758.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1107.5,0.6958779069767441,medium,medium
+USA 238,38773.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1107.5,0.6958779069767441,medium,medium
+USA 264,40964.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1056.5,0.6958779069767441,medium,medium
+USA 264,40981.0,National Reconnaissance Office/US Navy,Earth Observation,LEO,1056.5,0.6958779069767441,medium,medium
+SCD-1,22491.0,Instituto Nacional de Pesquisas Espaciais (INPE),Earth Observation,LEO,746.0,0.7812005813953488,high,high
+SCD-2,25504.0,Instituto Nacional de Pesquisas Espaciais (INPE),Earth Observation,LEO,747.5,0.7812005813953488,high,high
+Scisat-1,27858.0,Canadian Space Agency,Space Science,LEO,643.5,0.7235261627906977,high,high
+S-Cube,40898.0,"Planetary Exploration Research Center (PERC) of the Chiba Institute of Technology, Tohoku University",Technology Development,LEO,402.5,0.6052877906976745,medium,medium
+SDO,36395.0,National Aeronautics and Space Administration (NASA),Space Science,GEO,35785.0,0.24860465116279068,low,low
+USA 179,28384.0,National Reconnaissance Office (NRO)/US Air Force,Communications,Elliptical,20175.0,0.5266889534883721,medium,medium
+USA 198,32378.0,National Reconnaissance Office (NRO)/US Air Force,Communications,Elliptical,20183.0,0.5266889534883721,medium,medium
+USA 227,37377.0,National Reconnaissance Office (NRO)/US Air Force,Communications,GEO,35786.5,0.45581395348837206,medium,medium
+USA 236,38466.0,National Reconnaissance Office (NRO)/US Air Force,Communications,GEO,35788.0,0.45581395348837206,medium,medium
+USA 252,39751.0,National Reconnaissance Office (NRO)/US Air Force,Communications,GEO,35500.0,0.27731395348837207,low,low
+SDS-4,38339.0,Japan Aerospace Exploration Agency (JAXA),Technology Development,LEO,667.0,0.6870145348837209,medium,medium
+SEEDS 2,32791.0,Nihon University,Technology Development,LEO,617.0,0.7212005813953489,medium,medium
+Sentinel 1A,39634.0,EUMETSAT,Earth Observation,LEO,692.0,0.7835261627906975,high,high
+Sentinel 1B,41456.0,EUMETSAT,Earth Observation,LEO,696.0,0.7835261627906975,high,high
+Sentinel 2A,40697.0,EUMETSAT,Earth Observation,LEO,787.5,0.7742761627906976,high,high
+Sentinel 3A,41335.0,EUMETSAT,Earth Observation,LEO,803.0,0.6942761627906976,medium,medium
+SES-1,36516.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35787.0,0.42046511627906974,low,low
+SES-2,37809.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35788.0,0.42046511627906974,low,low
+SES-3,37748.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35851.0,0.5004651162790698,medium,medium
+SES-4,38087.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.5,0.42046511627906974,low,low
+SES-5,38652.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35787.0,0.5004651162790698,medium,medium
+SES-6,39172.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.5,0.42046511627906974,low,low
+SES-7,34941.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.5,0.5004651162790698,medium,medium
+SES-8,39460.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.0,0.42046511627906974,low,low
+SES-9,41380.0,SES World Skies (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35789.0,0.5004651162790698,medium,medium
+Shijian 11 01,36088.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,694.5,0.7125959302325582,medium,medium
+Shijian 11 02,37765.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,695.0,0.7525959302325582,high,high
+Shijian 11 03,37730.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,695.5,0.7525959302325582,high,high
+Shijian 11 05,39202.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,696.5,0.7525959302325582,high,high
+Shijian 11 06,39624.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,696.0,0.7525959302325582,high,high
+Shijian 11 07,40261.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,696.0,0.7525959302325582,high,high
+Shijian 11 08,40286.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,697.5,0.7525959302325582,high,high
+Shijian 12,36596.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,592.0,0.7525959302325582,high,medium
+Shijian 15,39210.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,667.0,0.7525959302325582,high,high
+Shijian 16 01,39358.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,607.5,0.7525959302325582,high,high
+Shijian 16 02,41634.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,466.0,0.6378459302325582,medium,medium
+Shijian 6A,28413.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,592.5,0.7125959302325582,medium,medium
+Shijian 6B,28414.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,592.5,0.7125959302325582,medium,medium
+Shijian 6C,29505.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,592.5,0.7525959302325582,high,high
+Shijian 6D,29506.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,594.5,0.8325959302325582,high,high
+Shijian 6E,33408.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,594.0,0.7125959302325582,medium,medium
+Shijian 6F,33409.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,590.5,0.7125959302325582,medium,medium
+Shijian 6G,37179.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,593.5,0.8525959302325581,high,high
+Shijian 6H,37180.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,594.0,0.8525959302325581,high,high
+Shijian 7,28737.0,Chinese Academy of Space Technology (CAST),Space Science,LEO,562.5,0.7125959302325582,medium,medium
+Shijian 9A,38860.0,Shanghai Academy of Space Technology (CAST),Technology Development,LEO,636.5,0.7212005813953489,medium,medium
+Shijian 9B,38861.0,Shanghai Academy of Space Technology (CAST),Technology Development,LEO,637.5,0.7212005813953489,medium,medium
+Shiyan 1,28220.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,593.5,0.8525959302325581,high,high
+Shiyan 3,33433.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,794.0,0.7633459302325581,high,high
+Shiyan 4,37931.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,793.0,0.7633459302325581,high,high
+Shiyan 5,39455.0,Chinese Academy of Space Technology (CAST),Earth Observation,LEO,747.0,0.8525959302325581,high,high
+Shiyan 7,39208.0,Chinese Academy of Space Technology (CAST),Technology Development,LEO,670.0,0.7525959302325582,high,high
+Sicral 1A,26694.0,Italian Defense Ministry,Communications,GEO,35785.5,0.4111627906976744,low,low
+Sicral 1B,34810.0,Italian Defense Ministry/Telespazio,Communications,GEO,35795.0,0.4111627906976744,low,low
+Sicral 2/Syracuse 3C,40614.0,Italian Defense Ministry/French Defense Ministry,Communications,GEO,35785.0,0.4111627906976744,low,low
+Sinah-1,28893.0,Iranian Research Organization for Science and Technology (IROST),Communications,LEO,692.0,0.8600377906976744,high,high
+SINOD D-1,40974.0,SRI International,Technology Demonstration,LEO,647.0,0.7212005813953489,medium,medium
+SINOD D-3,40977.0,SRI International,Technology Demonstration,LEO,647.0,0.7212005813953489,medium,medium
+Sinosat-6,37150.0,China Direct Broadcast Satellite co.,Communications,GEO,35795.0,0.49116279069767443,medium,medium
+Sirius-1 (SD Radio 1),26390.0,Sirius XM Holdings,Communications,Elliptical,35441.5,0.5184767441860465,medium,medium
+Sirius 2 (SD Radio 2),26483.0,Sirius XM Holdings,Communications,Elliptical,29948.5,0.5173517441860466,medium,medium
+Sirius 3 (SD Radio 3),26626.0,Sirius XM Holdings,Communications,Elliptical,26632.5,0.5173517441860466,medium,medium
+Sirius 4,32299.0,SES Sirius AB,Communications,GEO,35785.5,0.4111627906976744,low,low
+Sirius FM-5,35493.0,Sirius XM Holdings,Communications,GEO,35786.0,0.41697674418604647,low,low
+Sirius FM-6,39360.0,Sirius XM Holdings,Communications,GEO,35788.0,0.4969767441860465,medium,medium
+Sirius XM-5,37185.0,Sirius XM Holdings,Communications,GEO,35787.0,0.41697674418604647,low,low
+Sky Mexico-1,40664.0,Sky Mexico,Communications,GEO,35794.0,0.4111627906976744,low,low
+Skynet 4C,20776.0,Intelsat/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35786.0,0.4111627906976744,low,low
+Skynet 4E,25639.0,Ministry of Defence,Communications,GEO,35785.5,0.4123255813953488,low,low
+Skynet 4F,26695.0,Ministry of Defence,Communications,GEO,35787.0,0.4123255813953488,low,low
+Skynet 5A,30794.0,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35786.5,0.41465116279069764,low,low
+Skynet 5B,32294.0,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35751.5,0.41465116279069764,low,low
+Skynet 5C,33055.0,Ministry of Defence/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35786.5,0.4511627906976744,medium,medium
+Skynet 5D,39034.0,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35789.5,0.49465116279069765,medium,medium
+SkySat-1,39418.0,Terra Bella,Earth Observation,LEO,583.0,0.8223633720930231,high,high
+SkySat-2,40072.0,Terra Bella,Earth Observation,LEO,630.0,0.8223633720930231,high,high
+SkySat-3,41601.0,Terra Bella,Earth Observation,LEO,507.5,0.8223633720930231,high,high
+SkyTerra 1,37218.0,LightSquared,Communications,GEO,35786.5,0.4111627906976744,low,low
+USA 119,23893.0,National Reconnaissance Office (NRO),Communications,Elliptical,6400.0,0.5747936046511628,medium,medium
+SMAP,40376.0,National Aeronautics and Space Administration (NASA),Earth Observation,LEO,673.0,0.7974796511627906,high,high
+SMDC-ONE 1.1,38766.0,US Army Space and Missile Defense Command,Technology Development,LEO,643.0,0.7270145348837209,high,high
+SMDC-ONE 1.2,38759.0,US Army Space and Missile Defense Command,Technology Development,LEO,636.0,0.7270145348837209,high,high
+SMDC-ONE 2.3,39474.0,US Army Space and Missile Defense Command,Technology Development,LEO,664.5,0.7270145348837209,high,high
+SMDC-ONE 2.4,39472.0,US Army Space and Missile Defense Command,Technology Development,LEO,664.5,0.7270145348837209,high,high
+SMOS,36036.0,Centre National d'Etudes Spatiales (CNES)/European Space Agency,Earth Observation,LEO,759.5,0.7707877906976743,high,high
+SNaP-3 Alice,40970.0,US Army Space and Missile Defense Command,Technology Development,LEO,648.0,0.7270145348837209,high,high
+SNaP-3 Eddie,40972.0,US Army Space and Missile Defense Command,Technology Development,LEO,648.5,0.7270145348837209,high,high
+SNaP-3 Jimi,40975.0,US Army Space and Missile Defense Command,Technology Development,LEO,648.0,0.7270145348837209,high,high
+SNaP-3-1,39468.0,US Southern Command,Communications,LEO,664.5,0.9000377906976744,high,high
+SOCRATES,39768.0,National Institute of Information and Communications Technology (JPN),Technology Development,LEO,623.5,0.7200377906976745,medium,medium
+SOHLA 1,33496.0,Astrotech SOHLA,Technology Development,LEO,661.0,0.7200377906976745,medium,medium
+SOlar Radiation and Climate Experiment (SORCE),27651.0,"NASA Earth Science Office/Laboratory for Atmospheric and Space Physics, Univ. of Colorado",Space Science,LEO,616.5,0.6800377906976744,medium,medium
+Spaceway 3,32018.0,Hughes Network Systems,Communications,GEO,35786.0,0.49116279069767443,medium,medium
+Spaceway F1,28644.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.5027906976744186,medium,medium
+Spaceway F2,28903.0,"DirecTV, Inc.",Communications,GEO,35786.0,0.5027906976744186,medium,medium
+Spainsat,28946.0,Hisdesat/Ministry of Defense,Communications,GEO,35785.5,0.4511627906976744,medium,medium
+Spektr-R/RadioAstron,37755.0,Astro Space Center of Moscow/Russian Academy of Sciences,Space Science,LEO,165500.0,0.43603779069767445,low,low
+SpinSat,40314.0,US Naval Research Laboratory,Technology Development,LEO,412.5,0.6052877906976745,medium,medium
+SPIRALE-A,33751.0,Ministry of Defense/General Delegation for Ordnance (DGA),Technology Development,Elliptical,15791.0,0.37270058139534884,low,low
+SPIRALE-B,33752.0,Ministry of Defense/General Delegation for Ordnance (DGA),Technology Development,Elliptical,8934.5,0.37270058139534884,low,low
+Spot 6,38755.0,Spot Image,Earth Observation,LEO,697.5,0.7812005813953488,high,high
+Spot 7,40053.0,Spot Image,Earth Observation,LEO,651.5,0.7812005813953488,high,high
+SPROUT,39770.0,Nihon University,Technology Development,LEO,621.5,0.7212005813953489,medium,medium
+SRMSat,37841.0,SRM University,Technology Development,LEO,859.0,0.5907877906976745,medium,medium
+SSOT,38011.0,Chilean Air Force,Earth Observation,LEO,623.0,0.8200377906976744,high,high
+ST-2,37606.0,Singapore Telecommunications Ltd. (SingTel)/Chunghwa Telecom Co. Ltd.,Communications,GEO,35787.0,0.49116279069767443,medium,medium
+Star 1 C1,32293.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35740.5,0.2460145348837209,low,low
+Star 1 C2,32768.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35786.0,0.4581395348837209,medium,medium
+Star 1 C3,38991.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35819.5,0.4181395348837209,low,low
+Star 1 C4,40733.0,Star One (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35793.5,0.4181395348837209,low,low
+STARE-B,39397.0,National Reconaissance Office,Space Science,LEO,503.0,0.7200377906976745,medium,medium
+USA 217,37222.0,USAF Space Test Program,Technology Development,LEO,650.0,0.6800377906976744,medium,medium
+STPSat-3,39380.0,US Air Force,Technology Development,LEO,502.0,0.6986424418604651,medium,medium
+STRaND-1,39090.0,Surrey Satellite Technology Limited (SSTL),Technology Development,LEO,777.5,0.6307877906976745,medium,medium
+Cosmos 2385,27056.0,Ministry of Defense,Communications,LEO,1421.0,0.662625,medium,medium
+Cosmos 2386,27057.0,Ministry of Defense,Communications,LEO,1417.0,0.662625,medium,medium
+Cosmos 2390,27464.0,Ministry of Defense,Communications,LEO,1487.0,0.662625,medium,medium
+Cosmos 2391,27465.0,Ministry of Defense,Communications,LEO,1486.0,0.662625,medium,medium
+Cosmos 2400,27868.0,Ministry of Defense,Communications,LEO,1485.0,0.662625,medium,medium
+Cosmos 2401,27869.0,Ministry of Defense,Communications,LEO,1483.5,0.662625,medium,medium
+Cosmos 2408,28419.0,Ministry of Defense,Communications,LEO,1483.0,0.662625,medium,medium
+Cosmos 2409,28420.0,Ministry of Defense,Communications,LEO,1484.5,0.662625,medium,medium
+STSat-2C,39068.0,Korea Aerospace Research Institute (KARI),Technology Development,LEO,890.0,0.6777645348837209,medium,medium
+STSat-3,39422.0,Korea Aerospace Research Institute (KARI),Technology Development,LEO,609.5,0.6870145348837209,medium,medium
+USA 205,34903.0,Missile Defense Agency (MDA),Technology Development,LEO,873.0,0.6331133720930233,medium,medium
+USA 208,35937.0,Missile Defense Agency (MDA),Technology Development,LEO,1349.5,0.5661133720930233,medium,medium
+USA 209,35938.0,Missile Defense Agency (MDA),Technology Development,LEO,1345.0,0.5661133720930233,medium,medium
+Superbird 7,33274.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.0,0.423953488372093,low,low
+Superbird-B2,26095.0,Sky Perfect JSAT Corporation,Communications,GEO,35786.0,0.423953488372093,low,low
+Suzaku,28773.0,Japan Aerospace Exploration Agency (JAXA)/NASA,Space Science,LEO,553.0,0.6800377906976744,medium,medium
+Swayam,41607.0,"College of Engineering, Pune",Technology Development,LEO,509.0,0.7200377906976745,medium,medium
+SWARM-A,39452.0,European Space Agency (ESA),Earth Observation,LEO,474.5,0.6722645348837207,medium,medium
+SWARM-B,39451.0,European Space Agency (ESA),Earth Observation,LEO,474.5,0.6722645348837207,medium,medium
+SWARM-C,39453.0,European Space Agency (ESA),Earth Observation,LEO,491.0,0.6722645348837207,medium,medium
+Swift,28485.0,Goddard Space Flight Center/Penn State University,Space Science,LEO,580.5,0.6800377906976744,medium,medium
+SwissCube,35932.0,Ecole Polytechnique Fédérale de Lausanne (EPFL),Technology Development,LEO,715.0,0.6800377906976744,medium,medium
+Syracuse 3A,28885.0,Defense Ministry,Communications,GEO,35785.0,0.41348837209302325,low,low
+Syracuse 3B,29273.0,Defense Ministry,Communications,GEO,35786.5,0.41348837209302325,low,low
+TacSat 4,37818.0,Naval Research Laboratory,Technology Development,Elliptical,6247.0,0.37153779069767445,low,low
+TacSat 6,39473.0,Operational Responsive Space (ORS) Office,Technology Development,LEO,664.5,0.7200377906976745,medium,medium
+TanDEM-X,36605.0,German Aerospace Center (DLR)/Astrium,Earth Observation,LEO,508.5,0.7800377906976743,high,high
+Tango,26464.0,European Space Agency (and 250 international scientific investigators),Space Science,Elliptical,69137.0,0.3395261627906977,low,low
+TDRS-10,27566.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35785.0,0.4286046511627907,low,low
+TDRS-11,39070.0,National Aeronautics and Space Administration (NASA)/Goddard Space Flight Center,Communications,GEO,35788.0,0.4111627906976744,low,low
+TDRS-12,39504.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35782.5,0.5086046511627906,medium,medium
+TDRS-3,19548.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35785.5,0.4286046511627907,low,low
+TDRS-5,21639.0,SES Americom (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35784.5,0.4111627906976744,low,low
+TDRS-6,22314.0,NASA/SES Americom (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35780.0,0.4111627906976744,low,low
+TDRS-7,23613.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35785.0,0.4286046511627907,low,low
+TDRS-8,26388.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35788.0,0.4286046511627907,low,low
+TDRS-9,27389.0,National Aeronautics and Space Administration (NASA),Communications,GEO,35788.5,0.4286046511627907,low,low
+TechDemoSat-1,40076.0,Technology Strategy Board,Technology Development,LEO,628.0,0.7200377906976745,medium,medium
+TecSAR,32476.0,Defense Ministry,Earth Observation,LEO,492.5,0.7076133720930231,medium,medium
+TeLEOS 1,41169.0,AgilSpace,Earth Observation,LEO,542.5,0.7800377906976743,high,high
+Telkom 1,25880.0,PT Telkomunikasi,Communications,GEO,35787.0,0.4123255813953488,low,low
+Telkom 2,28902.0,PT Telkomunikasi,Communications,GEO,35787.0,0.4123255813953488,low,low
+Telstar 11N,34111.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35787.5,0.4216279069767442,low,low
+Telstar 12,25949.0,Eutelsat -- leased from Loral Skynet Satellite Services (Loral Global Alliance) ,Communications,GEO,35786.0,0.4111627906976744,low,low
+Telstar 12V,41036.0,"Telesatd Canada Ltd. (BCE, Inc.)",Communications,GEO,35686.0,0.2390377906976744,low,low
+Telstar 14R,37602.0,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35787.0,0.5016279069767442,medium,medium
+Telstar 18,28364.0,Loral Skynet Satellite Services (Loral Global Alliance)/APT Satellite Holdings Ltd.,Communications,GEO,35786.5,0.4111627906976744,low,low
+TerraSAR X 1,31698.0,German Aerospace Center (DLR)/Infoterra,Earth Observation,LEO,508.0,0.7800377906976743,high,high
+TerraStar 1,35496.0,TerraStar Corporation,Communications,GEO,35787.0,0.49116279069767443,medium,medium
+TET-1,38710.0,German Aerospace Center,Technology Development,LEO,503.0,0.6800377906976744,medium,medium
+Thaicom-4,28786.0,Thaicom Public Company Ltd. ,Communications,GEO,35786.5,0.41465116279069764,low,low
+Thaicom-5,29163.0,Thaicom Public Company Ltd. ,Communications,GEO,35786.5,0.41465116279069764,low,low
+Thaicom-6,39500.0,Thaicom Public Company Ltd. ,Communications,GEO,35791.0,0.41465116279069764,low,low
+Thaicom-8,41552.0,Thaicom Public Company Ltd. ,Communications,GEO,35866.5,0.41465116279069764,low,low
+THEMIS A,30580.0,"NASA/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,43882.5,0.3383633720930233,low,low
+THEMIS D,30797.0,"NASA/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,43863.5,0.3383633720930233,low,low
+THEMIS E,30798.0,"NASA/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,44000.0,0.3383633720930233,low,low
+Theos,33396.0,Geo-Informatics and Space Technology Development Agency (GISTDA),Earth Observation,LEO,825.0,0.6907877906976744,medium,medium
+Thor-3,25358.0,Telenor Satellite Broadcasting,Communications,GEO,35786.0,0.41465116279069764,low,low
+Thor-5 ,32487.0,Telenor Satellite Broadcasting,Communications,GEO,35785.5,0.41465116279069764,low,low
+Thor-6,36033.0,Telenor Satellite Broadcasting,Communications,GEO,35786.5,0.41465116279069764,low,low
+Thor-7,40613.0,Telenor Satellite Broadcasting,Communications,GEO,35734.0,0.24252616279069766,low,low
+Thuraya 2,27825.0,Thuraya Satellite Communications,Communications,GEO,35785.5,0.4123255813953488,low,low
+Thuraya 3,32404.0,Thuraya Satellite Communications,Communications,GEO,35786.5,0.4123255813953488,low,low
+Tiangong-1,37820.0,   Beijing Aerospace Flight Control Center,Technology Development,LEO,360.5,0.6452877906976744,medium,medium
+Tianhui 1-01,36985.0,China Aerospace Science and Technology Corporation (CASTC),Earth Observation,LEO,496.0,0.709938953488372,medium,medium
+Tianhui 1-02,38256.0,China Aerospace Science and Technology Corporation (CASTC),Earth Observation,LEO,495.0,0.709938953488372,medium,medium
+Tianhui 1-03,40988.0,China Aerospace Science and Technology Corporation (CASTC),Earth Observation,LEO,494.5,0.709938953488372,medium,medium
+TianLian 1,32779.0,Chinese Academy of Space Technology (CAST),Communications,GEO,35791.0,0.4837209302325581,medium,medium
+TianLian 2,37737.0,Chinese Academy of Space Technology (CAST),Communications,GEO,37786.0,0.3044709302325581,low,medium
+TianLian 3 ,38730.0,Chinese Academy of Space Technology (CAST),Communications,GEO,35785.0,0.4837209302325581,medium,medium
+Tiantuo-2,40144.0,National University of Defense Technology,Earth Observation/Communications,LEO,485.0,0.8911017441860466,high,high
+Tiantuo-3,40899.0,National University of Defense Technology,Technology Development,LEO,457.0,0.6111017441860466,medium,medium
+TW-1A,40928.0,Shanghai Engineering Center for Microsatellites,Technology Development,LEO,475.0,0.6052877906976745,medium,medium
+TW-1B,40927.0,Nanjing University of Aeronautics and Astronautics,Technology Development,LEO,475.5,0.6064505813953489,medium,medium
+TW-1C,40926.0,Nanjing University of Aeronautics and Astronautics,Technology Development,LEO,476.0,0.6064505813953489,medium,medium
+TIGRISat,40043.0,La Sapienza University of Rome,Earth Observation,LEO,654.5,0.8200377906976744,high,high
+TIMED,26998.0,"NASA/Applied Physics Laboratory, Johns Hopkins",Space Science,LEO,612.5,0.7600377906976744,high,high
+TISat-1,36799.0,Scuola Universitaria Professionale della Svizzera Italiana - Dipartimento Tecnologie Innovative ,Technology Development,LEO,621.0,0.7200377906976745,medium,medium
+TJS-1,40892.0,Chinese Academy of Space Technology,Technology Development,GEO,35785.5,0.2723255813953488,low,low
+TKSat-1,39481.0,Bolivia Aerospace Bureau,Communications,GEO,35786.0,0.4511627906976744,medium,medium
+USA 136,25034.0,National Reconnaissance Office (NRO)/USAF,Earth Observation,Elliptical,19975.0,0.4757761627906976,medium,medium
+Cosmos 2428,31792.0,Ministry of Defense,Earth Observation,LEO,851.0,0.829625,high,high
+TSUBAME,40302.0,"Tokyo Institute of Technology, Tokyo University of Science and JAXA",Earth Observation,LEO,537.0,0.8200377906976744,high,high
+TUGSat-1,39091.0,Technical University of Graz,Technology Development,LEO,777.0,0.6307877906976745,medium,medium
+Turkmen Alem 52E/MonacoSAT,40617.0,Turkmenistan Ministry of Communications/SSI-Monaco,Communications,GEO,35719.5,0.2390377906976744,low,low
+Turksat 3A,33056.0,Turksat,Communications,GEO,35785.5,0.45348837209302323,medium,low
+Turksat 4A,39522.0,Turksat,Communications,GEO,35786.5,0.41348837209302325,low,low
+Turksat 4B,40984.0,Turksat,Communications,GEO,35796.0,0.41348837209302325,low,low
+USA 146,25967.0,US Navy,Communications,GEO,35786.0,0.41930232558139535,low,low
+USA 174,28117.0,US Navy,Communications,GEO,35786.5,0.4993023255813953,medium,medium
+USA 95,22787.0,US Navy,Communications,GEO,35786.5,0.45930232558139533,medium,medium
+USA 108,23467.0,US Navy,Communications,GEO,35769.0,0.41930232558139535,low,low
+USA 114,23696.0,US Navy,Communications,GEO,35786.5,0.41930232558139535,low,low
+USA 127,23967.0,US Navy,Communications,GEO,35786.5,0.41930232558139535,low,low
+USA 138,25258.0,US Navy,Communications,GEO,35783.0,0.41930232558139535,low,low
+UK-DMC-2,35683.0,UK/DMC International Imaging (DMCII),Earth Observation,LEO,661.0,0.7800377906976743,high,high
+Ukube-1,40074.0,UK Space Agency,Technology Development,LEO,628.5,0.7200377906976745,medium,medium
+UNIFORM 1,39767.0,Wakayama University (UNIFORM consortium),Earth Observation,LEO,625.5,0.8200377906976744,high,high
+UWE-3,39446.0,University of Würzburg,Communications,LEO,646.5,0.9000377906976744,high,high
+RBSP-A,38752.0,NASA/Johns Hopkins University Applied Physics Laboratory,Earth Observation,Elliptical,15562.5,0.4730755813953488,medium,medium
+RBSP-B,38753.0,NASA/Johns Hopkins University Applied Physics Laboratory,Earth Observation,Elliptical,15626.0,0.4730755813953488,medium,medium
+Velox 1,40057.0,Nanyang Technological University,Technology Development,LEO,648.5,0.7223633720930233,high,high
+Velox 2,41171.0,Nanyang Technological University,Technology Development,LEO,543.5,0.7223633720930233,high,high
+Velox C1,41166.0,Nanyang Technological University,Technology Development,LEO,541.5,0.7223633720930233,high,medium
+VeneSat 1,33414.0,Ministry of Science and Technology,Communications,GEO,35786.5,0.4111627906976744,low,low
+Vesselsat-1,37840.0,ORBCOMM Inc.,Communications,LEO,857.0,0.8607877906976744,high,high
+Vesselsat-2,38047.0,ORBCOMM Inc.,Communications,LEO,484.5,0.8352877906976743,high,high
+ViaSat-1,37843.0,"ViaSat, Inc.",Communications,GEO,35785.5,0.4111627906976744,low,low
+Vinasat 1,32767.0,Vietnamese Posts and Telecommunications Group (VNPT),Communications,GEO,35786.5,0.4123255813953488,low,low
+Vinasat 2,38332.0,Vietnamese Posts and Telecommunications Group (VNPT),Communications,GEO,35759.0,0.4123255813953488,low,low
+VNREDSat 1A,39160.0,Space Technology Institute-Vietnam Academy of Science and Technology (STI-VAST),Earth Observation,LEO,683.5,0.7800377906976743,high,high
+VRSS-1,38782.0,Bolivarian Agency for Space Activities,Earth Observation,LEO,638.0,0.7800377906976743,high,high
+USA 195,32258.0,Military Satellite Communications - US Air Force,Communications,GEO,35786.5,0.5381395348837209,medium,medium
+USA 204,34713.0,Military Satellite Communications - US Air Force,Communications,GEO,35786.5,0.5381395348837209,medium,medium
+USA 211,36108.0,Military Satellite Communications - US Air Force,Communications,GEO,35785.5,0.5381395348837209,medium,medium
+USA 233,38070.0,Military Satellite Communications - US Air Force,Communications,GEO,35785.5,0.5381395348837209,medium,medium
+USA 243,39168.0,Military Satellite Communications - US Air Force,Communications,GEO,35785.5,0.5381395348837209,medium,medium
+USA 244,39222.0,Military Satellite Communications - US Air Force,Communications,GEO,35785.5,0.5381395348837209,medium,medium
+USA 263,40746.0,Military Satellite Communications - US Air Force,Communications,GEO,36000.0,0.4581395348837209,medium,medium
+WildBlue 1,29643.0,WildBlue Communications,Communications,GEO,35786.0,0.4111627906976744,low,low
+WNISat-1,39423.0,"Weathernews, Inc.",Earth Observation,LEO,721.5,0.7800377906976743,high,high
+Worldview 1,32060.0,DigitalGlobe Corporation,Earth Observation,LEO,492.5,0.6676133720930231,medium,medium
+Worldview 2,35946.0,DigitalGlobe Corporation,Earth Observation,LEO,766.0,0.7331133720930232,high,high
+Worldview 3,40115.0,DigitalGlobe Corporation,Earth Observation,LEO,613.0,0.7823633720930231,high,high
+Wren,39435.0,StaKoDo UG,Technology Development,LEO,616.5,0.7200377906976745,medium,medium
+USA 261,40651.0,US Air Force,Technology Development,LEO,315.5,0.6238924418604651,medium,medium
+XC-1,40918.0,National University of Defense Technology,Technology Development,LEO,530.0,0.7258517441860466,high,high
+XC-2,40915.0,National University of Defense Technology,Technology Development,LEO,530.0,0.7258517441860466,high,high
+XC-3,40916.0,National University of Defense Technology,Technology Development,LEO,530.0,0.7258517441860466,high,high
+XC-4,40917.0,National University of Defense Technology,Technology Development,LEO,530.0,0.7258517441860466,high,high
+Xinyan 1,38999.0,DFH Satellite,Technology Development,LEO,495.0,0.6052877906976745,medium,medium
+XM 3,28626.0,XM Satellite Radio USA,Communications,GEO,35786.0,0.4923255813953488,medium,medium
+XM 4,29520.0,XM Satellite Radio USA,Communications,GEO,35785.5,0.4923255813953488,medium,medium
+XMM Newton,25989.0,European Space Operations Centre (ESOC),Space Science,Elliptical,60553.0,0.3360377906976745,low,low
+X-Sat,37389.0,Centre for Research in Satellite Technology (CREST),Earth Observation,LEO,812.0,0.6907877906976744,medium,medium
+XTAR-EUR,28542.0,Ministry of Defense/XTAR,Communications,GEO,35785.0,0.4111627906976744,low,low
+XW-1,36122.0,DFH Satellite/AMSAT-China,Communications,LEO,1199.0,0.7654127906976744,high,high
+XW-2A,40903.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,526.5,0.9058517441860465,high,high
+XW-2B,40911.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,529.5,0.9058517441860465,high,high
+XW-2C,40906.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,528.5,0.9058517441860465,high,high
+XW-2D,40907.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,529.5,0.9058517441860465,high,high
+XW-2E,40909.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,528.5,0.9058517441860465,high,high
+XW-2F,40910.0,Chinese Amateur Satellite (CAMSAT),Communications,LEO,530.0,0.9058517441860465,high,high
+Yahsat-1A,37393.0,Al Yah Satellite Communications Company (YAHSAT),Communications,GEO,35783.0,0.4123255813953488,low,low
+Yahsat-1B,38245.0,Al Yah Satellite Communications Company (YAHSAT),Communications,GEO,35785.5,0.4523255813953488,medium,medium
+Yamal-202,28089.0,Gazprom Space Systems,Communications,GEO,35785.0,0.41348837209302325,low,low
+Yamal-300K,38978.0,Gaxprom Space Systems,Communications,GEO,35780.0,0.4511627906976744,medium,medium
+Yamal-401,40345.0,Gazprom Space Systems,Communications,GEO,35791.5,0.41348837209302325,low,low
+Yamal-402,39022.0,Gazprom Space Systems,Communications,GEO,35786.5,0.49348837209302326,medium,medium
+Yaogan 10,36834.0,People's Liberation Army (C41),Earth Observation,LEO,626.5,0.8642238372093023,high,high
+Yaogan 11,37165.0,People's Liberation Army (C41),Earth Observation,LEO,647.0,0.8642238372093023,high,high
+Yaogan 12,37875.0,People's Liberation Army (C41),Earth Observation,LEO,491.5,0.7494738372093022,high,high
+Yaogan 13,37941.0,People's Liberation Army (C41),Earth Observation,LEO,506.5,0.9442238372093021,high,high
+Yaogan 14,38257.0,People's Liberation Army (C41),Earth Observation,LEO,475.0,0.7494738372093022,high,high
+Yaogan 15,38354.0,People's Liberation Army (C41),Earth Observation,LEO,1204.0,0.7295988372093023,high,high
+Yaogan 16A,39011.0,People's Liberation Army (C41),Earth Observation,LEO,1084.5,0.7295988372093023,high,high
+Yaogan 16B,39012.0,People's Liberation Army (C41),Earth Observation,LEO,1084.5,0.7295988372093023,high,high
+Yaogan 16C,39013.0,People's Liberation Army (C41),Earth Observation,LEO,1056.5,0.7295988372093023,high,high
+Yaogan 17A,39239.0,People's Liberation Army (C41),Earth Observation,LEO,1093.5,0.7295988372093023,high,high
+Yaogan 17B,39240.0,People's Liberation Army (C41),Earth Observation,LEO,1095.5,0.7295988372093023,high,high
+Yaogan 17C,39241.0,People's Liberation Army (C41),Earth Observation,LEO,1001.0,0.7295988372093023,high,high
+Yaogan 18,39363.0,People's Liberation Army (C41),Earth Observation,LEO,511.0,0.8642238372093023,high,high
+Yaogan 19,39410.0,People's Liberation Army (C41),Earth Observation,LEO,1204.0,0.7295988372093023,high,high
+Yaogan 20A,40109.0,People's Liberation Army (C41),Earth Observation,LEO,1090.0,0.7295988372093023,high,high
+Yaogan 20B,40110.0,People's Liberation Army (C41),Earth Observation,LEO,1090.0,0.7295988372093023,high,high
+Yaogan 20C,40111.0,People's Liberation Army (C41),Earth Observation,LEO,1090.5,0.7295988372093023,high,high
+Yaogan 21,40143.0,People's Liberation Army (C41),Earth Observation,LEO,487.0,0.7494738372093022,high,high
+Yaogan 22,40275.0,People's Liberation Army (C41),Earth Observation,LEO,1202.5,0.7295988372093023,high,high
+Yaogan 23,40305.0,People's Liberation Army (C41),Earth Observation,LEO,502.5,0.8642238372093023,high,high
+Yaogan 24,40310.0,People's Liberation Army (C41),Earth Observation,LEO,641.5,0.8642238372093023,high,high
+Yaogan 25A,40338.0,People's Liberation Army (C41),Earth Observation,LEO,1093.0,0.7295988372093023,high,high
+Yaogan 25B,40339.0,People's Liberation Army (C41),Earth Observation,LEO,1088.0,0.7295988372093023,high,high
+Yaogan 25C,40340.0,People's Liberation Army (C41),Earth Observation,LEO,1102.5,0.7295988372093023,high,high
+Yaogan 26,40362.0,People's Liberation Army (C41),Earth Observation,LEO,489.0,0.7494738372093022,high,high
+Yaogan 27,40878.0,People's Liberation Army (C41),Earth Observation,LEO,1207.0,0.7295988372093023,high,high
+Yaogan 28,41026.0,People's Liberation Army (C41),Earth Observation,LEO,471.0,0.7494738372093022,high,high
+Yaogan 29,41038.0,People's Liberation Army (C41),Earth Observation,LEO,628.5,0.9442238372093021,high,high
+Yaogan 30,41473.0,People's Liberation Army (C41),Earth Observation,LEO,642.0,0.8642238372093023,high,high
+Yaogan 4,33446.0,People's Liberation Army (C41),Earth Observation,LEO,646.5,0.8642238372093023,high,high
+Yaogan 6,34839.0,People's Liberation Army (C41),Earth Observation,LEO,511.5,0.9442238372093021,high,high
+Yaogan 7,36110.0,People's Liberation Army (C41),Earth Observation,LEO,646.5,0.8642238372093023,high,high
+Yaogan 8,36121.0,People's Liberation Army (C41),Earth Observation,LEO,1198.5,0.7295988372093023,high,high
+Yaogan 9A,36413.0,People's Liberation Army (C41),Earth Observation,LEO,1090.5,0.7295988372093023,high,high
+Yaogan 9B,36414.0,People's Liberation Army (C41),Earth Observation,LEO,1090.5,0.7295988372093023,high,high
+Yaogan 9C,36415.0,People's Liberation Army (C41),Earth Observation,LEO,1090.5,0.7295988372093023,high,high
+Youthsat,37388.0,Indian Space Research Organization (ISRO),Space Science,LEO,813.0,0.6210203488372094,medium,medium
+Yubileiny,32953.0,Research Laboratory of Aerospace Technology (NILAKT ROSTO),Technology Development,LEO,1493.5,0.4237877906976744,low,low
+ZACube-1,39417.0,Cape Peninsula University of Technology,Technology Development,LEO,638.5,0.7200377906976745,medium,medium
+Ziyuan 2C,28470.0,Chinese Academy of Space Technology,Earth Observation,LEO,580.5,0.7812005813953488,high,high
+ZP-1B,37166.0,Zhejiang University,Space Science,LEO,636.0,0.7235261627906977,high,high
+ZP-1C,37167.0,Zhejiang University,Space Science,LEO,636.5,0.7235261627906977,high,high
+ZP-2A,40901.0,Zhejiang University,Technology Development,LEO,525.5,0.7235261627906977,high,high
+ZP-2B,40902.0,Zhejiang University,Technology Development,LEO,526.0,0.7235261627906977,high,high
+Zhongxing 10,37677.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35786.0,0.41930232558139535,low,low
+Zhongxing 12,39017.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35783.0,0.45930232558139533,medium,medium
+Zhongxing 1A,37804.0,People's Liberation Army (C41),Communications,GEO,35787.0,0.4953488372093023,medium,medium
+Zhongxing 20A,37234.0,People's Liberation Army (C41),Communications,GEO,35786.0,0.4953488372093023,medium,medium
+Zhongxing 22A,29398.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35787.0,0.45930232558139533,medium,medium
+Zhongxing 2A,38352.0,People's Liberation Army (C41),Communications,GEO,35786.5,0.4953488372093023,medium,medium
+Zhongxing 9,33051.0,China Satellite Communication Corp. (China Satcom),Communications,GEO,35785.5,0.45930232558139533,medium,medium
+Zijing 1,40919.0,Tsinghua University,Technology Development,LEO,530.0,0.7223633720930233,high,high
+Ziyuan 1-02C,38038.0,China Centre for Resources Satellite Data and Application (CRESDA),Earth Observation,LEO,768.0,0.7331133720930232,high,high
+Ziyuan 3,38046.0,China Centre for Resources Satellite Data and Application (CRESDA),Earth Observation,LEO,502.0,0.7823633720930231,high,high
+Ziyan 3-2,41556.0,China Centre for Resources Satellite Data and Application (CRESDA),Earth Observation,LEO,493.5,0.6676133720930231,medium,medium
