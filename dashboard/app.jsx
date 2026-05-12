@@ -251,11 +251,7 @@ function Header({ metrics, rows }) {
   return (
     <header className="flex flex-col gap-4 border-b border-line pb-5 lg:flex-row lg:items-end lg:justify-between">
       <div>
-        <div className="inline-flex items-center gap-2 rounded-[8px] border border-bottega/60 bg-bottega/15 px-3 py-1 text-xs font-semibold uppercase text-bottegaBright">
-          <Icon name="server" />
-          FastAPI model dashboard
-        </div>
-        <h1 className="mt-4 max-w-4xl text-3xl font-extrabold leading-tight text-bone sm:text-4xl">
+        <h1 className="max-w-4xl text-3xl font-extrabold leading-tight text-bone sm:text-4xl">
           Coordination pressure across orbital infrastructure
         </h1>
       </div>
