@@ -3,6 +3,12 @@ const { useEffect, useMemo, useState } = React;
 const API_BASE = window.SAIL_API_BASE || "http://localhost:8000";
 const METRICS_URL = `${API_BASE}/api/metrics`;
 const PREDICTIONS_URL = `${API_BASE}/api/predictions?limit=10000`;
+const STATIC_METRICS_URL = "../models/satellite_coordination_pressure_metrics.json";
+const STATIC_PREDICTIONS_URL = "../models/satellite_coordination_pressure_predictions.csv";
+const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", ""]);
+const FORCE_STATIC =
+  new URLSearchParams(window.location.search).get("mode") === "static" ||
+  !LOCAL_HOSTS.has(window.location.hostname);
 
 const TIER_COLORS = {
   high: "#fb7185",
@@ -60,6 +66,43 @@ function percentile(values, p) {
   return filtered[index];
 }
 
+async function loadFromApi() {
+  const [metricsResponse, predictionsResponse] = await Promise.all([
+    fetch(METRICS_URL),
+    fetch(PREDICTIONS_URL),
+  ]);
+
+  if (!metricsResponse.ok || !predictionsResponse.ok) {
+    throw new Error("Could not load model dashboard data from FastAPI.");
+  }
+
+  const metrics = await metricsResponse.json();
+  const predictions = await predictionsResponse.json();
+  return {
+    metrics: { ...metrics, data_source: "FastAPI" },
+    rows: predictions.items.map(normalizeRow).filter((row) => row.name),
+  };
+}
+
+async function loadFromStaticArtifacts() {
+  const [metricsResponse, csvResponse] = await Promise.all([
+    fetch(STATIC_METRICS_URL),
+    fetch(STATIC_PREDICTIONS_URL),
+  ]);
+
+  if (!metricsResponse.ok || !csvResponse.ok) {
+    throw new Error("Could not load static model artifacts.");
+  }
+
+  const metrics = await metricsResponse.json();
+  const csvText = await csvResponse.text();
+  const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
+  return {
+    metrics: { ...metrics, data_source: "Static Pages" },
+    rows: parsed.data.map(normalizeRow).filter((row) => row.name),
+  };
+}
+
 function App() {
   const [rows, setRows] = useState([]);
   const [metrics, setMetrics] = useState(null);
@@ -72,20 +115,11 @@ function App() {
   useEffect(() => {
     async function load() {
       try {
-        const [metricsResponse, predictionsResponse] = await Promise.all([
-          fetch(METRICS_URL),
-          fetch(PREDICTIONS_URL),
-        ]);
-
-        if (!metricsResponse.ok || !predictionsResponse.ok) {
-          throw new Error("Could not load model dashboard data from FastAPI.");
-        }
-
-        const metricsJson = await metricsResponse.json();
-        const predictionsJson = await predictionsResponse.json();
-
-        setMetrics(metricsJson);
-        setRows(predictionsJson.items.map(normalizeRow).filter((row) => row.name));
+        const data = FORCE_STATIC
+          ? await loadFromStaticArtifacts()
+          : await loadFromApi().catch(() => loadFromStaticArtifacts());
+        setMetrics(data.metrics);
+        setRows(data.rows);
         setStatus("ready");
       } catch (error) {
         console.error(error);
@@ -162,8 +196,8 @@ function App() {
         <div className="panel max-w-xl px-6 py-5">
           <p className="text-lg font-semibold text-bone">Dashboard data unavailable</p>
           <p className="mt-2 text-sm text-muted">
-            Run <code>uvicorn api.main:app --reload --port 8000</code> and keep the static
-            dashboard server on <code>http://localhost:8765</code>.
+            Run <code>uvicorn api.main:app --reload --port 8000</code> for API mode, or make
+            sure the static model artifacts are published beside the dashboard.
           </p>
         </div>
       </main>
@@ -235,7 +269,7 @@ function Header({ metrics, rows }) {
         </div>
         <div className="mt-3 grid grid-cols-2 gap-2 text-xs text-muted">
           <span>{formatNumber(rows.length)} satellites</span>
-          <span className="text-right">{metrics.api_version ? `API v${metrics.api_version}` : `${formatNumber(metrics.holdout_accuracy * 100, 1)} accuracy`}</span>
+          <span className="text-right">{metrics.data_source || `API v${metrics.api_version}`}</span>
         </div>
       </div>
     </header>

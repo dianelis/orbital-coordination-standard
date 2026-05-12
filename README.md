@@ -70,6 +70,18 @@ Then open `http://localhost:8765/dashboard/`.
 
 The dashboard uses CDN-loaded React, Tailwind, and Lucide icons with shadcn-inspired components. It reads model metrics and predictions from the FastAPI service, which loads the committed baseline model artifacts from `models/`.
 
+## GitHub Pages
+
+The repository includes a GitHub Actions workflow that deploys the static dashboard to GitHub Pages on pushes to `main`.
+
+Expected Pages URL:
+
+```text
+https://dianelis.github.io/orbital-coordination-standard/
+```
+
+GitHub Pages cannot run the FastAPI service, so the hosted dashboard uses the committed static model metrics and prediction CSV as a fallback. Local development still uses FastAPI first.
+
 ## Project Status
 
 SAIL v0.1 is a research draft. The purpose of this repository is to make the concept testable, reviewable, and extensible.

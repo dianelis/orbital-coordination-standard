@@ -26,3 +26,5 @@ The dashboard reads:
 - `GET http://localhost:8000/api/predictions`
 
 It uses CDN-loaded React, Tailwind, and Lucide icons, so no frontend build step is required.
+
+On GitHub Pages, the dashboard falls back to static model artifacts because Pages cannot run the FastAPI service. Locally, it uses FastAPI first and falls back to static files only if the API is unavailable.
