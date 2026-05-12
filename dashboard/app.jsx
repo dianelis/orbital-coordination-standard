@@ -20,11 +20,20 @@ const LAYER_LABELS = {
   infrastructure: "Infrastructure",
 };
 
+const MESSAGE_COLORS = {
+  STATE_UPDATE: "#10b981",
+  CONJUNCTION_ALERT_REFERENCE: "#f59e0b",
+  RESPONSIBILITY_CLAIM: "#38bdf8",
+  MANEUVER_INTENT: "#fb7185",
+  POST_MANEUVER_CONFIRMATION: "#8b5cf6",
+};
+
 const TABS = [
   { id: "overview", label: "Overview", icon: "layout-dashboard" },
   { id: "layers", label: "Three layers", icon: "layers-3" },
   { id: "scenarios", label: "Stress tests", icon: "activity" },
   { id: "sail", label: "SAIL flow", icon: "workflow" },
+  { id: "communications", label: "Messages", icon: "radio-tower" },
   { id: "governance", label: "Governance", icon: "shield-check" },
   { id: "operators", label: "Operators", icon: "building-2" },
   { id: "evidence", label: "Evidence", icon: "file-text" },
@@ -49,6 +58,10 @@ function pct(value) {
 
 function normalizeTier(tier) {
   return String(tier || "unknown").toLowerCase();
+}
+
+function messageColor(type) {
+  return MESSAGE_COLORS[type] || "#9ca8a2";
 }
 
 function countBy(rows, key) {
@@ -212,6 +225,7 @@ function App() {
       {activeTab === "layers" && <LayerView data={data} stats={stats} />}
       {activeTab === "scenarios" && <ScenarioView scenarios={data.scenarios} />}
       {activeTab === "sail" && <SailFlowView flow={data.sail_flow} />}
+      {activeTab === "communications" && <CommunicationGraphView graph={data.communication_graph} />}
       {activeTab === "governance" && <GovernanceView governance={data.governance} rows={filteredRows} />}
       {activeTab === "operators" && <OperatorView operators={data.operators} />}
       {activeTab === "evidence" && <EvidenceView reports={data.evidence_reports} />}
@@ -258,7 +272,7 @@ function Header({ data, rows, metrics }) {
 
 function TabNav({ activeTab, setActiveTab }) {
   return (
-    <nav className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-7">
+    <nav className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
       {TABS.map((tab) => {
         const active = activeTab === tab.id;
         return (
@@ -478,6 +492,235 @@ function SailFlowView({ flow }) {
         </div>
       </div>
     </section>
+  );
+}
+
+function CommunicationGraphView({ graph }) {
+  const scenarios = graph?.scenario_graphs || [];
+  const [selectedId, setSelectedId] = useState(scenarios[0]?.id || "");
+  const selected = scenarios.find((scenario) => scenario.id === selectedId) || scenarios[0];
+  const hub = graph?.hub || { id: "SAIL-COORDINATION-HUB", label: "SAIL Coordination Hub", x: 500, y: 340 };
+  const nodeMap = useMemo(() => new Map((graph?.nodes || []).map((node) => [node.id, node])), [graph]);
+  const visibleIds = useMemo(() => new Set(selected?.visible_node_ids || []), [selected]);
+  const visibleNodes = useMemo(
+    () => (selected?.visible_node_ids || []).map((id) => nodeMap.get(id)).filter(Boolean),
+    [nodeMap, selected]
+  );
+  const [selectedNodeId, setSelectedNodeId] = useState("");
+
+  useEffect(() => {
+    const firstNode = visibleNodes[0]?.id || "";
+    if (!selectedNodeId || !visibleIds.has(selectedNodeId)) {
+      setSelectedNodeId(firstNode);
+    }
+  }, [selectedNodeId, visibleIds, visibleNodes]);
+
+  if (!graph || !selected) {
+    return (
+      <section className="panel mt-4 p-4">
+        <SectionTitle icon="radio-tower" title="Communication graph" value="unavailable" />
+      </section>
+    );
+  }
+
+  const selectedNode = nodeMap.get(selectedNodeId) || visibleNodes[0];
+  const edgeLimit = 520;
+  const visibleEdges = (selected.edges || [])
+    .filter((edge) => {
+      const sourceVisible = edge.source === hub.id || visibleIds.has(edge.source);
+      const targetVisible = edge.target === hub.id || visibleIds.has(edge.target);
+      return sourceVisible && targetVisible;
+    })
+    .slice(0, edgeLimit);
+  const scenarioMessageTotal = Object.values(selected.message_type_counts || {}).reduce((total, value) => total + value, 0);
+  const selectedMessages = selectedNode
+    ? (graph.satellite_messages?.[selectedNode.id] || [])
+        .filter((message) => message.scenario_id === selected.id || message.scenario_id === "baseline-state-sync")
+        .slice(0, 8)
+    : [];
+
+  return (
+    <>
+      <section className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
+        <Kpi label="Graph satellites" value={formatNumber(graph.nodes.length)} sub="SAIL-capable objects" icon="satellite" />
+        <Kpi label="Affected now" value={formatNumber(selected.affected_satellites)} sub={selected.name} icon="activity" />
+        <Kpi label="Scenario messages" value={formatNumber(scenarioMessageTotal)} sub="state, intent, claims, confirmations" icon="radio-tower" />
+        <Kpi label="Visible links" value={formatNumber(visibleEdges.length)} sub={`of ${formatNumber(selected.total_edges)} edges`} icon="network" />
+        <Kpi label="Message classes" value={formatNumber(Object.keys(graph.message_type_counts || {}).length)} sub="SAIL v0.1 flow" icon="workflow" />
+      </section>
+
+      <section className="mt-4 grid gap-4 xl:grid-cols-[0.72fr_1.28fr]">
+        <div className="space-y-4">
+          <div className="panel p-4">
+            <SectionTitle icon="activity" title="Scenario channel" value={`${scenarios.length} stress tests`} />
+            <div className="mt-4 space-y-2">
+              {scenarios.map((scenario) => (
+                <button
+                  key={scenario.id}
+                  onClick={() => {
+                    setSelectedId(scenario.id);
+                    setSelectedNodeId("");
+                  }}
+                  className={`w-full rounded-[8px] border p-3 text-left transition ${
+                    scenario.id === selected.id
+                      ? "border-bottegaBright bg-bottega/20"
+                      : "border-line bg-black/35 hover:border-bottegaBright"
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="font-semibold text-bone">{scenario.name}</span>
+                    <span className="text-xs uppercase text-bottegaBright">{scenario.layer}</span>
+                  </div>
+                  <div className="mt-2 grid grid-cols-2 gap-2 text-xs text-muted">
+                    <span>{formatNumber(scenario.affected_satellites)} affected</span>
+                    <span className="text-right">{formatNumber(scenario.total_edges)} messages</span>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="panel p-4">
+            <SectionTitle icon="list-filter" title="Message mix" value={selected.name} />
+            <div className="mt-4 space-y-3">
+              {Object.entries(selected.message_type_counts || {}).map(([type, count]) => (
+                <MetricBar
+                  key={type}
+                  label={type.replaceAll("_", " ")}
+                  value={count}
+                  total={scenarioMessageTotal}
+                  color={messageColor(type)}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="space-y-4">
+          <div className="panel p-4">
+            <SectionTitle icon="radio-tower" title="Communication graph" value={selected.layer} />
+            <div className="mt-4 overflow-hidden rounded-[8px] border border-line bg-black/55">
+              <svg viewBox="0 0 1000 680" className="h-[520px] w-full">
+                <defs>
+                  <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stopColor="rgba(16,185,129,0.9)" />
+                    <stop offset="100%" stopColor="rgba(16,185,129,0)" />
+                  </radialGradient>
+                </defs>
+                {[0.25, 0.5, 0.75, 1].map((radius) => (
+                  <ellipse
+                    key={radius}
+                    cx={hub.x}
+                    cy={hub.y}
+                    rx={120 + radius * 230}
+                    ry={86 + radius * 166}
+                    fill="none"
+                    stroke="rgba(156,168,162,0.08)"
+                    strokeWidth="1"
+                  />
+                ))}
+                {visibleEdges.map((edge) => {
+                  const source = edge.source === hub.id ? hub : nodeMap.get(edge.source);
+                  const target = edge.target === hub.id ? hub : nodeMap.get(edge.target);
+                  if (!source || !target) return null;
+                  return (
+                    <line
+                      key={edge.id}
+                      x1={source.x}
+                      y1={source.y}
+                      x2={target.x}
+                      y2={target.y}
+                      stroke={messageColor(edge.message_type)}
+                      strokeWidth={edge.urgency === "urgent" ? 1.35 : 0.8}
+                      opacity={edge.urgency === "urgent" ? 0.42 : 0.24}
+                    />
+                  );
+                })}
+                <circle cx={hub.x} cy={hub.y} r="82" fill="url(#hubGlow)" opacity="0.48" />
+                <circle cx={hub.x} cy={hub.y} r="21" fill="#006a4e" stroke="#10b981" strokeWidth="2" />
+                <text x={hub.x} y={hub.y + 43} textAnchor="middle" className="axis-label">
+                  SAIL hub
+                </text>
+                {visibleNodes.map((node) => {
+                  const active = selectedNode?.id === node.id;
+                  const tier = normalizeTier(node.tier);
+                  const radius = 4 + Number(node.score || 0) * 5.8;
+                  return (
+                    <g
+                      key={node.id}
+                      onClick={() => setSelectedNodeId(node.id)}
+                      className="cursor-pointer"
+                      opacity={active ? 1 : 0.76}
+                    >
+                      <circle
+                        cx={node.x}
+                        cy={node.y}
+                        r={active ? radius + 4 : radius}
+                        fill={TIER_COLORS[tier] || "#9ca8a2"}
+                        stroke={active ? "#f3f4ef" : "rgba(243,244,239,.24)"}
+                        strokeWidth={active ? 2 : 0.7}
+                      />
+                      {active && (
+                        <text x={node.x + 12} y={node.y - 12} className="axis-label">
+                          {node.label}
+                        </text>
+                      )}
+                      <title>{`${node.label} · ${node.operator} · ${formatNumber(node.score, 3)}`}</title>
+                    </g>
+                  );
+                })}
+              </svg>
+            </div>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {Object.entries(MESSAGE_COLORS).map(([type, color]) => (
+                <span
+                  key={type}
+                  className="inline-flex items-center gap-2 rounded-[8px] border border-line bg-black/35 px-2.5 py-1 text-xs text-muted"
+                >
+                  <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: color }}></span>
+                  {type.replaceAll("_", " ")}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {selectedNode && (
+            <div className="grid gap-4 lg:grid-cols-[0.72fr_1.28fr]">
+              <div className="panel p-4">
+                <SectionTitle icon="satellite" title="Selected object" value={selectedNode.id} />
+                <p className="mt-4 text-xl font-extrabold text-bone">{selectedNode.label}</p>
+                <p className="mt-2 text-sm text-muted">{selectedNode.operator}</p>
+                <div className="mt-4 grid grid-cols-2 gap-3">
+                  <MiniMetric label="Pressure" value={formatNumber(selectedNode.score, 3)} />
+                  <MiniMetric label="Audit priority" value={formatNumber(selectedNode.audit_priority, 3)} />
+                  <MiniMetric label="Layer" value={LAYER_LABELS[selectedNode.dominant_layer] || selectedNode.dominant_layer} />
+                  <MiniMetric label="Orbit" value={selectedNode.orbit || "Unknown"} />
+                </div>
+              </div>
+              <div className="panel p-4">
+                <SectionTitle icon="workflow" title="Object message log" value={`${selectedMessages.length} shown`} />
+                <div className="mt-4 space-y-3">
+                  {selectedMessages.map((message) => (
+                    <div className="rounded-[8px] border border-line bg-black/35 p-3" key={message.message_id}>
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <span className="font-bold text-bone">{message.message_type.replaceAll("_", " ")}</span>
+                        <span className="rounded-[8px] border border-line px-2 py-1 text-xs text-muted">
+                          {message.urgency}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-xs leading-5 text-muted">
+                        {message.source} → {message.target} · {message.status}
+                      </p>
+                      <p className="mt-1 text-xs text-bottegaBright">{message.related_event_id}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+    </>
   );
 }
 

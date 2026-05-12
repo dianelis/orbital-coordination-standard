@@ -24,6 +24,7 @@ This repository now includes both the proposed standard and a working research p
 - **Trained baseline model artifacts** for dashboard exploration.
 - **FastAPI model service** that exposes metrics, predictions, summaries, and live single-satellite prediction.
 - **React dashboard** with black/Bottega green styling for visualizing model outputs and paper-facing proof-of-work views.
+- **Communication message graph** that turns stress scenarios into SAIL-style state, alert, responsibility, maneuver intent, and confirmation messages across the satellite catalog.
 - **GitHub Pages deployment** for the static dashboard.
 
 The project is a research and education prototype. It is not an operational collision avoidance system or certified flight safety tool.
@@ -142,6 +143,9 @@ GET  /api/governance
 GET  /api/scenarios
 GET  /api/sail-flow
 GET  /api/evidence-reports
+GET  /api/communication-graph
+GET  /api/communication-graph?scenario={scenario_id}
+GET  /api/satellites/{norad}/messages
 GET  /api/satellites/{norad}/explain
 POST /api/predict
 ```
@@ -170,6 +174,7 @@ Dashboard views:
 - Three layers: spacecraft, neighborhood, and infrastructure autonomy
 - Stress tests: mass conjunction alerts, outages, software faults, degraded tracking, maneuver conflicts, and partial deorbit failure
 - SAIL flow: machine-readable state, alert, intent, responsibility, and confirmation sequence
+- Messages: scenario-specific satellite communication graph and per-object message logs
 - Governance: visibility and audit-priority scoring
 - Operators: fleet-level comparison
 - Evidence: regulator-style stress-test report cards

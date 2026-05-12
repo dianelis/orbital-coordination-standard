@@ -184,6 +184,65 @@ def evidence_report_data() -> list[dict[str, Any]]:
     return load_dashboard_data()["evidence_reports"]
 
 
+def communication_graph_data(scenario_id: str | None = None) -> dict[str, Any]:
+    graph = load_dashboard_data()["communication_graph"]
+    scenarios = graph["scenario_graphs"]
+    selected = None
+    if scenario_id:
+        selected = next((scenario for scenario in scenarios if scenario["id"] == scenario_id), None)
+        if selected is None:
+            raise KeyError(scenario_id)
+    elif scenarios:
+        selected = scenarios[0]
+
+    return {
+        "hub": graph["hub"],
+        "nodes": graph["nodes"],
+        "scenarios": [
+            {
+                "id": scenario["id"],
+                "name": scenario["name"],
+                "layer": scenario["layer"],
+                "description": scenario["description"],
+                "affected_satellites": scenario["affected_satellites"],
+                "total_edges": scenario["total_edges"],
+                "message_type_counts": scenario["message_type_counts"],
+            }
+            for scenario in scenarios
+        ],
+        "selected_scenario": selected,
+        "message_type_counts": graph["message_type_counts"],
+        "note": graph["note"],
+    }
+
+
+def satellite_message_data(norad: str) -> dict[str, Any]:
+    graph = load_dashboard_data()["communication_graph"]
+    object_id = normalize_object_id(norad)
+    messages = graph["satellite_messages"].get(object_id)
+    if messages is None:
+        raise KeyError(norad)
+
+    satellite = next((node for node in graph["nodes"] if node["id"] == object_id), None)
+    return {
+        "satellite": satellite,
+        "object_id": object_id,
+        "count": len(messages),
+        "messages": messages,
+    }
+
+
+def normalize_object_id(value: str) -> str:
+    raw = str(value).strip()
+    if raw.startswith("SAT-"):
+        return raw
+    target = raw.replace("NORAD-", "")
+    try:
+        return f"NORAD-{int(float(target))}"
+    except ValueError:
+        return raw
+
+
 def satellite_explanation(norad: str) -> dict[str, Any]:
     target = str(norad).replace("NORAD-", "").strip()
     for satellite in load_dashboard_data()["satellites"]:

@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 
 from .model_service import (
+    communication_graph_data,
     dashboard_data,
     dashboard_summary,
     evidence_report_data,
@@ -17,6 +18,7 @@ from .model_service import (
     prediction_records,
     sail_flow_data,
     satellite_explanation,
+    satellite_message_data,
     scenario_data,
     scenario_detail,
 )
@@ -114,6 +116,22 @@ def sail_flow() -> dict:
 @app.get("/api/evidence-reports")
 def evidence_reports() -> list[dict]:
     return evidence_report_data()
+
+
+@app.get("/api/communication-graph")
+def communication_graph(scenario: str | None = Query(default=None)) -> dict:
+    try:
+        return communication_graph_data(scenario)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail="Unknown scenario") from exc
+
+
+@app.get("/api/satellites/{norad}/messages")
+def satellite_messages(norad: str) -> dict:
+    try:
+        return satellite_message_data(norad)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail="Unknown satellite") from exc
 
 
 @app.get("/api/satellites/{norad}/explain")

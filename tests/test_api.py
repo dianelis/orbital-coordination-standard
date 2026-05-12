@@ -72,6 +72,27 @@ def test_dashboard_data_endpoint_contains_paper_views() -> None:
     assert len(data["scenarios"]) == 6
     assert len(data["sail_flow"]["messages"]) == 5
     assert len(data["evidence_reports"]) == 6
+    assert len(data["communication_graph"]["nodes"]) == 1420
+
+
+def test_communication_graph_endpoint_returns_sail_edges() -> None:
+    response = client.get("/api/communication-graph?scenario=mass-conjunction-alert")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data["nodes"]) == 1420
+    assert data["selected_scenario"]["id"] == "mass-conjunction-alert"
+    assert data["selected_scenario"]["total_edges"] == 3406
+    assert data["selected_scenario"]["edges"]
+    assert {"STATE_UPDATE", "MANEUVER_INTENT"} <= set(data["message_type_counts"])
+
+
+def test_satellite_messages_endpoint_returns_per_object_log() -> None:
+    response = client.get("/api/satellites/41460/messages")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["object_id"] == "NORAD-41460"
+    assert data["count"] >= 1
+    assert data["messages"][0]["message_type"] == "STATE_UPDATE"
 
 
 def test_satellite_explanation_endpoint() -> None:

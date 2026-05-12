@@ -39,6 +39,9 @@ http://localhost:8765/dashboard/
 - `GET /api/scenarios/{scenario_id}`
 - `GET /api/sail-flow`
 - `GET /api/evidence-reports`
+- `GET /api/communication-graph`
+- `GET /api/communication-graph?scenario={scenario_id}`
+- `GET /api/satellites/{norad}/messages`
 - `GET /api/satellites/{norad}/explain`
 - `POST /api/predict`
 
@@ -47,6 +50,7 @@ The paper-facing endpoints support:
 - three-layer autonomy analysis;
 - constellation-scale stress tests;
 - SAIL message flow visualization;
+- constellation-wide communication graph visualization;
 - governance readiness scoring;
 - operator-level comparison;
 - regulator-style evidence reports;

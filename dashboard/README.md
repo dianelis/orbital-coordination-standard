@@ -34,6 +34,7 @@ On GitHub Pages, the dashboard falls back to static model artifacts because Page
 - Three layers: spacecraft, neighborhood, and infrastructure autonomy views
 - Stress tests: paper-aligned constellation failure scenarios
 - SAIL flow: state, alert, maneuver intent, responsibility, and confirmation messages
+- Messages: generated SAIL communication graph by scenario, with satellite-level message logs
 - Governance: visibility and audit-priority scoring
 - Operators: fleet-level comparison
 - Evidence: regulator-style stress-test report cards

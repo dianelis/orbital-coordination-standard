@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+from collections import Counter
 import json
+import math
 from pathlib import Path
 from typing import Any
 
@@ -95,10 +97,11 @@ def main() -> None:
         "governance": governance_summary(enriched),
         "scenarios": scenario_results(enriched),
         "sail_flow": sail_flow(enriched),
+        "communication_graph": communication_graph(enriched),
         "evidence_reports": evidence_reports(enriched),
     }
 
-    OUTPUT_PATH.write_text(json.dumps(dashboard_data, indent=2), encoding="utf-8")
+    OUTPUT_PATH.write_text(json.dumps(dashboard_data, separators=(",", ":")), encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH.relative_to(ROOT)} with {len(enriched)} satellites")
 
 
@@ -372,6 +375,314 @@ def scenario_results(frame: pd.DataFrame) -> list[dict[str, Any]]:
             }
         )
     return scenarios
+
+
+def communication_graph(frame: pd.DataFrame) -> dict[str, Any]:
+    nodes = communication_nodes(frame)
+    node_lookup = {node["id"]: node for node in nodes}
+    satellite_messages: dict[str, list[dict[str, Any]]] = {node["id"]: [] for node in nodes}
+    scenario_graphs = []
+    global_counts: Counter[str] = Counter()
+
+    for node in nodes:
+        baseline = communication_message(
+            sequence=0,
+            scenario_id="baseline-state-sync",
+            scenario_name="Baseline state synchronization",
+            layer=node["dominant_layer"],
+            message_type="STATE_UPDATE",
+            source=node["id"],
+            target="SAIL-COORDINATION-HUB",
+            object_id=node["id"],
+            operator=node["operator"],
+            status="broadcasting_latest_state_vector",
+            urgency="routine",
+            event_id="STATE-SYNC-2026",
+        )
+        satellite_messages[node["id"]].append(baseline)
+        global_counts.update([baseline["message_type"]])
+
+    message_sequence = 1
+    for scenario in SCENARIOS:
+        mask = scenario["affected"](frame)
+        affected = frame[mask].copy()
+        if affected.empty:
+            scenario_graphs.append(
+                {
+                    "id": scenario["id"],
+                    "name": scenario["name"],
+                    "layer": scenario["layer"],
+                    "description": scenario["description"],
+                    "affected_satellites": 0,
+                    "visible_node_ids": [],
+                    "edges": [],
+                    "message_type_counts": {},
+                    "total_edges": 0,
+                }
+            )
+            continue
+
+        affected["_stress_score"] = clamp(affected["score"] * scenario["multiplier"])
+        affected = affected.sort_values(
+            ["_stress_score", "score", "audit_priority"], ascending=False
+        )
+        affected_refs = [
+            {
+                "id": satellite_object_id(row),
+                "operator": str(row.get("operator") or "Unknown operator"),
+            }
+            for _, row in affected.iterrows()
+        ]
+        visible_node_ids = [ref["id"] for ref in affected_refs[:240] if ref["id"] in node_lookup]
+        edges = []
+        scenario_counts: Counter[str] = Counter()
+
+        for position, (_, row) in enumerate(affected.iterrows()):
+            object_id = satellite_object_id(row)
+            if object_id not in node_lookup:
+                continue
+
+            node = node_lookup[object_id]
+            counterparty = nearest_counterparty(position, affected_refs)
+            event_id = f"{scenario['id'].upper().replace('-', '_')}-SIM-{position + 1:04d}"
+            urgency = message_urgency(row["_stress_score"])
+            messages = [
+                communication_message(
+                    sequence=message_sequence,
+                    scenario_id=scenario["id"],
+                    scenario_name=scenario["name"],
+                    layer=scenario["layer"],
+                    message_type="STATE_UPDATE",
+                    source=object_id,
+                    target="SAIL-COORDINATION-HUB",
+                    object_id=object_id,
+                    operator=node["operator"],
+                    status="refreshing_shared_state",
+                    urgency=urgency,
+                    event_id=event_id,
+                    counterparty=counterparty,
+                ),
+                communication_message(
+                    sequence=message_sequence + 1,
+                    scenario_id=scenario["id"],
+                    scenario_name=scenario["name"],
+                    layer=scenario["layer"],
+                    message_type="CONJUNCTION_ALERT_REFERENCE",
+                    source="SAIL-COORDINATION-HUB",
+                    target=object_id,
+                    object_id=object_id,
+                    operator="CoordinationHub",
+                    status="coordination_window_open",
+                    urgency=urgency,
+                    event_id=event_id,
+                    counterparty=counterparty,
+                ),
+                communication_message(
+                    sequence=message_sequence + 2,
+                    scenario_id=scenario["id"],
+                    scenario_name=scenario["name"],
+                    layer=scenario["layer"],
+                    message_type="RESPONSIBILITY_CLAIM",
+                    source=object_id,
+                    target=counterparty,
+                    object_id=object_id,
+                    operator=node["operator"],
+                    status="operator_acknowledged_role",
+                    urgency=urgency,
+                    event_id=event_id,
+                    counterparty=counterparty,
+                ),
+            ]
+            message_sequence += 3
+
+            if float(row["_stress_score"]) >= 0.72:
+                messages.extend(
+                    [
+                        communication_message(
+                            sequence=message_sequence,
+                            scenario_id=scenario["id"],
+                            scenario_name=scenario["name"],
+                            layer=scenario["layer"],
+                            message_type="MANEUVER_INTENT",
+                            source=object_id,
+                            target=counterparty,
+                            object_id=object_id,
+                            operator=node["operator"],
+                            status="proposed_safe_action",
+                            urgency="urgent",
+                            event_id=event_id,
+                            counterparty=counterparty,
+                        ),
+                        communication_message(
+                            sequence=message_sequence + 1,
+                            scenario_id=scenario["id"],
+                            scenario_name=scenario["name"],
+                            layer=scenario["layer"],
+                            message_type="POST_MANEUVER_CONFIRMATION",
+                            source=object_id,
+                            target="SAIL-COORDINATION-HUB",
+                            object_id=object_id,
+                            operator=node["operator"],
+                            status="execution_or_deferral_logged",
+                            urgency="elevated",
+                            event_id=event_id,
+                            counterparty=counterparty,
+                        ),
+                    ]
+                )
+                message_sequence += 2
+
+            for item in messages:
+                satellite_messages[object_id].append(item)
+                edges.append(
+                    {
+                        "id": item["message_id"],
+                        "source": item["source"],
+                        "target": item["target"],
+                        "object_id": item["object_id"],
+                        "counterparty_object_id": item["counterparty_object_id"],
+                        "message_type": item["message_type"],
+                        "urgency": item["urgency"],
+                        "scenario_id": item["scenario_id"],
+                    }
+                )
+                scenario_counts.update([item["message_type"]])
+                global_counts.update([item["message_type"]])
+
+        scenario_graphs.append(
+            {
+                "id": scenario["id"],
+                "name": scenario["name"],
+                "layer": scenario["layer"],
+                "description": scenario["description"],
+                "affected_satellites": int(len(affected)),
+                "visible_node_ids": visible_node_ids,
+                "edges": edges,
+                "message_type_counts": dict(sorted(scenario_counts.items())),
+                "total_edges": int(len(edges)),
+            }
+        )
+
+    return {
+        "hub": {
+            "id": "SAIL-COORDINATION-HUB",
+            "label": "SAIL Coordination Hub",
+            "role": "Interoperability relay and audit anchor",
+            "x": 500,
+            "y": 340,
+        },
+        "nodes": nodes,
+        "scenario_graphs": scenario_graphs,
+        "satellite_messages": satellite_messages,
+        "message_type_counts": dict(sorted(global_counts.items())),
+        "note": (
+            "Synthetic SAIL message graph derived from the trained coordination-pressure model "
+            "and paper-aligned stress scenarios."
+        ),
+    }
+
+
+def communication_nodes(frame: pd.DataFrame) -> list[dict[str, Any]]:
+    orbit_radius = {
+        "LEO": 178,
+        "MEO": 238,
+        "GEO": 298,
+        "Elliptical": 135,
+        "Unknown": 105,
+        "nan": 105,
+    }
+    layer_offset = {"spacecraft": -20, "neighborhood": 0, "infrastructure": 20}
+    golden_angle = math.pi * (3 - math.sqrt(5))
+    nodes = []
+
+    for index, (_, row) in enumerate(frame.reset_index(drop=True).iterrows()):
+        object_id = satellite_object_id(row)
+        orbit = str(row.get("orbit") or "Unknown")
+        layer = str(row.get("dominant_layer") or "spacecraft")
+        score = float(row.get("score") or 0)
+        radius = orbit_radius.get(orbit, orbit_radius["Unknown"]) + layer_offset.get(layer, 0) + score * 28
+        angle = index * golden_angle
+        x = 500 + math.cos(angle) * radius
+        y = 340 + math.sin(angle) * radius * 0.72
+        nodes.append(
+            {
+                "id": object_id,
+                "label": str(row.get("Official Name of Satellite") or object_id),
+                "name": none_if_nan(row.get("Official Name of Satellite")),
+                "norad": none_if_nan(row.get("NORAD Number")),
+                "operator": str(row.get("operator") or "Unknown operator"),
+                "purpose": str(row.get("purpose") or "Unknown purpose"),
+                "orbit": orbit,
+                "dominant_layer": layer,
+                "tier": str(row.get("tier") or "unknown"),
+                "score": score,
+                "audit_priority": float(row.get("audit_priority") or 0),
+                "x": round(x, 2),
+                "y": round(y, 2),
+            }
+        )
+    return nodes
+
+
+def communication_message(
+    sequence: int,
+    scenario_id: str,
+    scenario_name: str,
+    layer: str,
+    message_type: str,
+    source: str,
+    target: str,
+    object_id: str,
+    operator: str,
+    status: str,
+    urgency: str,
+    event_id: str,
+    counterparty: str | None = None,
+) -> dict[str, Any]:
+    return {
+        "message_id": f"SAIL-MSG-{sequence:06d}-{message_type}",
+        "scenario_id": scenario_id,
+        "scenario_name": scenario_name,
+        "layer": layer,
+        "message_type": message_type,
+        "source": source,
+        "target": target,
+        "direction": "outbound" if source == object_id else "inbound",
+        "object_id": object_id,
+        "operator_id": operator,
+        "counterparty_object_id": counterparty,
+        "urgency": urgency,
+        "related_event_id": event_id,
+        "status": status,
+        "audit_relevance": "shared intent, timing, and responsibility without exposing flight software",
+    }
+
+
+def nearest_counterparty(position: int, affected_refs: list[dict[str, str]]) -> str:
+    current = affected_refs[position]
+    for offset in range(1, min(12, len(affected_refs))):
+        candidate = affected_refs[(position + offset) % len(affected_refs)]
+        if candidate["id"] != current["id"] and candidate["operator"] != current["operator"]:
+            return candidate["id"]
+    if len(affected_refs) == 1:
+        return "SAIL-COORDINATION-HUB"
+    return affected_refs[(position + 1) % len(affected_refs)]["id"]
+
+
+def message_urgency(score: float) -> str:
+    if score >= 0.72:
+        return "urgent"
+    if score >= 0.55:
+        return "elevated"
+    return "routine"
+
+
+def satellite_object_id(row: pd.Series, fallback: int | None = None) -> str:
+    norad = row.get("NORAD Number", row.get("norad"))
+    if pd.notna(norad):
+        return f"NORAD-{int(float(norad))}"
+    suffix = fallback if fallback is not None else abs(hash(str(row.get("Official Name of Satellite")))) % 100000
+    return f"SAT-{suffix}"
 
 
 def sail_flow(frame: pd.DataFrame) -> dict[str, Any]:
