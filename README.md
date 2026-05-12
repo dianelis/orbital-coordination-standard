@@ -18,6 +18,8 @@ orbital-coordination-standard/
   spec/                     Versioned SAIL standard drafts
   schemas/                  JSON Schemas for interoperable messages
   examples/                 Valid example messages and scenarios
+  api/                      FastAPI model service for dashboard and live prediction
+  dashboard/                Static React dashboard for trained model results
   paper/                    Draft text for adding the project to the final paper
   src/                      Python validator package
   sim/                      Toy coordination simulation
@@ -49,6 +51,24 @@ python -m orbital_coordination_standard validate examples/messages/maneuver-inte
 python sim/run_toy_sim.py
 pytest
 ```
+
+## Dashboard
+
+The trained model results can be explored through a FastAPI-backed React dashboard:
+
+```bash
+uvicorn api.main:app --reload --port 8000
+```
+
+In another terminal:
+
+```bash
+python3 -m http.server 8765
+```
+
+Then open `http://localhost:8765/dashboard/`.
+
+The dashboard uses CDN-loaded React, Tailwind, and Lucide icons with shadcn-inspired components. It reads model metrics and predictions from the FastAPI service, which loads the committed baseline model artifacts from `models/`.
 
 ## Project Status
 

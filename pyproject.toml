@@ -17,6 +17,13 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+api = [
+  "fastapi>=0.110",
+  "joblib>=1.4",
+  "pandas>=2.0",
+  "scikit-learn>=1.5",
+  "uvicorn[standard]>=0.29"
+]
 notebook = [
   "joblib>=1.4",
   "matplotlib>=3.8",
@@ -24,8 +31,13 @@ notebook = [
   "scikit-learn>=1.5"
 ]
 dev = [
+  "fastapi>=0.110",
+  "joblib>=1.4",
+  "pandas>=2.0",
   "pytest>=8.0",
-  "ruff>=0.5"
+  "ruff>=0.5",
+  "scikit-learn>=1.5",
+  "uvicorn[standard]>=0.29"
 ]
 
 [project.scripts]
